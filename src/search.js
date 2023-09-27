@@ -5,6 +5,7 @@ const strainsList = strainsData.strains;
 console.log(strainsList);
 
 const searchInput = document.getElementById('searchInput');
+const searchForm = document.getElementById('searchForm');
 const searchBtn = document.getElementById('searchBtn');
 const strainsContainer = document.getElementById('strainsContainer');
 
@@ -15,12 +16,30 @@ const modalCloseBtn = document.querySelector('.close');
 
 searchBtn.addEventListener('click', ev => {
 	ev.preventDefault();
+	performSearch();
+});
+
+searchForm.addEventListener('submit', ev => {
+	ev.preventDefault();
+	performSearch();
+});
+
+function performSearch() {
 	const searchValue = searchInput.value.trim().toLowerCase();
 	console.log(searchValue);
 
 	const filteredStrains = searchStrains(searchValue);
 	displayStrains(filteredStrains);
-});
+}
+
+function searchStrains(searchTerm) {
+	const filteredStrains = strainsList.filter(strain => {
+		const strainName = strain.strain.trim().toLowerCase();
+		const strainNo = strain.no.trim().toLowerCase();
+		return strainName.includes(searchTerm) || strainNo.includes(searchTerm);
+	});
+	return filteredStrains;
+}
 
 function searchStrains(searchTerm) {
 	const filteredStrains = strainsList.filter(strain => {
@@ -78,18 +97,30 @@ function openModal(strain) {
 	}
 
 	modalStrainInfo.appendChild(modalInfoList);
+
+	// Add Listeners
+	modalCloseBtn.addEventListener('click', closeModal);
+	window.addEventListener('click', outsideClick);
+	document.addEventListener('keydown', onEscKeyDown);
 }
-
-modalCloseBtn.addEventListener('click', () => {
-	closeModal();
-});
-
-window.addEventListener('click', event => {
-	if (event.target === modal) {
-		closeModal();
-	}
-});
 
 function closeModal() {
 	modal.style.display = 'none';
+
+	// Remove Listeners
+	modalCloseBtn.removeEventListener('click', closeModal);
+	window.removeEventListener('click', outsideClick);
+	document.removeEventListener('keydown', onEscKeyDown);
+}
+
+function outsideClick(ev) {
+	if (ev.target === modal) {
+		closeModal();
+	}
+}
+
+function onEscKeyDown(ev) {
+	if (ev.key === 'Escape') {
+		closeModal();
+	}
 }
