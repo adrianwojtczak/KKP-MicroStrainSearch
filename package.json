@@ -2,11 +2,11 @@
 	"name": "kkp-microstrainsearch",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"source": "src/index.html",
 	"scripts": {
 		"build": "parcel build src/*.html --public-url /KKP-MicroStrainSearch",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "parcel src/index.html",
+		"start": "parcel",
 		"deploy": "gh-pages -d dist"
 	},
 	"repository": {
