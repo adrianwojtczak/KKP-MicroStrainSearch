@@ -6,24 +6,72 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>KKP Kolekcja szzczepów drobnoustrojów Przemysłowych</title>
 		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="search.css" />
 	</head>
 	<body>
-		<form class="btn_wrapper">
-			<a href="index.html" class="button">Go back</a>
-		</form>
-		<form id="searchForm">
-			<input id="searchInput" />
-			<button type="button" id="searchBtn">Search</button>
-		</form>
-		<div id="strainsContainer">
-			<img src="./images/placeholder.jpg" />
-		</div>
-		<div id="modal" class="modal">
-			<div class="modal-content" id="modalContent">
-				<span class="close">&times;</span>
-				<div id="modalStrainInfo"></div>
+		<header class="header">
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logo.png" alt="Logo" />
+				</a>
 			</div>
-		</div>
+			<div class="navigation-wrapper">
+				<nav class="navigation">
+					<ul>
+						<li><a href="index.html">Strona główna</a></li>
+						<li><a href="search.html">Katalog</a></li>
+						<li><a href="about.html">O kolekcji</a></li>
+						<li><a href="services.html">Usługi</a></li>
+						<li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
+						<li><a href="contact.html">Kontakt</a></li>
+					</ul>
+				</nav>
+				<div class="contact-info">
+					<div class="page-header__contacts">
+						<a class="page-header__contacts-item" href="mailto:kolekcja@ibprs.pl">
+							<svg width="16" height="12">
+								<use href="./images/icons.svg#icon-envelope"></use>
+							</svg>
+							kolekcja@ibprs.pl
+						</a>
+						<a class="page-header__contacts-item" href="tel:+48226063749">
+							<svg width="10" height="16">
+								<use href="./images/icons.svg#icon-smartphone"></use>
+							</svg>
+							+48 22 606 37 49
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<section class="search">
+					<div class="searchbar">
+						<form class="searchForm" id="searchForm">
+							<input class="searchInput" id="searchInput" placeholder="Wyszukaj drobnoustrój" />
+							<button class="searchBtn" type="button" id="searchBtn">
+								<span class="searchBtn-label"></span>
+							</button>
+						</form>
+					</div>
+					<div id="strainsContainer">
+						<img src="./images/placeholder.jpg" />
+					</div>
+					<div id="modal" class="modal">
+						<div class="modal-content" id="modalContent">
+							<span class="close">&times;</span>
+							<div id="modalStrainInfo"></div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<img src="images/ibprs_logo.png" alt="IBPRS Logo" />
+		</footer>
+
 		<script src="search.js"></script>
 	</body>
 </html>
