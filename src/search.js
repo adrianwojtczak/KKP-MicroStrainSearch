@@ -41,15 +41,6 @@ function searchStrains(searchTerm) {
 	return filteredStrains;
 }
 
-function searchStrains(searchTerm) {
-	const filteredStrains = strainsList.filter(strain => {
-		const strainName = strain.strain.trim().toLowerCase();
-		const strainNo = strain.no.trim().toLowerCase();
-		return strainName.includes(searchTerm) || strainNo.includes(searchTerm);
-	});
-	return filteredStrains;
-}
-
 console.log(searchStrains('bacillus'));
 
 function displayStrains(strains) {
