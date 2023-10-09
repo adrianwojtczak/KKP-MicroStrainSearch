@@ -2,22 +2,21 @@
 	"name": "kkp-microstrainsearch",
 	"version": "1.0.0",
 	"description": "",
+	"homepage": "https://adrianwojtczak.github.io/KKP-MicroStrainSearch/",
 	"scripts": {
-		"build": "parcel build src/*.html --public-url /KKP-MicroStrainSearch",
-		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "parcel src/*.html",
-		"deploy": "gh-pages -d dist"
+		"build": "parcel build src/*.html --public-url /parcel-project-template/"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/adrianwojtczak/KKP-MicroStrainSearch.git"
 	},
+	"keywords": [],
 	"author": "Adrian Wojtczak",
 	"license": "ISC",
-	"homepage": "https://adrianwojtczak.github.io/KKP-MicroStrainSearch/",
-	"browserslist": "last 2 versions",
 	"devDependencies": {
-		"gh-pages": "^5.0.0",
-		"parcel": "^2.9.3"
-	}
+		"parcel": "^2.9.3",
+		"parcel-reporter-clean-dist": "^1.0.4"
+	},
+	"browserslist": "> 0.5%, last 2 versions, not dead"
 }
