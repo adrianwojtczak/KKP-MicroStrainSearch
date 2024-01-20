@@ -12,13 +12,15 @@
 	gap: 10px;
 }
 
+.main-image {
+	max-width: 450px;
+}
 .main-image img {
 	max-width: 100%;
 }
 
 .main-text {
 	flex: 1;
-	padding-left: 40px;
 	color: #333;
 	text-align: center;
 	display: flex;
@@ -46,5 +48,12 @@
 
 	.main-text {
 		width: calc(50% - 10px);
+		padding-left: 40px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.main-content {
+		min-height: 68vh;
 	}
 }
