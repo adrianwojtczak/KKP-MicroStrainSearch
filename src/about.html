@@ -36,12 +36,39 @@
 					</div>
 				</div>
 			</div>
+			<div class="navmodal_navigation-wrapper">
+				<div class="navmodal_menu-toggle" id="mobile-menu">
+					<span class="navmodal_bar"></span>
+					<span class="navmodal_bar"></span>
+					<span class="navmodal_bar"></span>
+				</div>
+				<div class="navmodal" id="myModal">
+					<div class="navmodal-content">
+						<span class="navmodal_close" onclick="closeModal()">&times;</span>
+						<nav class="navmodal_navigation">
+							<ul>
+								<li><a href="index.html">Strona główna</a></li>
+								<li><a href="search.html">Katalog</a></li>
+								<li><a href="about.html">O kolekcji</a></li>
+								<li><a href="services.html">Usługi</a></li>
+								<li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
+								<li><a href="contact.html">Kontakt</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
 		</header>
 
 		<main class="about-bg">
-			<div class="container">
+			<div class="container about_cointainer">
+				<h1>O Kolekcji</h1>
 				<section class="gallery">
 					<div class="gallery-container">
+						<div class="gallery__picture-wrapper">
+							<img class="gallery__picture" src="./images/gallery/grid.png" alt="Gallery" />
+						</div>
+
 						<div class="gallery__grid">
 							<img src="./images/gallery/grid1.jpg" alt="" class="gallery__grid__item" />
 							<img src="./images/gallery/grid2.jpg" alt="" class="gallery__grid__item" />
@@ -57,39 +84,30 @@
 					</div>
 				</section>
 				<section class="about-section">
-					<div class="about-text">
-						<h2>Działalność Kolekcji Kultur Drobnoustrojów Przemysłowych</h2>
+					<article class="about-text">
+						<h2>Historia Kolekcji Kultur Drobnoustrojów Przemysłowych</h2>
 						<p>
-							Nasz zbiór mikroorganizmów jest niezwykle wszechstronny i obejmuje kilka kluczowych
-							aspektów:
+							W 1950 roku profesor Kazimierz Matusiak rozpoczął pionierskie zbieranie kultur
+							mikroorganizmów przemysłowych w Krakowie, a następnie, w 1957 roku, przeniósł je do
+							Warszawy. Dziś Kolekcja Kultur Drobnoustrojów Przemysłowych (KKP), będąca integralną
+							częścią IBPRS-PIB, stanowi centralne miejsce gromadzenia specjalnie wyselekcjonowanych
+							bakterii, drożdży i grzybów, pochodzących z żywności i środowiska jej produkcji. Te
+							mikroorganizmy odgrywają kluczową rolę w procesach biotechnologicznych przemysłu
+							rolno-spożywczego.
 						</p>
-						<ul>
-							<li>
-								<strong>Gromadzenie i Identyfikacja:</strong> Każdy mikroorganizm jest dokładnie
-								identyfikowany, aby zapewnić jego jednoznaczność i dokładność.
-							</li>
-							<li>
-								<strong>Przechowywanie:</strong> Stosujemy co najmniej dwie metody konserwacji dla
-								każdego mikroorganizmu, zapewniając długoterminową zachowalność naszych zasobów.
-							</li>
-							<li>
-								<strong>Udostępnianie:</strong> Nasza kolekcja jest dostępna dla naukowców,
-								instytucji badawczych i przedsiębiorstw.
-							</li>
-							<li>
-								<strong>Wsparcie dla Badań Naukowych:</strong> Nasze zasoby są używane do
-								prowadzenia innowacyjnych badań naukowych.
-							</li>
-							<li>
-								<strong>Zastosowania Komercyjne:</strong> Firmy mogą korzystać z naszych zasobów do
-								rozwoju innowacyjnych produktów.
-							</li>
-						</ul>
+
+						<h2>Misja KKP</h2>
 						<p>
-							W skrócie, nasza Kolekcja Kultur Drobnoustrojów Przemysłowych to nie tylko zbiór
-							mikroorganizmów, ale także centrum wiedzy i innowacji.
+							Misją KKP jest nie tylko zbieranie, ale również udostępnianie oraz długoterminowe
+							przechowywanie różnorodnych szczepów mikroorganizmów, zgodnie z globalnymi standardami
+							Światowego Zrzeszenia Kolekcji Kultur (WFCC), wytycznymi europejskiego konsorcjum
+							CABRI (Common Access to Biological Resources and Information), oraz zaleceniami OECD
+							(OECD Best Practice Guidelines For Biological Resource Centres, 2007) dotyczącymi
+							najlepszych praktyk w zakresie przechowywania materiałów biologicznych. Bogactwo
+							zasobów kolekcji stanowi cenne źródło sprawdzonego materiału biologicznego,
+							użytecznego zarówno w badaniach podstawowych, jak i aplikacyjnych.
 						</p>
-					</div>
+					</article>
 				</section>
 			</div>
 		</main>
@@ -100,4 +118,5 @@
 			</a>
 		</footer>
 	</body>
+	<script type="module" src="mobile-menu.js"></script>
 </html>

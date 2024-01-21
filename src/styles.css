@@ -28,7 +28,7 @@ body {
 }
 
 .navigation-wrapper {
-	display: flex;
+	display: none;
 	align-items: center;
 }
 
@@ -85,6 +85,12 @@ body {
 	margin-right: 5px;
 }
 
+@media screen and (min-width: 1000px) {
+	.navigation-wrapper {
+		display: flex;
+	}
+}
+
 /* FOOTER STYLES */
 .footer {
 	text-align: center;
@@ -102,5 +108,95 @@ body {
 	}
 	.footer img {
 		max-width: 250px;
+	}
+}
+
+/* Hamburger */
+.navmodal_navigation-wrapper {
+	display: none;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #fff;
+	z-index: 2;
+}
+
+.navmodal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+
+.navmodal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+	z-index: 2;
+}
+
+.navmodal_navigation {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.navmodal_navigation ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.navmodal_navigation li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.navmodal_navigation a {
+	text-decoration: none;
+	color: black;
+}
+
+.navmodal_menu-toggle {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+}
+
+.navmodal_bar {
+	width: 25px;
+	height: 3px;
+	background-color: #6a6a6a;
+	margin: 5px 0;
+}
+
+.navmodal_close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.navmodal_close:hover,
+.navmodal_close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+	.navmodal_modal_contact-info {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.navmodal_navigation-wrapper {
+		display: flex;
 	}
 }

@@ -1,0 +1,53 @@
+main {
+	padding: 20px;
+	line-height: 1.6;
+	background-color: #f4f4f4;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #333;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+section {
+	margin-bottom: 20px;
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.scientist {
+	margin-bottom: 20px;
+}
+
+.name {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #1e90ff;
+}
+
+.research-areas {
+	margin-top: 10px;
+	font-style: italic;
+	color: #555;
+}
+
+.research-contact-info {
+	margin-top: 10px;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+a:hover {
+	color: #0056b3;
+}

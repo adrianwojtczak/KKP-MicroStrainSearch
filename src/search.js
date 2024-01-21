@@ -2,8 +2,6 @@ import * as strainsData from './data/strains.JSON';
 
 const strainsList = strainsData.IBPRS.www;
 
-console.log(strainsList);
-
 const searchInput = document.getElementById('searchInput');
 const searchForm = document.getElementById('searchForm');
 const searchBtn = document.getElementById('searchBtn');
@@ -28,7 +26,6 @@ searchForm.addEventListener('submit', ev => {
 
 function performSearch() {
 	const searchValue = searchInput.value.trim().toLowerCase();
-	console.log(searchValue);
 
 	const filteredStrains = searchStrains(searchValue);
 	displayStrains(filteredStrains);
