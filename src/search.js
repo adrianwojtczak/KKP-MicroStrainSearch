@@ -88,23 +88,21 @@ function openModal(strain) {
 		<p class="section-header">Informacje o szczepie:</p>
 
 		<li class="modal-info-item">Autor nazwy: ${strain.AutorNazwy || 'brak danych'}</li>
+		<li class="modal-info-item">Data pobrania probki: ${strain.DataPobraniaProbki || 'brak danych'}</li>
+		<li class="modal-info-item">Inne oznakowanie: ${strain.Oznakowanie || 'brak danych'}</li>
 		<li class="modal-info-item">Deponujący: ${strain.Deponujacy || 'brak danych'}</li>
-
-
-		<li class="modal-info-item">Autor nazwy: ${strain.AutorNazwy || 'brak danych'}</li>
-		<li class="modal-info-item">Autor nazwy: ${strain.AutorNazwy || 'brak danych'}</li>
-		<li class="modal-info-item">Autor nazwy: ${strain.AutorNazwy || 'brak danych'}</li>
-		<li class="modal-info-item">Autor nazwy: ${strain.AutorNazwy || 'brak danych'}</li>
-
-
-
+		<li class="modal-info-item">Grupa patogenna: ${strain.GrupaPatogenna || 'brak danych'}</li>
 		<li class="modal-info-item">Rok izolacji: ${strain.RokIzolacji || 'brak danych'}</li>
-		<li class="modal-info-item">Kraj pochodzenia: ${strain.KrajPochodzenia || 'brak danych'}</li>
+		<li class="modal-info-item">Kraj pochodzenia: ${strain.Kraj || 'brak danych'}</li>
 		<li class="modal-info-item">GenBank: <a class="modal-link" href="https://www.ncbi.nlm.nih.gov/nuccore/${
 			strain.Genbank
 		}" target="_blank">${strain.Genbank}</a></li>
 		<p class="section-header">Warunki hodowli:</p>
-		<li class="modal-info-item">Pożywka: ${strain.Pozywki || 'brak danych'}</li>
+		<li class="modal-info-item">Pożywki: ${
+			[strain.Medium1, strain.Medium2, strain.Medium3]
+				.filter(medium => medium) // Filtruje wartości, eliminuje undefined
+				.join(', ') || 'brak danych'
+		}</li>
 		<li class="modal-info-item">Temperatura: ${
 			strain.Temperatura !== undefined ? `${strain.Temperatura} °C` : 'brak danych'
 		}</li>
