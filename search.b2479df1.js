@@ -2,26 +2,21 @@ var a={};a=JSON.parse('{"IBPRS1":{"www":[{"Gatunek":"monocytogenes","Grupa":"?",
 		<p class="section-header">Informacje o szczepie:</p>
 
 		<li class="modal-info-item">Autor nazwy: ${a.AutorNazwy||"brak danych"}</li>
+		<li class="modal-info-item">Data pobrania probki: ${a.DataPobraniaProbki||"brak danych"}</li>
+		<li class="modal-info-item">Inne oznakowanie: ${a.Oznakowanie||"brak danych"}</li>
 		<li class="modal-info-item">Deponujący: ${a.Deponujacy||"brak danych"}</li>
-
-
-		<li class="modal-info-item">Autor nazwy: ${a.AutorNazwy||"brak danych"}</li>
-		<li class="modal-info-item">Autor nazwy: ${a.AutorNazwy||"brak danych"}</li>
-		<li class="modal-info-item">Autor nazwy: ${a.AutorNazwy||"brak danych"}</li>
-		<li class="modal-info-item">Autor nazwy: ${a.AutorNazwy||"brak danych"}</li>
-
-
-
+		<li class="modal-info-item">Grupa patogenna: ${a.GrupaPatogenna||"brak danych"}</li>
 		<li class="modal-info-item">Rok izolacji: ${a.RokIzolacji||"brak danych"}</li>
-		<li class="modal-info-item">Kraj pochodzenia: ${a.KrajPochodzenia||"brak danych"}</li>
+		<li class="modal-info-item">Kraj pochodzenia: ${a.Kraj||"brak danych"}</li>
 		<li class="modal-info-item">GenBank: <a class="modal-link" href="https://www.ncbi.nlm.nih.gov/nuccore/${a.Genbank}" target="_blank">${a.Genbank}</a></li>
 		<p class="section-header">Warunki hodowli:</p>
-		<li class="modal-info-item">Pożywka: ${a.Pozywki||"brak danych"}</li>
+		<li class="modal-info-item">Pożywki: ${[a.Medium1,a.Medium2,a.Medium3].filter(a=>a)// Filtruje wartości, eliminuje undefined
+    .join(", ")||"brak danych"}</li>
 		<li class="modal-info-item">Temperatura: ${void 0!==a.Temperatura?`${a.Temperatura} \xb0C`:"brak danych"}</li>
 		<li class="modal-info-item">Wymagania atmosferyczne: ${a.WymaganiaAtmosferyczne||"brak danych"}</li>
 	`,u.appendChild(o),// Add Listeners
     c.addEventListener("click",p),window.addEventListener("click",s),document.addEventListener("keydown",z)})(a)),e}function p(){t.style.display="none",// Remove Listeners
-c.removeEventListener("click",p),window.removeEventListener("click",s),document.removeEventListener("keydown",z)}function s(a){a.target===t&&p()}function z(a){"Escape"===a.key&&p()}//# sourceMappingURL=search.d995c907.js.map
+c.removeEventListener("click",p),window.removeEventListener("click",s),document.removeEventListener("keydown",z)}function s(a){a.target===t&&p()}function z(a){"Escape"===a.key&&p()}//# sourceMappingURL=search.b2479df1.js.map
 // Display all strains initially
 (function(a){for(let e of(n.innerHTML="",a)){let a=k(e);n.appendChild(a)}})(e),i.addEventListener("click",a=>{a.preventDefault(),l()}),r.addEventListener("submit",a=>{a.preventDefault(),l()});
-//# sourceMappingURL=search.d995c907.js.map
+//# sourceMappingURL=search.b2479df1.js.map
