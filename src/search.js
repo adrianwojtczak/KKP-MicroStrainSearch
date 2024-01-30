@@ -1,6 +1,6 @@
 import * as strainsData from './data/strains.JSON';
 
-const strainsList = strainsData.IBPRS.www;
+const strainsList = strainsData.IBPRS1.www;
 
 const searchInput = document.getElementById('searchInput');
 const searchForm = document.getElementById('searchForm');
@@ -66,7 +66,7 @@ function displayStrains(strains) {
 function createStrainElement(strain) {
 	const strainElement = document.createElement('div');
 	strainElement.classList.add('strain-item');
-	const strainName = `${strain.Gatunek} KKP ${strain.KKP}`;
+	const strainName = `${strain.Rodzaj} ${strain.Gatunek} KKP ${strain.KKP}`;
 	strainElement.innerHTML = `<span class="strain-info">${strainName}</span>`;
 	strainElement.addEventListener('click', () => openModal(strain));
 	return strainElement;
@@ -77,7 +77,7 @@ function openModal(strain) {
 	modalStrainInfo.innerHTML = '';
 
 	const modalTitle = document.createElement('h2');
-	modalTitle.textContent = `${strain.Gatunek} KKP ${strain.KKP}`;
+	modalTitle.textContent = `${strain.Rodzaj} ${strain.Gatunek} KKP ${strain.KKP}`;
 	modalTitle.classList.add('modal-title');
 	modalStrainInfo.appendChild(modalTitle);
 
@@ -85,19 +85,32 @@ function openModal(strain) {
 	modalInfoList.classList.add('modal-info-list');
 
 	modalInfoList.innerHTML = `
-		<p class="section-header">Warunki hodowli:</p>
-		<li class="modal-info-item">Pożywka: ${strain.Pozywki || 'brak danych'}</li>
-		<li class="modal-info-item">Temperatura: ${strain.Temperatura || 'brak danych'} °C</li>
-		<li class="modal-info-item">Czas hodowli: ${strain.CzasHodowli || 'brak danych'}</li>
-		<li class="modal-info-item">Wymagania atmosferyczne: ${
-			strain.WymaganiaAtmosferyczne || 'brak danych'
-		}</li>
 		<p class="section-header">Informacje o szczepie:</p>
+
+		<li class="modal-info-item">Autor nazwy: ${strain.AutorNazwy || 'brak danych'}</li>
+		<li class="modal-info-item">Deponujący: ${strain.Deponujacy || 'brak danych'}</li>
+
+
+		<li class="modal-info-item">Autor nazwy: ${strain.AutorNazwy || 'brak danych'}</li>
+		<li class="modal-info-item">Autor nazwy: ${strain.AutorNazwy || 'brak danych'}</li>
+		<li class="modal-info-item">Autor nazwy: ${strain.AutorNazwy || 'brak danych'}</li>
+		<li class="modal-info-item">Autor nazwy: ${strain.AutorNazwy || 'brak danych'}</li>
+
+
+
 		<li class="modal-info-item">Rok izolacji: ${strain.RokIzolacji || 'brak danych'}</li>
 		<li class="modal-info-item">Kraj pochodzenia: ${strain.KrajPochodzenia || 'brak danych'}</li>
 		<li class="modal-info-item">GenBank: <a class="modal-link" href="https://www.ncbi.nlm.nih.gov/nuccore/${
 			strain.Genbank
 		}" target="_blank">${strain.Genbank}</a></li>
+		<p class="section-header">Warunki hodowli:</p>
+		<li class="modal-info-item">Pożywka: ${strain.Pozywki || 'brak danych'}</li>
+		<li class="modal-info-item">Temperatura: ${
+			strain.Temperatura !== undefined ? `${strain.Temperatura} °C` : 'brak danych'
+		}</li>
+		<li class="modal-info-item">Wymagania atmosferyczne: ${
+			strain.WymaganiaAtmosferyczne || 'brak danych'
+		}</li>
 	`;
 
 	modalStrainInfo.appendChild(modalInfoList);
