@@ -6,6 +6,11 @@ function closeModal() {
 	document.getElementById('myModal').style.display = 'none';
 }
 
-document.getElementById('mobile-menu').addEventListener('click', function () {
-	openModal();
+document.addEventListener('DOMContentLoaded', function () {
+	document.getElementById('mobile-menu').addEventListener('click', function () {
+		openModal();
+	});
+	document.getElementById('closeModal').addEventListener('click', function () {
+		closeModal();
+	});
 });

@@ -44,7 +44,7 @@
 				</div>
 				<div class="navmodal" id="myModal">
 					<div class="navmodal-content">
-						<span class="navmodal_close" onclick="closeModal()">&times;</span>
+						<span class="navmodal_close" id="closeModal">&times;</span>
 						<nav class="navmodal_navigation">
 							<ul>
 								<li><a href="index.html">Strona główna</a></li>
@@ -64,10 +64,48 @@
 			<div class="searchbar">
 				<form class="searchForm" id="searchForm">
 					<input class="searchInput" id="searchInput" placeholder="Wyszukaj drobnoustrój" />
+
 					<button class="searchBtn" type="button" id="searchBtn">
 						<span class="searchBtn-label"></span>
 					</button>
 				</form>
+
+				<div class="icons">
+					<input type="checkbox" id="bacteriaCheckbox" class="hidden-checkbox" checked />
+					<label for="bacteriaCheckbox">
+						<img
+							src="images/search/bacteria-active.png"
+							alt="Bacteria Icon"
+							class="icon"
+							id="bacteriaIcon"
+						/>
+					</label>
+
+					<input type="checkbox" id="moldCheckbox" class="hidden-checkbox" checked />
+					<label for="moldCheckbox">
+						<img src="images/search/mold-active.png" alt="Mold Icon" class="icon" id="moldIcon" />
+					</label>
+
+					<input type="checkbox" id="yeastCheckbox" class="hidden-checkbox" checked />
+					<label for="yeastCheckbox">
+						<img
+							src="images/search/yeast-active.png"
+							alt="Yeast Icon"
+							class="icon"
+							id="yeastIcon"
+						/>
+					</label>
+
+					<input type="checkbox" id="virusCheckbox" class="hidden-checkbox" checked />
+					<label for="virusCheckbox">
+						<img
+							src="images/search/virus-active.png"
+							alt="Virus Icon"
+							class="icon"
+							id="virusIcon"
+						/>
+					</label>
+				</div>
 			</div>
 			<div class="container">
 				<section class="search">

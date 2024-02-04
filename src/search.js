@@ -91,7 +91,11 @@ function openModal(strain) {
 		<li class="modal-info-item">Data pobrania probki: ${strain.DataPobraniaProbki || 'brak danych'}</li>
 		<li class="modal-info-item">Inne oznakowanie: ${strain.Oznakowanie || 'brak danych'}</li>
 		<li class="modal-info-item">Deponujący: ${strain.Deponujacy || 'brak danych'}</li>
-		<li class="modal-info-item">Grupa patogenna: ${strain.GrupaPatogenna || 'brak danych'}</li>
+		<li class="modal-info-item">Grupa patogenna: ${
+			strain.GrupaPatogenna
+				? `${strain.GrupaPatogenna} <b>(zgodnie z Rozporządzeniem Ministra Zdrowia z dnia 11 grudnia 2020 r.)</b>`
+				: 'brak danych'
+		}</li>
 		<li class="modal-info-item">Rok izolacji: ${strain.RokIzolacji || 'brak danych'}</li>
 		<li class="modal-info-item">Kraj pochodzenia: ${strain.Kraj || 'brak danych'}</li>
 		<li class="modal-info-item">GenBank: <a class="modal-link" href="https://www.ncbi.nlm.nih.gov/nuccore/${
