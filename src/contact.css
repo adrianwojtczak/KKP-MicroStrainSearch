@@ -30,6 +30,13 @@ section {
 	font-size: 1.5em;
 	font-weight: bold;
 	color: #1e90ff;
+	margin-bottom: 0px;
+}
+
+.research-role {
+	margin-top: 0px;
+	font-style: italic;
+	color: #000;
 }
 
 .research-areas {
