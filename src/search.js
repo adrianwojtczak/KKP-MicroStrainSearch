@@ -38,16 +38,6 @@ moldCheckbox.addEventListener('change', performSearch);
 yeastCheckbox.addEventListener('change', performSearch);
 virusCheckbox.addEventListener('change', performSearch);
 
-// function performSearch() {
-// 	const searchValue = searchInput.value.trim().toLowerCase();
-
-// 	const selectedGroups = getSelectedGroups();
-
-// 	// const filteredStrains = searchStrains(searchValue);
-// 	const filteredStrains = searchStrains(searchValue, selectedGroups);
-// 	displayStrains(filteredStrains);
-// }
-
 function performSearch() {
 	const searchValue = searchInput.value.trim().toLowerCase();
 
@@ -89,20 +79,6 @@ function getSelectedGroups() {
 
 	return selectedGroups;
 }
-
-// function searchStrains(searchTerm) {
-// 	let filteredStrains = [];
-
-// 	for (const strain of strainsList) {
-// 		const strainName = `${strain.Gatunek} KKP ${strain.KKP}`.toLowerCase();
-
-// 		if (strainName.includes(searchTerm)) {
-// 			filteredStrains.push(strain);
-// 		}
-// 	}
-
-// 	return filteredStrains;
-// }
 
 function searchStrains(searchTerm, selectedGroups) {
 	let filteredStrains = [];
