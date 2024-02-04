@@ -2,14 +2,22 @@ import * as strainsData from './data/strains.JSON';
 
 const strainsList = strainsData.IBPRS1.www;
 
+// Search elements
 const searchInput = document.getElementById('searchInput');
 const searchForm = document.getElementById('searchForm');
 const searchBtn = document.getElementById('searchBtn');
 const strainsContainer = document.getElementById('strainsContainer');
 
+// Modal elements
 const modal = document.getElementById('modal');
 const modalStrainInfo = document.getElementById('modalStrainInfo');
 const modalCloseBtn = document.querySelector('.close');
+
+// Checkbox elements
+const bacteriaCheckbox = document.getElementById('bacteriaCheckbox');
+const moldCheckbox = document.getElementById('moldCheckbox');
+const yeastCheckbox = document.getElementById('yeastCheckbox');
+const virusCheckbox = document.getElementById('virusCheckbox');
 
 // Display all strains initially
 displayAllStrains(strainsList);
@@ -24,10 +32,19 @@ searchForm.addEventListener('submit', ev => {
 	performSearch();
 });
 
+// Add event listeners to checkboxes
+bacteriaCheckbox.addEventListener('change', performSearch);
+moldCheckbox.addEventListener('change', performSearch);
+yeastCheckbox.addEventListener('change', performSearch);
+virusCheckbox.addEventListener('change', performSearch);
+
 function performSearch() {
 	const searchValue = searchInput.value.trim().toLowerCase();
 
-	const filteredStrains = searchStrains(searchValue);
+	const selectedGroups = getSelectedGroups();
+
+	// const filteredStrains = searchStrains(searchValue);
+	const filteredStrains = searchStrains(searchValue, selectedGroups);
 	displayStrains(filteredStrains);
 }
 
@@ -40,13 +57,49 @@ function displayAllStrains(strains) {
 	}
 }
 
-function searchStrains(searchTerm) {
+function getSelectedGroups() {
+	const selectedGroups = [];
+
+	if (bacteriaCheckbox.checked) {
+		selectedGroups.push('bakterie');
+	}
+	if (moldCheckbox.checked) {
+		selectedGroups.push('pleśnie');
+	}
+	if (yeastCheckbox.checked) {
+		selectedGroups.push('drożdże');
+	}
+	if (virusCheckbox.checked) {
+		selectedGroups.push('wirusy');
+	}
+
+	return selectedGroups;
+}
+
+// function searchStrains(searchTerm) {
+// 	let filteredStrains = [];
+
+// 	for (const strain of strainsList) {
+// 		const strainName = `${strain.Gatunek} KKP ${strain.KKP}`.toLowerCase();
+
+// 		if (strainName.includes(searchTerm)) {
+// 			filteredStrains.push(strain);
+// 		}
+// 	}
+
+// 	return filteredStrains;
+// }
+
+function searchStrains(searchTerm, selectedGroups) {
 	let filteredStrains = [];
 
 	for (const strain of strainsList) {
-		const strainName = `${strain.Gatunek} KKP ${strain.KKP}`.toLowerCase();
+		const strainName = `${strain.Rodzaj} ${strain.Gatunek} KKP ${strain.KKP}`.toLowerCase();
 
-		if (strainName.includes(searchTerm)) {
+		if (
+			strainName.includes(searchTerm) &&
+			(selectedGroups.length === 0 || selectedGroups.includes(strain.Grupa.toLowerCase()))
+		) {
 			filteredStrains.push(strain);
 		}
 	}
