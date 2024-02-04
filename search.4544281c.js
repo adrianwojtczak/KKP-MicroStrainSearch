@@ -5,7 +5,7 @@
 		<li class="modal-info-item">Data pobrania probki: ${a.DataPobraniaProbki||"brak danych"}</li>
 		<li class="modal-info-item">Inne oznakowanie: ${a.Oznakowanie||"brak danych"}</li>
 		<li class="modal-info-item">Deponujący: ${a.Deponujacy||"brak danych"}</li>
-		<li class="modal-info-item">Grupa patogenna: ${a.GrupaPatogenna||"brak danych"}</li>
+		<li class="modal-info-item">Grupa patogenna: ${a.GrupaPatogenna?`${a.GrupaPatogenna} <b>(zgodnie z Rozporządzeniem Ministra Zdrowia z dnia 11 grudnia 2020 r.)</b>`:"brak danych"}</li>
 		<li class="modal-info-item">Rok izolacji: ${a.RokIzolacji||"brak danych"}</li>
 		<li class="modal-info-item">Kraj pochodzenia: ${a.Kraj||"brak danych"}</li>
 		<li class="modal-info-item">GenBank: <a class="modal-link" href="https://www.ncbi.nlm.nih.gov/nuccore/${a.Genbank}" target="_blank">${a.Genbank}</a></li>
@@ -17,6 +17,6 @@
 	`,u.appendChild(o),// Add Listeners
     c.addEventListener("click",p),window.addEventListener("click",s),document.addEventListener("keydown",z)})(a)),e}function p(){t.style.display="none",// Remove Listeners
 c.removeEventListener("click",p),window.removeEventListener("click",s),document.removeEventListener("keydown",z)}function s(a){a.target===t&&p()}function z(a){"Escape"===a.key&&p()}// Display all strains initially
-(function(a){for(let e of(n.innerHTML="",a)){let a=k(e);n.appendChild(a)}})(e),i.addEventListener("click",a=>{a.preventDefault(),l()}),r.addEventListener("submit",a=>{a.preventDefault(),l()})}();//# sourceMappingURL=search.0f0f3753.js.map
+(function(a){for(let e of(n.innerHTML="",a)){let a=k(e);n.appendChild(a)}})(e),i.addEventListener("click",a=>{a.preventDefault(),l()}),r.addEventListener("submit",a=>{a.preventDefault(),l()})}();//# sourceMappingURL=search.4544281c.js.map
 
-//# sourceMappingURL=search.0f0f3753.js.map
+//# sourceMappingURL=search.4544281c.js.map
