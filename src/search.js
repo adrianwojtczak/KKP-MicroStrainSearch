@@ -38,14 +38,28 @@ moldCheckbox.addEventListener('change', performSearch);
 yeastCheckbox.addEventListener('change', performSearch);
 virusCheckbox.addEventListener('change', performSearch);
 
+// function performSearch() {
+// 	const searchValue = searchInput.value.trim().toLowerCase();
+
+// 	const selectedGroups = getSelectedGroups();
+
+// 	// const filteredStrains = searchStrains(searchValue);
+// 	const filteredStrains = searchStrains(searchValue, selectedGroups);
+// 	displayStrains(filteredStrains);
+// }
+
 function performSearch() {
 	const searchValue = searchInput.value.trim().toLowerCase();
 
 	const selectedGroups = getSelectedGroups();
-
-	// const filteredStrains = searchStrains(searchValue);
 	const filteredStrains = searchStrains(searchValue, selectedGroups);
-	displayStrains(filteredStrains);
+
+	if (filteredStrains.length === 0) {
+		// Jeżeli nie ma pasujących szczepów, wyświetl pustą tablicę
+		displayStrains([]);
+	} else {
+		displayStrains(filteredStrains);
+	}
 }
 
 function displayAllStrains(strains) {
