@@ -1,4 +1,4 @@
-.downloadPdf {
+/* .downloadPdf {
 	display: inline-block;
 	padding: 10px 20px;
 	background-color: #4caf50;
@@ -12,9 +12,52 @@
 
 .downloadPdf:hover {
 	background-color: #45a049;
+} */
+
+main {
+	padding: 20px;
+	background-color: #f4f4f4;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #333;
+	line-height: 1.6;
+	color: #333;
+}
+
+section {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 20px;
+	padding: 20px;
+}
+
+.section-title {
+	color: #3498db;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+a {
+	color: #3498db;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 1.5em;
 }
 
 .container {
+	margin: 0 auto;
+	overflow: hidden;
 	display: flex;
 	flex-direction: row-reverse;
 	gap: 10px;
@@ -22,6 +65,8 @@
 
 aside nav ul {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 aside nav ul li {
@@ -35,10 +80,17 @@ aside nav ul li {
 aside nav ul li a {
 	text-decoration: none;
 	color: black;
+	display: block;
+	text-decoration: none;
 }
 
-aside nav ul li a:hover {
-	color: blue;
+aside nav ul li:hover {
+	background-color: #3498db;
+}
+
+aside nav ul li:hover a {
+	color: white;
+	text-decoration: none;
 }
 
 aside {
@@ -63,4 +115,20 @@ aside nav {
 	.sections_wrapper {
 		width: 100%;
 	}
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	border: 2px solid black;
+}
+th,
+td {
+	border: 2px solid black;
+	text-align: left;
+	padding: 8px;
+}
+th {
+	background-color: #f2f2f2;
 }
