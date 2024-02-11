@@ -95,12 +95,6 @@ aside nav ul li:hover a {
 
 aside {
 	width: calc(30% - 10px);
-	position: relative;
-}
-
-aside nav {
-	position: sticky;
-	top: 10;
 }
 
 .sections_wrapper {
