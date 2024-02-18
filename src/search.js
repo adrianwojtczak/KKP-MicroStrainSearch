@@ -152,7 +152,7 @@ function openModal(strain) {
 				.filter(medium => medium) // Filtruje wartości, eliminuje undefined
 				.map(medium =>
 					medium
-						? `<a class="modal-link" href="${basePath}${medium}.pdf" target="_blank">${medium}</a>`
+						? `<a class="modal-link" href="/src/docs/medium/${medium}.pdf" target="_blank">${medium}</a>`
 						: ''
 				)
 				.join(', ') || 'brak danych'
@@ -172,8 +172,6 @@ function openModal(strain) {
 	window.addEventListener('click', outsideClick);
 	document.addEventListener('keydown', onEscKeyDown);
 }
-
-const basePath = process.env.NODE_ENV === 'production' ? '/docs/medium/' : './docs/medium/';
 
 function closeModal() {
 	modal.style.display = 'none';
