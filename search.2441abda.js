@@ -11,13 +11,13 @@ var a={};a=JSON.parse('{"IBPRS1":{"www":[{"Gatunek":"monocytogenes","Grupa":"?",
 		<li class="modal-info-item">GenBank: <a class="modal-link" href="https://www.ncbi.nlm.nih.gov/nuccore/${a.Genbank}" target="_blank">${a.Genbank}</a></li>
 		<p class="section-header">Warunki hodowli:</p>
 		<li class="modal-info-item">Pożywki: ${[a.Medium1,a.Medium2,a.Medium3].filter(a=>a)// Filtruje wartości, eliminuje undefined
-    .map(a=>a?`<a class="modal-link" href="/src/docs/medium/${a}.pdf" target="_blank">${a}</a>`:"").join(", ")||"brak danych"}</li>
+    .map(a=>a?`<a class="modal-link" href="/KKP-MicroStrainSearch/docs/medium/${a}.pdf" target="_blank">${a}</a>`:"").join(", ")||"brak danych"}</li>
 		<li class="modal-info-item">Temperatura: ${void 0!==a.Temperatura?`${a.Temperatura} \xb0C`:"brak danych"}</li>
 		<li class="modal-info-item">Wymagania atmosferyczne: ${a.WymaganiaAtmosferyczne||"brak danych"}</li>
 	`,u.appendChild(o),// Add Listeners
     c.addEventListener("click",K),window.addEventListener("click",d),document.addEventListener("keydown",y)})(a)),e}function K(){t.style.display="none",// Remove Listeners
-c.removeEventListener("click",K),window.removeEventListener("click",d),document.removeEventListener("keydown",y)}function d(a){a.target===t&&K()}function y(a){"Escape"===a.key&&K()}//# sourceMappingURL=search.89d83468.js.map
+c.removeEventListener("click",K),window.removeEventListener("click",d),document.removeEventListener("keydown",y)}function d(a){a.target===t&&K()}function y(a){"Escape"===a.key&&K()}//# sourceMappingURL=search.2441abda.js.map
 // Display all strains initially
 (function(a){for(let e of(n.innerHTML="",a)){let a=P(e);n.appendChild(a)}})(e),i.addEventListener("click",a=>{a.preventDefault(),z()}),r.addEventListener("submit",a=>{a.preventDefault(),z()}),// Add event listeners to checkboxes
 l.addEventListener("change",z),k.addEventListener("change",z),p.addEventListener("change",z),s.addEventListener("change",z);
-//# sourceMappingURL=search.89d83468.js.map
+//# sourceMappingURL=search.2441abda.js.map
