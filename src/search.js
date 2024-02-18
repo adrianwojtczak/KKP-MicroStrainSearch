@@ -148,6 +148,11 @@ function openModal(strain) {
 		<li class="modal-info-item">Pożywki: ${
 			[strain.Medium1, strain.Medium2, strain.Medium3]
 				.filter(medium => medium) // Filtruje wartości, eliminuje undefined
+				.map(medium =>
+					medium
+						? `<a class="modal-link" href="./docs/medium/${medium}.pdf" target="_blank">${medium}</a>`
+						: ''
+				)
 				.join(', ') || 'brak danych'
 		}</li>
 		<li class="modal-info-item">Temperatura: ${

@@ -19,7 +19,10 @@
 				"Gatunek": "megaterium/coagulans",
 				"Grupa": "Bakterie",
 				"KKP": "348",
-				"Rodzaj": "Bacillus"
+				"Rodzaj": "Bacillus",
+				"Medium1": "AO2",
+				"Medium2": "TSA",
+				"Medium3": "SA"
 			},
 			{ "Grupa": "Bakterie", "KKP": "357" },
 			{ "Grupa": "Bakterie", "KKP": "358" },
