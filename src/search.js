@@ -150,7 +150,7 @@ function openModal(strain) {
 				.filter(medium => medium) // Filtruje wartości, eliminuje undefined
 				.map(medium =>
 					medium
-						? `<a class="modal-link" href="./docs/medium/${medium}.pdf" target="_blank">${medium}</a>`
+						? `<a class="modal-link" href="/src/docs/medium/${medium}.pdf" target="_blank">${medium}</a>`
 						: ''
 				)
 				.join(', ') || 'brak danych'
