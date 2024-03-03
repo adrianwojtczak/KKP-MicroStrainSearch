@@ -1,7 +1,7 @@
 {
 	"IBPRS1": {
 		"www": [
-			{ "Gatunek": "monocytogenes", "Grupa": "?", "KKP": "1058", "Rodzaj": "Listeria" },
+			{ "Gatunek": "monocytogenes", "Grupa": "Bakterie", "KKP": "1058", "Rodzaj": "Listeria" },
 			{ "Grupa": "Bakterie", "KKP": "2" },
 			{ "Grupa": "Bakterie", "KKP": "13" },
 			{ "Grupa": "Bakterie", "KKP": "44" },

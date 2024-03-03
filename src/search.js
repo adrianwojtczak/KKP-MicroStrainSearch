@@ -19,8 +19,19 @@ const moldCheckbox = document.getElementById('moldCheckbox');
 const yeastCheckbox = document.getElementById('yeastCheckbox');
 const virusCheckbox = document.getElementById('virusCheckbox');
 
+// Pagination elements
+const paginationNumbers = document.getElementById('pagination-numbers');
+const nextButton = document.getElementById('next-button');
+const prevButton = document.getElementById('prev-button');
+
 // Display all strains initially
-displayAllStrains(strainsList);
+// displayAllStrains(strainsList);
+
+const resultsPerPage = 16; // Możesz dostosować tę wartość do preferencji użytkownika
+let currentPage = 1; // Możesz ustawić stronę początkową
+let currentDisplayFunction = displayAllStrains;
+
+displayAllStrains(strainsList, currentPage, resultsPerPage);
 
 searchBtn.addEventListener('click', ev => {
 	ev.preventDefault();
@@ -42,7 +53,12 @@ function performSearch() {
 	const searchValue = searchInput.value.trim().toLowerCase();
 
 	const selectedGroups = getSelectedGroups();
-	const filteredStrains = searchStrains(searchValue, selectedGroups);
+
+	const allFilteredStrains = searchStrains(searchValue, selectedGroups, 1, strainsList.length);
+
+	const totalPages = Math.ceil(allFilteredStrains.length / resultsPerPage);
+
+	const filteredStrains = searchStrains(searchValue, selectedGroups, currentPage, resultsPerPage);
 
 	if (filteredStrains.length === 0) {
 		// Jeżeli nie ma pasujących szczepów, wyświetl pustą tablicę
@@ -50,15 +66,41 @@ function performSearch() {
 	} else {
 		displayStrains(filteredStrains);
 	}
+
+	currentDisplayFunction = performSearch;
+
+	// const totalPages = Math.ceil(filteredStrains.length / resultsPerPage);
+	console.log(totalPages);
+	displayPagination(totalPages, currentPage);
 }
 
-function displayAllStrains(strains) {
+// function displayAllStrains(strains) {
+// 	strainsContainer.innerHTML = '';
+
+// 	for (const strain of strains) {
+// 		const strainElement = createStrainElement(strain);
+// 		strainsContainer.appendChild(strainElement);
+// 	}
+// }
+
+function displayAllStrains(strains, page, resultsPerPage) {
 	strainsContainer.innerHTML = '';
 
-	for (const strain of strains) {
+	const startIndex = (page - 1) * resultsPerPage;
+	const endIndex = Math.min(startIndex + resultsPerPage, strains.length); // Sprawdzamy czy endIndex nie przekracza długości tablicy
+	const displayedStrains = strains.slice(startIndex, endIndex);
+
+	for (const strain of displayedStrains) {
 		const strainElement = createStrainElement(strain);
 		strainsContainer.appendChild(strainElement);
 	}
+
+	// Wyświetlanie paginacji
+	currentDisplayFunction = displayAllStrains;
+
+	const totalPages = Math.ceil(strains.length / resultsPerPage);
+	console.log(totalPages);
+	displayPagination(totalPages, page);
 }
 
 function getSelectedGroups() {
@@ -80,7 +122,7 @@ function getSelectedGroups() {
 	return selectedGroups;
 }
 
-function searchStrains(searchTerm, selectedGroups) {
+function searchStrains(searchTerm, selectedGroups, page, resultsPerPage) {
 	let filteredStrains = [];
 
 	for (const strain of strainsList) {
@@ -94,7 +136,11 @@ function searchStrains(searchTerm, selectedGroups) {
 		}
 	}
 
-	return filteredStrains;
+	const startIndex = (page - 1) * resultsPerPage;
+	const endIndex = startIndex + resultsPerPage;
+	const paginatedStrains = filteredStrains.slice(startIndex, endIndex);
+
+	return paginatedStrains;
 }
 
 function displayStrains(strains) {
@@ -193,3 +239,223 @@ function onEscKeyDown(ev) {
 		closeModal();
 	}
 }
+
+// Pagination
+function disableButton(button) {
+	button.classList.add('disabled');
+	button.setAttribute('disabled', true);
+}
+
+function enableButton(button) {
+	button.classList.remove('disabled');
+	button.removeAttribute('disabled');
+}
+
+// function displayPagination(totalPages, currentPage) {
+// 	paginationNumbers.innerHTML = '';
+
+// 	if (totalPages > 1) {
+// 		for (let i = 1; i <= totalPages; i++) {
+// 			const button = document.createElement('button');
+// 			button.innerText = i;
+// 			button.classList.add('pagination-button');
+// 			if (i === currentPage) {
+// 				button.classList.add('active');
+// 			}
+// 			button.addEventListener('click', () => {
+// 				currentPage = i;
+// 				currentDisplayFunction(strainsList, currentPage, resultsPerPage);
+// 			});
+// 			paginationNumbers.appendChild(button);
+// 		}
+// 	}
+
+// 	// Disable/Enable prev/next buttons based on current page
+// 	if (currentPage === 1) {
+// 		disableButton(prevButton);
+// 	} else {
+// 		enableButton(prevButton);
+// 	}
+
+// 	if (currentPage === totalPages) {
+// 		disableButton(nextButton);
+// 	} else {
+// 		enableButton(nextButton);
+// 	}
+// }
+
+function createPaginationClickHandler(page) {
+	return function () {
+		currentPage = page;
+		currentDisplayFunction(strainsList, currentPage, resultsPerPage);
+	};
+}
+
+// function displayPagination(totalPages, currentPage) {
+// 	paginationNumbers.innerHTML = '';
+
+// 	if (totalPages > 1) {
+// 		for (let i = 1; i <= totalPages; i++) {
+// 			const button = document.createElement('button');
+// 			button.innerText = i;
+// 			button.classList.add('pagination-button');
+// 			if (i === currentPage) {
+// 				button.classList.add('active');
+// 			}
+// 			button.addEventListener('click', createPaginationClickHandler(i));
+// 			paginationNumbers.appendChild(button);
+// 		}
+// 	}
+
+// 	// Disable/Enable prev/next buttons based on current page
+// 	if (currentPage === 1) {
+// 		disableButton(prevButton);
+// 	} else {
+// 		enableButton(prevButton);
+// 	}
+
+// 	if (currentPage === totalPages) {
+// 		disableButton(nextButton);
+// 	} else {
+// 		enableButton(nextButton);
+// 	}
+// }
+
+// function displayPagination(totalPages, currentPage) {
+// 	paginationNumbers.innerHTML = '';
+
+// 	if (totalPages > 1) {
+// 		let startPage, endPage;
+
+// 		if (totalPages <= 11) {
+// 			startPage = 1;
+// 			endPage = totalPages;
+// 		} else {
+// 			if (currentPage <= 6) {
+// 				startPage = 1;
+// 				endPage = 11;
+// 			} else if (currentPage + 5 >= totalPages) {
+// 				startPage = totalPages - 10;
+// 				endPage = totalPages;
+// 			} else {
+// 				startPage = currentPage - 5;
+// 				endPage = currentPage + 5;
+// 			}
+// 		}
+
+// 		for (let i = startPage; i <= endPage; i++) {
+// 			const button = document.createElement('button');
+// 			button.innerText = i;
+// 			button.classList.add('pagination-button');
+// 			if (i === currentPage) {
+// 				button.classList.add('active');
+// 			}
+// 			button.addEventListener('click', createPaginationClickHandler(i));
+// 			paginationNumbers.appendChild(button);
+// 		}
+// 	}
+
+// 	// Disable/Enable prev/next buttons based on current page
+// 	if (currentPage === 1) {
+// 		disableButton(prevButton);
+// 	} else {
+// 		enableButton(prevButton);
+// 	}
+
+// 	if (currentPage === totalPages) {
+// 		disableButton(nextButton);
+// 	} else {
+// 		enableButton(nextButton);
+// 	}
+// }
+
+function displayPagination(totalPages, currentPage) {
+	paginationNumbers.innerHTML = '';
+
+	if (totalPages > 1) {
+		let startPage, endPage;
+
+		if (totalPages <= 11) {
+			startPage = 1;
+			endPage = totalPages;
+		} else {
+			if (currentPage <= 6) {
+				startPage = 1;
+				endPage = 9; // Obcięcie o 2 strony, aby dodać "..."
+			} else if (currentPage + 5 >= totalPages) {
+				startPage = totalPages - 8; // Obcięcie o 2 strony, aby dodać "..."
+				endPage = totalPages;
+			} else {
+				startPage = currentPage - 4;
+				endPage = currentPage + 4;
+			}
+		}
+
+		// Dodanie przycisku pierwszej strony, jeśli jeszcze nie został dodany
+		if (startPage !== 1) {
+			const firstPageButton = document.createElement('button');
+			firstPageButton.innerText = '1';
+			firstPageButton.classList.add('pagination-button');
+			firstPageButton.addEventListener('click', createPaginationClickHandler(1));
+			paginationNumbers.appendChild(firstPageButton);
+
+			// Dodanie "..." przed pierwszym przyciskiem, jeśli istnieje więcej stron
+			if (startPage > 2) {
+				const dotsBeforeButton = document.createElement('span');
+				dotsBeforeButton.innerText = '...';
+				paginationNumbers.appendChild(dotsBeforeButton);
+			}
+		}
+
+		// Wyświetlenie przycisków paginacji
+		for (let i = startPage; i <= endPage; i++) {
+			const button = document.createElement('button');
+			button.innerText = i;
+			button.classList.add('pagination-button');
+			if (i === currentPage) {
+				button.classList.add('active');
+			}
+			button.addEventListener('click', createPaginationClickHandler(i));
+			paginationNumbers.appendChild(button);
+		}
+
+		// Dodanie "..." po ostatnim przycisku, jeśli istnieje więcej stron
+		if (endPage < totalPages - 1) {
+			const dotsAfterButton = document.createElement('span');
+			dotsAfterButton.innerText = '...';
+			paginationNumbers.appendChild(dotsAfterButton);
+		}
+
+		// Dodanie przycisku ostatniej strony, jeśli jeszcze nie został dodany
+		if (endPage !== totalPages) {
+			const lastPageButton = document.createElement('button');
+			lastPageButton.innerText = totalPages;
+			lastPageButton.classList.add('pagination-button');
+			lastPageButton.addEventListener('click', createPaginationClickHandler(totalPages));
+			paginationNumbers.appendChild(lastPageButton);
+		}
+	}
+
+	// Disable/Enable prev/next buttons based on current page
+	if (currentPage === 1) {
+		disableButton(prevButton);
+	} else {
+		enableButton(prevButton);
+	}
+
+	if (currentPage === totalPages) {
+		disableButton(nextButton);
+	} else {
+		enableButton(nextButton);
+	}
+}
+
+nextButton.addEventListener('click', () => {
+	currentPage++;
+	currentDisplayFunction(strainsList, currentPage, resultsPerPage);
+});
+
+prevButton.addEventListener('click', () => {
+	currentPage--;
+	currentDisplayFunction(strainsList, currentPage, resultsPerPage);
+});
