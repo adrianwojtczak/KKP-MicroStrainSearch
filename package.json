@@ -5,7 +5,7 @@
 	"homepage": "https://adrianwojtczak.github.io/KKP-MicroStrainSearch/",
 	"scripts": {
 		"start": "parcel src/*.html",
-		"build": "parcel build src/*.html --dist-dir ./dist"
+		"build": "parcel build src/*.html --public-url /KKP-MicroStrainSearch/"
 	},
 	"repository": {
 		"type": "git",
