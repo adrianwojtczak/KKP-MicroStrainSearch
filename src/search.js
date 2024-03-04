@@ -35,19 +35,29 @@ displayAllStrains(strainsList, currentPage, resultsPerPage);
 
 searchBtn.addEventListener('click', ev => {
 	ev.preventDefault();
+	currentPage = 1
 	performSearch();
 });
 
 searchForm.addEventListener('submit', ev => {
 	ev.preventDefault();
+	currentPage = 1
 	performSearch();
 });
 
 // Add event listeners to checkboxes
-bacteriaCheckbox.addEventListener('change', performSearch);
-moldCheckbox.addEventListener('change', performSearch);
-yeastCheckbox.addEventListener('change', performSearch);
-virusCheckbox.addEventListener('change', performSearch);
+bacteriaCheckbox.addEventListener('change', () => {
+	currentPage = 1
+	performSearch()});
+moldCheckbox.addEventListener('change', () => {
+	currentPage = 1
+	performSearch()});
+yeastCheckbox.addEventListener('change', () => {
+	currentPage = 1
+	performSearch()});
+virusCheckbox.addEventListener('change', () => {
+	currentPage = 1
+	performSearch()});
 
 function performSearch() {
 	const searchValue = searchInput.value.trim().toLowerCase();
@@ -70,7 +80,6 @@ function performSearch() {
 	currentDisplayFunction = performSearch;
 
 	// const totalPages = Math.ceil(filteredStrains.length / resultsPerPage);
-	console.log(totalPages);
 	displayPagination(totalPages, currentPage);
 }
 
@@ -99,7 +108,6 @@ function displayAllStrains(strains, page, resultsPerPage) {
 	currentDisplayFunction = displayAllStrains;
 
 	const totalPages = Math.ceil(strains.length / resultsPerPage);
-	console.log(totalPages);
 	displayPagination(totalPages, page);
 }
 
