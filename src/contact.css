@@ -16,14 +16,24 @@ main {
 	overflow: hidden;
 }
 
-section {
+.scientist-wrapper{
 	margin-bottom: 20px;
 	padding: 20px;
 	border-bottom: 1px solid #ddd;
+	display: flex;
+	flex-direction: column-reverse;
 }
 
 .scientist {
 	margin-bottom: 20px;
+}
+
+.scientist-photo {
+	display: block;
+	max-width: 50%;
+    height: auto;
+	border-radius: 50%;
+	margin: 0 auto;
 }
 
 .name {
@@ -57,4 +67,24 @@ a {
 
 a:hover {
 	color: #0056b3;
+}
+
+@media screen and (min-width: 768px) {
+	.scientist-wrapper {
+		justify-content: space-between;
+		flex-direction: row;
+	}
+
+	.scientist-photo {
+		display: block;
+		max-width: 30%;
+		height: fit-content;
+		border-radius: 40px;
+		margin: 20px 0 0 0
+	}
+
+	.scientist {
+		margin-bottom: 20px;
+		max-width: 65%;
+	}
 }
