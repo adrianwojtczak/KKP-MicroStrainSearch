@@ -2,40 +2,10 @@
   "IBPRS1": {
     "www": [
       {
-        "AutorNazwy": "Meyen ex E.C. Hansen",
-        "Deponujacy": "ZMT-IPF-K Kraków",
-        "Gatunek": "omyces cerevisiae/Hansen",
-        "Grupa": "Drożdże",
-        "GrupaPatogenna": "1",
-        "KKP": "2",
-        "Kraj": "PL",
-        "Medium1": "SA",
-        "Oznakowanie": "I-S.c./67; Bordeaux 2",
-        "Rodzaj": "Saccharomyces",
-        "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "drożdże winiarskie",
-        "ZrodloIzolacji": "nieznane"
-      },
-      {
-        "AutorNazwy": "Meyen ex E.C. Hansen",
-        "Deponujacy": "ZMT Kraków",
-        "Gatunek": "omyces cerevisiae/Hansen",
-        "Grupa": "Drożdże",
-        "GrupaPatogenna": "1",
-        "KKP": "13",
-        "Kraj": "PL",
-        "Medium1": "SA",
-        "Oznakowanie": "I-S.c./16; Malaga 1",
-        "Rodzaj": "Saccharomyces",
-        "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "drożdże winiarskie",
-        "ZrodloIzolacji": "nieznane"
-      },
-      {
         "AutorNazwy": "van Tieghem",
         "Deponujacy": "nieznany",
         "Gatunek": "niger",
-        "Grupa": "Bakterie",
+        "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "44",
         "Kraj": "PL",
@@ -63,26 +33,13 @@
         "AutorNazwy": "van Tieghem",
         "Deponujacy": "nieznany",
         "Gatunek": "niger",
-        "Grupa": "Bakterie",
+        "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "46",
         "Medium1": "PDA",
         "Rodzaj": "Aspergillus",
+        "Temperatura": "25",
         "ZrodloIzolacji": "niznane"
-      },
-      {
-        "AutorNazwy": "Meyen ex E.C. Hansen",
-        "Deponujacy": "IPF-K (E. Kocwa)",
-        "Gatunek": "omyces cerevisiae/Hansen",
-        "Grupa": "Drożdże",
-        "GrupaPatogenna": "1",
-        "KKP": "50",
-        "Kraj": "PL",
-        "Medium1": "SA",
-        "Oznakowanie": "I-S.c./27; &quot;011&quot;",
-        "Rodzaj": "Saccharomyces",
-        "Wlasciwosci_i_zastosowanie": "Drożdże gorzelnicze &quot;011&quot; ; melasa",
-        "ZrodloIzolacji": "Z drożdży prasowanych Okocim"
       },
       {
         "AutorNazwy": "Zheng et al. 2020",
@@ -92,6 +49,7 @@
         "GrupaPatogenna": "1",
         "KKP": "55",
         "Kraj": "PL",
+        "Medium1": "MRS",
         "Oznakowanie": "III-L.d./11",
         "Rodzaj": "Lactiplantibacillus",
         "Temperatura": "37",
@@ -100,83 +58,19 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
+        "Deponujacy": "ZMT Kraków",
         "Gatunek": "cerevisiae",
+        "Genbank": "OL449671",
         "Grupa": "Drożdże",
+        "GrupaPatogenna": "1",
         "KKP": "148",
-        "Rodzaj": "Saccharomyces"
-      },
-      {
-        "Gatunek": "aeruginosa",
-        "Grupa": "Bakterie",
-        "KKP": "161",
-        "Rodzaj": "Pseudomonas"
-      },
-      {
-        "AutorNazwy": "Meyen ex E.C. Hansen",
-        "Deponujacy": "LVB &quot;Gaffel&quot;",
-        "Gatunek": "omyces cerevisiae/Hansen",
-        "Grupa": "Drożdże",
-        "GrupaPatogenna": "1",
-        "KKP": "226",
-        "Medium1": "SA",
-        "Oznakowanie": "I-S.c./115",
-        "Rodzaj": "Saccharomyces",
-        "ZrodloIzolacji": "nieznane"
-      },
-      {
-        "AutorNazwy": "Meyen ex E.C. Hansen",
-        "Deponujacy": "IPF",
-        "Gatunek": "omyces cerevisiae/Hansen",
-        "Grupa": "Drożdże",
-        "GrupaPatogenna": "1",
-        "KKP": "230",
-        "Kraj": "ZS",
-        "Medium1": "SA",
-        "Oznakowanie": "I-S.c./24; Tomskaja;",
-        "Rodzaj": "Saccharomyces",
-        "ZrodloIzolacji": "nieznane"
-      },
-      {
-        "AutorNazwy": "Meyen ex E.C. Hansen",
-        "Deponujacy": "IPF-ZTD",
-        "Gatunek": "omyces cerevisiae/Hansen",
-        "Grupa": "Drożdże",
-        "GrupaPatogenna": "1",
-        "KKP": "234",
-        "Kraj": "AT",
-        "Medium1": "SA",
-        "Oznakowanie": "I-S.c./113; Mautner 259/64;",
-        "Rodzaj": "Saccharomyces",
-        "ZrodloIzolacji": "nieznane"
-      },
-      {
-        "AutorNazwy": "Meyen ex E.C. Hansen",
-        "Deponujacy": "IPF",
-        "Gatunek": "omyces cerevisiae/Hansen",
-        "Grupa": "Drożdże",
-        "GrupaPatogenna": "1",
-        "KKP": "290",
         "Kraj": "PL",
         "Medium1": "SA",
-        "Oznakowanie": "I-S.c./34; D 43/18",
-        "Rodzaj": "Saccharomyces",
-        "Wlasciwosci_i_zastosowanie": "drożdże gorzelnicze melasowe",
-        "ZrodloIzolacji": "kultura D-43 drożdży gorzelniczych"
-      },
-      {
-        "AutorNazwy": "Meyen ex E.C. Hansen",
-        "Deponujacy": "nieznany",
-        "Gatunek": "Saccharomyces cerevisiae/H",
-        "Grupa": "Drożdże",
-        "GrupaPatogenna": "1",
-        "KKP": "293",
-        "Kraj": "CN",
-        "Medium1": "SA",
-        "Oznakowanie": "I-S.c./171; Otani",
+        "Oznakowanie": "I-S.e/147",
         "Rodzaj": "Saccharomyces",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "drożdże gorzelnicze Otani (melasa)",
-        "ZrodloIzolacji": "nieznane"
+        "Wlasciwosci_i_zastosowanie": "Wiśnia 1 for red wine production",
+        "ZrodloIzolacji": "Wiśnia (owoc)"
       },
       {
         "AutorNazwy": "(Wick., Kurtzman &amp; Herman) Van der Walt &amp; Arx",
@@ -186,6 +80,7 @@
         "GrupaPatogenna": "1",
         "KKP": "323",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "I-C.I./2; Yeast &quot;R4&quot;",
         "Rodzaj": "Yarrowia",
         "Synonimy": "Candida lipolytica",
@@ -193,46 +88,113 @@
         "ZrodloIzolacji": "mieznane"
       },
       {
+        "DataPobraniaProbki": "1957.01.01",
+        "Deponujacy": "IPF-ZTD",
         "Gatunek": "tropicalis",
         "Grupa": "Drożdże",
+        "GrupaPatogenna": "1",
         "KKP": "329",
-        "Rodzaj": "Candida"
+        "Kraj": "PL",
+        "Medium1": "SA",
+        "Oznakowanie": "I-C.t./1",
+        "Rodzaj": "Candida",
+        "Temperatura": "25",
+        "Wlasciwosci_i_zastosowanie": "produkcja drożdzy na wywarze melasowym",
+        "ZrodloIzolacji": "yeast milk (Wołczyn)"
       },
       {
+        "DataPobraniaProbki": "1958.01.01",
+        "Deponujacy": "IPF-ZTD",
         "Gatunek": "tropicalis",
         "Grupa": "Drożdże",
+        "GrupaPatogenna": "1",
         "KKP": "330",
-        "Rodzaj": "Candida"
+        "Kraj": "PL",
+        "Medium1": "SA",
+        "Oznakowanie": "I-C.t./2",
+        "Rodzaj": "Candida",
+        "Temperatura": "25",
+        "Wlasciwosci_i_zastosowanie": "For the production of feed yeast and molasses decoction, decoction with molasses and pure molasses.",
+        "ZrodloIzolacji": "yeast milk (Wołczyn)"
       },
       {
+        "DataPobraniaProbki": "1957.01.01",
+        "Deponujacy": "IPF",
         "Gatunek": "tropicalis",
+        "Genbank": "PP196484",
         "Grupa": "Drożdże",
+        "GrupaPatogenna": "1",
         "KKP": "335",
-        "Rodzaj": "Candida"
+        "Kraj": "PL",
+        "Medium1": "SA",
+        "Oznakowanie": "I-C.t./3; IBL T1",
+        "Rodzaj": "Candida",
+        "Temperatura": "25",
+        "Wlasciwosci_i_zastosowanie": "IBL T1 For the production of feed yeast and molasses decoction, decoction with molasses and pure molasses.",
+        "ZrodloIzolacji": "Yeast milk (Maszewo)"
       },
       {
-        "Gatunek": "utilis",
+        "DataPobraniaProbki": "1957.01.01",
+        "Deponujacy": "IPF-ZTD",
+        "Gatunek": "utilis (Henneberg)",
+        "Genbank": "MK934491",
         "Grupa": "Drożdże",
+        "GrupaPatogenna": "1",
         "KKP": "339",
-        "Rodzaj": "Candida"
+        "Kraj": "PL",
+        "Medium1": "SA",
+        "Oznakowanie": "I-C.u./1",
+        "Rodzaj": "Candida",
+        "Synonimy": "Cyberlindnera jadinii",
+        "Temperatura": "25",
+        "Wlasciwosci_i_zastosowanie": "For the production of feed yeast and molasses decoction and pure molasses.",
+        "ZrodloIzolacji": "nieznane"
       },
       {
-        "Gatunek": "utilis",
+        "DataPobraniaProbki": "1963.01.01",
+        "Deponujacy": "IHAR",
+        "Gatunek": "utilis (Henneberg)",
         "Grupa": "Drożdże",
+        "GrupaPatogenna": "1",
         "KKP": "340",
-        "Rodzaj": "Candida"
+        "Kraj": "PL",
+        "Medium1": "SA",
+        "Oznakowanie": "I-C.u./2",
+        "Rodzaj": "Candida",
+        "Synonimy": "Cyberlindnera jadinii",
+        "Temperatura": "25",
+        "Wlasciwosci_i_zastosowanie": "Yeasts R3 For the production of feed yeast and molasses decoction and pure molasses.",
+        "ZrodloIzolacji": "nieznane"
       },
       {
-        "Gatunek": "tropicalis",
+        "DataPobraniaProbki": "1963.01.01",
+        "Deponujacy": "ICBZ (GSRR- ZSRR)",
+        "Gatunek": "tropicalis (Henneberg)",
         "Grupa": "Drożdże",
+        "GrupaPatogenna": "1",
         "KKP": "341",
-        "Rodzaj": "Candida"
+        "Kraj": "RU",
+        "Medium1": "SA",
+        "Oznakowanie": "I-C.u./3",
+        "Rodzaj": "Candida",
+        "Synonimy": "Candida utilis",
+        "Temperatura": "25",
+        "Wlasciwosci_i_zastosowanie": "for the production of feed yeast on sulphite lyes",
+        "ZrodloIzolacji": "nieznane"
       },
       {
+        "DataPobraniaProbki": "1963.06.01",
+        "Deponujacy": "BUSCAV",
         "Gatunek": "glabrata",
         "Grupa": "Drożdże",
+        "GrupaPatogenna": "1",
         "KKP": "342",
-        "Rodzaj": "Candida"
+        "Medium1": "SA",
+        "Oznakowanie": "I-C.u./4; BUCSAV 26-1-4",
+        "Rodzaj": "Candida",
+        "Synonimy": "Cyberlindnera jadinii",
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "(Sartory, R. Sartory, Weill &amp; J. Meyer) Minter (T)",
@@ -242,7 +204,8 @@
         "Grupa": "Drożdże",
         "GrupaPatogenna": "2",
         "KKP": "343",
-        "Medium1": "SA",
+        "Medium1": "YGC",
+        "Medium2": "WA",
         "Oznakowanie": "I-C.u./5",
         "Rodzaj": "Candida",
         "Synonimy": "Cyberlindnera jadinii",
@@ -251,10 +214,19 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
-        "Gatunek": "utilis",
+        "DataPobraniaProbki": "1964.12.01",
+        "Deponujacy": "VULK",
+        "Gatunek": "utilis (Henneberg)",
         "Grupa": "Drożdże",
+        "GrupaPatogenna": "1",
         "KKP": "344",
-        "Rodzaj": "Candida"
+        "Kraj": "RU",
+        "Medium1": "SA",
+        "Oznakowanie": "I-C.u./6",
+        "Rodzaj": "Candida",
+        "Synonimy": "Cyberlindnera jadinii",
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "de Bary&apos;ego 1884",
@@ -265,7 +237,7 @@
         "KKP": "347",
         "Kraj": "PL",
         "Medium1": "AO",
-        "Oznakowanie": "40 (projekt &quot;Inkubator&quot; 2022 -",
+        "Oznakowanie": "40 (projekt &quot;Inkubator&quot; 2022",
         "Rodzaj": "Bacillus",
         "Temperatura": "30",
         "Wlasciwosci_i_zastosowanie": "aktywność proteolityczna; aktywność amylolityczna",
@@ -307,7 +279,7 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
-        "AutorNazwy": "Cohn�1872",
+        "AutorNazwy": "Cohn 1872",
         "DataPobraniaProbki": "1967.01.01",
         "Deponujacy": "IPF-ZTPOW",
         "Gatunek": "subtilis",
@@ -341,94 +313,197 @@
         "ZrodloIzolacji": "koncentrat pomidorowy"
       },
       {
+        "DataPobraniaProbki": "1964.01.01",
+        "Deponujacy": "IBPRS/ZM",
         "Gatunek": "coli",
+        "Genbank": "OP807122",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "2",
         "KKP": "365",
-        "Rodzaj": "Escherichia"
+        "Kraj": "PL",
+        "Medium1": "AO",
+        "Oznakowanie": "III-E.c./3; Cd4",
+        "Rodzaj": "Escherichia",
+        "Temperatura": "37",
+        "Wlasciwosci_i_zastosowanie": "test strain for testing the effectiveness of disinfectants in the brewing industry, 1964",
+        "ZrodloIzolacji": "nieznane"
       },
       {
+        "DataPobraniaProbki": "1964.01.01",
+        "Deponujacy": "IBPRS/ZM",
         "Gatunek": "coli",
+        "Genbank": "OP807120",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "2",
         "KKP": "366",
-        "Rodzaj": "Escherichia"
+        "Kraj": "PL",
+        "Medium1": "AO",
+        "Oznakowanie": "III-E.c./4; Cd2",
+        "Rodzaj": "Escherichia",
+        "Temperatura": "37",
+        "Wlasciwosci_i_zastosowanie": "test strain for testing the effectiveness of disinfectants in the brewing industry, ??? 1964",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "nieznane"
       },
       {
+        "AutorNazwy": "Bergey et al. 1923",
+        "DataPobraniaProbki": "1975.01.01",
+        "Deponujacy": "nieznany",
         "Gatunek": "pentosus/plantarum",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "367",
-        "Rodzaj": "Lactiplantibacillus"
+        "Kraj": "PL",
+        "Medium1": "MRS",
+        "Medium2": "M17",
+        "Oznakowanie": "III-L.a./2",
+        "Rodzaj": "Lactiplantibacillus",
+        "Temperatura": "30",
+        "Wlasciwosci_i_zastosowanie": "do oznaczania witaminy PP, pantotenianu wapnia, biotyny w przemyśle piwowarskim, produkcji kwasu mlekowego",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "nieznane"
       },
       {
-        "Gatunek": "plantarum",
-        "Grupa": "Bakterie",
-        "KKP": "368",
-        "Rodzaj": "Lactiplantibacillus"
-      },
-      {
+        "AutorNazwy": "(Collins et al. 1989) Zheng et al. 2020",
         "Gatunek": "paracasei",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "371",
-        "Rodzaj": "Lactiplantibacillus"
+        "Kraj": "PL",
+        "Medium1": "MRS",
+        "Oznakowanie": "III-L.c./1",
+        "Rodzaj": "Lactiplantibacillus",
+        "Temperatura": "30",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "nieznane"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "DataPobraniaProbki": "2011.01.01",
+        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ285871",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "377",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "TO-241/2",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "42",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "zagęszczony sok wiśniowy"
       },
       {
-        "Gatunek": "lipolytica",
-        "Grupa": "Bakterie",
-        "KKP": "379",
-        "Rodzaj": "Yarrowia"
-      },
-      {
+        "AutorNazwy": "(Orla-Jensen 1919)",
         "Gatunek": "pentosus/plantarum",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "380",
-        "Rodzaj": "Lactiplantibacillus"
+        "Kraj": "PL",
+        "Medium1": "MRS",
+        "Oznakowanie": "IPF K 2",
+        "Rodzaj": "Lactiplantibacillus",
+        "Temperatura": "30",
+        "Wlasciwosci_i_zastosowanie": "produkcja kwasu mlekowego",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "z kiełków słodu"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ284561",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "381",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "TO-224/1/05",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "zagęszczony sok jabłkowy"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ284562",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "382",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "TO-271/1/05",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "zagęszczony sok jabłkowy"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ285847",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "383",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "TO-100/06",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "zagęszczony sok jabłkowy"
       },
       {
-        "Gatunek": "pentosus/plantarum",
-        "Grupa": "Bakterie",
-        "KKP": "384",
-        "Rodzaj": "Lactiplantibacillus"
-      },
-      {
+        "AutorNazwy": "Farrow et al. 1989",
+        "Deponujacy": "nieznany",
         "Gatunek": "pseudomesenteroides",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "386",
-        "Rodzaj": "Leuconostoc"
+        "Kraj": "PL",
+        "Medium1": "MRS",
+        "Oznakowanie": "IPF L 2",
+        "Rodzaj": "Leuconostoc",
+        "Temperatura": "30",
+        "Wlasciwosci_i_zastosowanie": "produkcja dekstranów",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "lemoniada"
       },
       {
+        "AutorNazwy": "Farrow et al. 1989",
+        "Deponujacy": "nieznany",
         "Gatunek": "mesenteroides",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "387",
-        "Rodzaj": "Leuconostoc"
+        "Kraj": "PL",
+        "Medium1": "MRS",
+        "Oznakowanie": "IPF L 3",
+        "Rodzaj": "Leuconostoc",
+        "Temperatura": "30",
+        "Wlasciwosci_i_zastosowanie": "produkcja dekstranów",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "lemoniaa"
       },
       {
+        "AutorNazwy": "(Tsenkovskii 1878) van Tieghem 1878",
+        "DataPobraniaProbki": "1955.01.01",
         "Gatunek": "mesenteroides",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "389",
-        "Rodzaj": "Leuconostoc"
+        "Kraj": "PL",
+        "Medium1": "MRS",
+        "Oznakowanie": "IPF C 1",
+        "Rodzaj": "Leuconostoc",
+        "Temperatura": "30",
+        "Wlasciwosci_i_zastosowanie": "produkcja dekstranów",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "z soku dyfuzyjnego"
       },
       {
         "AutorNazwy": "Farrow et al. 1989",
@@ -446,28 +521,69 @@
         "ZrodloIzolacji": "sok/  Kętrzyn sugar factory"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "DataPobraniaProbki": "2005.01.01",
+        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ284103",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "394",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "TO-28/1/05",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "zagęszczony sok jabłkowy"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ284104",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "395",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "TO-29/4/02",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "zagęszczony sok jabłkowy"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ285872",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "400",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "TO-27/2/07",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "nieznane"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ284075",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "404",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "171/12",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "zagęszczony sok z czarnej porzeczki"
       },
       {
         "AutorNazwy": "Gasperini (1887)",
@@ -662,16 +778,37 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
+        "AutorNazwy": "Kurtzman 1986",
+        "Deponujacy": "IPF-K, Kraków",
         "Gatunek": "flavus/oryzae",
         "Grupa": "Pleśnie",
+        "GrupaPatogenna": "1",
         "KKP": "433",
-        "Rodzaj": "Aspergillus"
+        "Kraj": "CN",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
+        "Rodzaj": "Aspergillus",
+        "Temperatura": "28",
+        "Wlasciwosci_i_zastosowanie": "produkcja enzymów amylolitycznych",
+        "ZrodloIzolacji": "nieznane"
       },
       {
+        "AutorNazwy": "P. Micheli ex Haller",
+        "Deponujacy": "nieznany",
         "Gatunek": "sp.",
         "Grupa": "Pleśnie",
+        "GrupaPatogenna": "1",
         "KKP": "438",
-        "Rodzaj": "Aspergillus"
+        "Kraj": "RU",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
+        "Oznakowanie": "WNIIFS KS",
+        "Rodzaj": "Aspergillus",
+        "Temperatura": "28",
+        "Wlasciwosci_i_zastosowanie": "produkcja enzymów amylolitycznych",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Gasperini",
@@ -994,16 +1131,32 @@
         "ZrodloIzolacji": "nieznany"
       },
       {
+        "AutorNazwy": "1942 r. Diddens i Lodder",
+        "Deponujacy": "VULK",
         "Gatunek": "lipolytica",
         "Grupa": "Drożdże",
+        "GrupaPatogenna": "1",
         "KKP": "524",
-        "Rodzaj": "Candida"
+        "Medium1": "SA",
+        "Medium2": "PDA",
+        "Rodzaj": "Candida",
+        "Synonimy": "Yarrowia lipolytica",
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
-        "Gatunek": "sp",
+        "AutorNazwy": "Link",
+        "Deponujacy": "nieznany",
+        "Gatunek": "sp.",
         "Grupa": "Pleśnie",
+        "GrupaPatogenna": "2",
         "KKP": "526",
-        "Rodzaj": "Fusarium"
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
+        "Rodzaj": "Fusarium",
+        "Temperatura": "28",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Schltdl",
@@ -1093,26 +1246,50 @@
         "Wlasciwosci_i_zastosowanie": "produkcja enzymów celulolitycznych"
       },
       {
+        "AutorNazwy": "Zheng et al. 2020",
+        "Deponujacy": "PBJM/IBPRS",
         "Gatunek": "nagelii�",
-        "Grupa": "Drożdże",
+        "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "563",
-        "Rodzaj": "Liquorilactobacillus"
+        "Kraj": "PL",
+        "Medium1": "OSA",
+        "Medium2": "MRS",
+        "Oznakowanie": "PBJM 757/22 (TM-384), PBM/149/20",
+        "Rodzaj": "Liquorilactobacillus",
+        "Temperatura": "30",
+        "WymaganiaAtmosferyczne": "mikroaerofilne",
+        "ZrodloIzolacji": "napój Oshee"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "Deponujacy": "PBJM/IBPRS",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ285856",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "564",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "TO-186/06",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "ZrodloIzolacji": "zagęszczony sok jabłkowy (Agra/OJC)"
       },
       {
         "AutorNazwy": "Simmons",
+        "Deponujacy": "nieznany",
         "Gatunek": "reseei",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "569",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Trichoderma",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "produkcja enzymów celulolitycznych"
+        "Wlasciwosci_i_zastosowanie": "produkcja enzymów celulolitycznych",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Simmons",
@@ -1121,21 +1298,30 @@
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "570",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Trichoderma",
         "Temperatura": "25",
         "Wlasciwosci_i_zastosowanie": "produkcja enzymów celulolitycznych"
       },
       {
-        "Gatunek": "smithi",
-        "Grupa": "Bakterie",
-        "KKP": "573",
-        "Rodzaj": "Bacillus"
-      },
-      {
+        "AutorNazwy": "Jordan, 1890",
+        "Deponujacy": "Michał Wójcicki",
         "Gatunek": "cloacae",
+        "Genbank": "OP935700",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "575",
-        "Rodzaj": "Enterobacter"
+        "Kraj": "PL",
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Medium3": "TSA",
+        "Oznakowanie": "MSM 02",
+        "Rodzaj": "Enterobacter",
+        "Temperatura": "37",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "miks sałat z marchewką"
       },
       {
         "Gatunek": "braacki",
@@ -1173,6 +1359,9 @@
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "2",
         "KKP": "586",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Exophiala",
         "Temperatura": "25"
       },
@@ -1802,6 +1991,8 @@
         "Rodzaj": "Salmonella"
       },
       {
+        "AutorNazwy": "(Orla-Jensen 1919) Bergey et al. 1923",
+        "Deponujacy": "nieznany",
         "Gatunek": "plantarum",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "1",
@@ -1810,7 +2001,8 @@
         "Oznakowanie": "JCM 8346",
         "Rodzaj": "Lactiplantibacillus",
         "Temperatura": "30",
-        "Wlasciwosci_i_zastosowanie": "produkcja kwasu mlekowego"
+        "Wlasciwosci_i_zastosowanie": "produkcja kwasu mlekowego",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "Gatunek": "plantarum",
@@ -4259,6 +4451,12 @@
         "Rodzaj": "Candida"
       },
       {
+        "Gatunek": "paracasei",
+        "Grupa": "Bakterie",
+        "KKP": "3472",
+        "Rodzaj": "Lacticaseibacillus"
+      },
+      {
         "AutorNazwy": "(de Bary) G. Arnaud (1918)",
         "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "pullulans",
@@ -6525,6 +6723,7 @@
         "GrupaPatogenna": "1",
         "KKP": "4020",
         "Kraj": "PL",
+        "Medium1": "TOS",
         "Oznakowanie": "K1",
         "Rodzaj": "Bifidobacterium",
         "Temperatura": "37",
