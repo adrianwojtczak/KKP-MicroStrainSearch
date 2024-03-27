@@ -37,9 +37,11 @@
         "GrupaPatogenna": "1",
         "KKP": "46",
         "Medium1": "PDA",
+        "Medium2": "MEA",
+        "Medium3": "SA",
         "Rodzaj": "Aspergillus",
         "Temperatura": "25",
-        "ZrodloIzolacji": "niznane"
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Zheng et al. 2020",
@@ -115,7 +117,8 @@
         "Rodzaj": "Candida",
         "Temperatura": "25",
         "Wlasciwosci_i_zastosowanie": "For the production of feed yeast and molasses decoction, decoction with molasses and pure molasses.",
-        "ZrodloIzolacji": "yeast milk (Wołczyn)"
+        "ZrodloIzolacji": "yeast milk (Wołczyn)",
+        "ZrodloIzolacjiNaWWW": "yeast milk"
       },
       {
         "DataPobraniaProbki": "1957.01.01",
@@ -131,7 +134,8 @@
         "Rodzaj": "Candida",
         "Temperatura": "25",
         "Wlasciwosci_i_zastosowanie": "IBL T1 For the production of feed yeast and molasses decoction, decoction with molasses and pure molasses.",
-        "ZrodloIzolacji": "Yeast milk (Maszewo)"
+        "ZrodloIzolacji": "Yeast milk (Maszewo)",
+        "ZrodloIzolacjiNaWWW": "Yeast milk"
       },
       {
         "DataPobraniaProbki": "1957.01.01",
@@ -240,6 +244,7 @@
         "Oznakowanie": "40 (projekt &quot;Inkubator&quot; 2022",
         "Rodzaj": "Bacillus",
         "Temperatura": "30",
+        "UkrycDeponujacego": "1",
         "Wlasciwosci_i_zastosowanie": "aktywność proteolityczna; aktywność amylolityczna",
         "WymaganiaAtmosferyczne": "tlenowe",
         "ZrodloIzolacji": "gleba"
@@ -313,6 +318,12 @@
         "ZrodloIzolacji": "koncentrat pomidorowy"
       },
       {
+        "Gatunek": "cereus",
+        "Grupa": "Bakterie",
+        "KKP": "362",
+        "Rodzaj": "Bacillus"
+      },
+      {
         "DataPobraniaProbki": "1964.01.01",
         "Deponujacy": "IBPRS/ZM",
         "Gatunek": "coli",
@@ -325,6 +336,7 @@
         "Oznakowanie": "III-E.c./3; Cd4",
         "Rodzaj": "Escherichia",
         "Temperatura": "37",
+        "UkrycDeponujacego": "1",
         "Wlasciwosci_i_zastosowanie": "test strain for testing the effectiveness of disinfectants in the brewing industry, 1964",
         "ZrodloIzolacji": "nieznane"
       },
@@ -341,6 +353,7 @@
         "Oznakowanie": "III-E.c./4; Cd2",
         "Rodzaj": "Escherichia",
         "Temperatura": "37",
+        "UkrycDeponujacego": "1",
         "Wlasciwosci_i_zastosowanie": "test strain for testing the effectiveness of disinfectants in the brewing industry, ??? 1964",
         "WymaganiaAtmosferyczne": "tlenowe",
         "ZrodloIzolacji": "nieznane"
@@ -989,15 +1002,20 @@
       },
       {
         "AutorNazwy": "Bainier (1907)",
+        "Deponujacy": "nieznany",
         "Gatunek": "variotii",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "2",
         "KKP": "466",
         "Kraj": "NL",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Paecilomyces",
         "Synonimy": "byssochlamys",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "produkcja wariotyny"
+        "Wlasciwosci_i_zastosowanie": "produkcja wariotyny",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Dierckx",
@@ -1214,13 +1232,18 @@
       },
       {
         "AutorNazwy": "Zopf",
+        "Deponujacy": "nieznany",
         "Gatunek": "terrestris",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "540",
+        "Medium1": "PDA",
+        "Medium2": "MEA",
+        "Medium3": "SA",
         "Rodzaj": "Thielavia",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych, termofilny"
+        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych, termofilny",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Pers.",
@@ -1274,7 +1297,8 @@
         "Oznakowanie": "TO-186/06",
         "Rodzaj": "Alicyclobacilus",
         "Temperatura": "45",
-        "ZrodloIzolacji": "zagęszczony sok jabłkowy (Agra/OJC)"
+        "ZrodloIzolacji": "zagęszczony sok jabłkowy (Agra/OJC)",
+        "ZrodloIzolacjiNaWWW": "zagęszczony sok jabłkowy"
       },
       {
         "AutorNazwy": "Simmons",
@@ -1293,6 +1317,7 @@
       },
       {
         "AutorNazwy": "Simmons",
+        "Deponujacy": "nieznany",
         "Gatunek": "reesei",
         "Genbank": "ON724227",
         "Grupa": "Pleśnie",
@@ -1303,7 +1328,8 @@
         "Medium3": "SA",
         "Rodzaj": "Trichoderma",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "produkcja enzymów celulolitycznych"
+        "Wlasciwosci_i_zastosowanie": "produkcja enzymów celulolitycznych",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Jordan, 1890",
@@ -1324,37 +1350,92 @@
         "ZrodloIzolacji": "miks sałat z marchewką"
       },
       {
-        "Gatunek": "braacki",
+        "Deponujacy": "Michał Wójcicki",
+        "Gatunek": "sp.",
+        "Genbank": "OP935699",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "581",
-        "Rodzaj": "Citrobacter"
+        "Kraj": "PL",
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Medium3": "TSA",
+        "Oznakowanie": "MSB 18",
+        "Rodzaj": "Citrobacter",
+        "Temperatura": "37",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "miks sałat z marchewką"
       },
       {
+        "AutorNazwy": "Brisou &amp; Pr�vot 1954",
+        "Deponujacy": "Michał Wójcicki",
         "Gatunek": "sp.",
+        "Genbank": "OP935687",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "582",
-        "Rodzaj": "Acinetobacter"
+        "Kraj": "PL",
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Oznakowanie": "SZP 07",
+        "Rodzaj": "Acinetobacter",
+        "Temperatura": "37",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "szpinak niemyty"
       },
       {
+        "AutorNazwy": "Brisou &amp; Pr�vot 1954",
+        "Deponujacy": "Michał Wójcicki",
         "Gatunek": "sp.",
+        "Genbank": "OP935686",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "583",
-        "Rodzaj": "Acinetobacter"
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Oznakowanie": "MSB 1",
+        "Rodzaj": "Acinetobacter",
+        "Temperatura": "37",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "miks sałat z burakiem"
       },
       {
+        "AutorNazwy": "(Ewing and Fife 1972) Gavini et al. 1989",
+        "Deponujacy": "Michał Wójcicki",
         "Gatunek": "agglomerans",
+        "Genbank": "OP935688",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "584",
-        "Rodzaj": "Pantoea"
+        "Kraj": "PL",
+        "Medium1": "PCA",
+        "Medium2": "AO",
+        "Oznakowanie": "MSB 23",
+        "Rodzaj": "Pantoea",
+        "Temperatura": "37",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "miks sałat z burakiem"
       },
       {
+        "AutorNazwy": "Bizio 1823",
+        "Deponujacy": "Michał Wójcicki",
         "Gatunek": "marcescens",
+        "Genbank": "OP935711",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "585",
-        "Rodzaj": "Serratia"
+        "Kraj": "PL",
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Oznakowanie": "MSB 19",
+        "Rodzaj": "Serratia",
+        "Temperatura": "37",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "miks sałat z burakiem"
       },
       {
         "AutorNazwy": "J.W.Carmich.",
+        "Deponujacy": "nieznany",
         "Gatunek": "spinifera",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "2",
@@ -1363,49 +1444,129 @@
         "Medium2": "PDA",
         "Medium3": "SA",
         "Rodzaj": "Exophiala",
-        "Temperatura": "25"
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
-        "Gatunek": "marcescens",
+        "AutorNazwy": "Brisou &amp; Pr�vot 1954",
+        "Deponujacy": "Michał Wójcicki",
+        "Gatunek": "sp.",
+        "Genbank": "OP935733",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "587",
-        "Rodzaj": "Serratia"
+        "Kraj": "PL",
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Oznakowanie": "MSB 01",
+        "Rodzaj": "Acinetobacter",
+        "Temperatura": "37",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "miks sałat z burakiem"
       },
       {
+        "AutorNazwy": "Brisou &amp; Pr�vot 1954",
+        "Deponujacy": "Michał Wójcicki",
         "Gatunek": "sp",
+        "Genbank": "OP935735",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "588",
-        "Rodzaj": "Acinetobacter"
+        "Kraj": "PL",
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Medium3": "TSA",
+        "Oznakowanie": "SZP 04",
+        "Rodzaj": "Acinetobacter",
+        "Temperatura": "37",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "szpinak niemyty"
       },
       {
+        "AutorNazwy": "(Ewing and Fife 1972) Gavini et al. 1989",
+        "Deponujacy": "Michał Wójcicki",
         "Gatunek": "agglomerans",
+        "Genbank": "OP935741",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "589",
-        "Rodzaj": "Pantoea"
+        "Kraj": "PL",
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Medium3": "TSA",
+        "Oznakowanie": "MSB 07",
+        "Rodzaj": "Pantoea",
+        "Temperatura": "37",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "miks sałat z burakiem"
       },
       {
+        "AutorNazwy": "(Ewing and Fife 1972) Gavini et al. 1989",
+        "Deponujacy": "Michał Wójcicki",
         "Gatunek": "agglomerans",
+        "Genbank": "OP935743",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "590",
-        "Rodzaj": "Pantoea"
+        "Kraj": "PL",
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Medium3": "TSA",
+        "Oznakowanie": "MSM 22",
+        "Rodzaj": "Pantoea",
+        "Temperatura": "37",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "miks sałat z marchewką"
       },
       {
+        "AutorNazwy": "Bizio, 1823",
+        "Deponujacy": "Michał Wójcicki",
         "Gatunek": "liquefaciens",
+        "Genbank": "OP935744",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "591",
-        "Rodzaj": "Serratia"
+        "Kraj": "PL",
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Medium3": "TSA",
+        "Oznakowanie": "MSM 17",
+        "Rodzaj": "Serratia",
+        "Temperatura": "37",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "miks sałat z marchewką"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "Deponujacy": "PBJM/IBPRS",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ285855",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "596",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "TO-192/06",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "zagęszczony sok jabłkowy (Przeworsk)"
       },
       {
+        "AutorNazwy": "(Lindner 1928) De Ley and Swings 1976",
+        "Deponujacy": "nieznany",
         "Gatunek": "mobilis",
+        "Genbank": "ON804784",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "604",
-        "Rodzaj": "Zymomonas"
+        "Medium1": "Zymomonas medium (Yeast extract 10 g, Peptone  10 g, Glucose  20 g, Agar  20 g, Distilled water 1000 ml, pH 7.2)",
+        "Oznakowanie": "III-Z.m./6",
+        "Rodzaj": "Zymomonas",
+        "Temperatura": "30",
+        "Wlasciwosci_i_zastosowanie": "produkuje alkohol",
+        "WymaganiaAtmosferyczne": "ściśle beztlenowe",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "van Tieghem 1867",
@@ -1423,34 +1584,84 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "Deponujacy": "PBJM",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ285862",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "609",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "203/13",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "zagęszczony sok truskawkowy (&quot;OK&quot; Siemiatycze)"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "Deponujacy": "PBJM",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ285860",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "610",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "TO-201/06 ZT",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "zagęszczony sok jabłkowy"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "Deponujacy": "PBJM",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ285857",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "611",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "TO-201/06 BN",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "zagęszczony sok jabłkowy"
       },
       {
+        "AutorNazwy": "Wisotzkey et al. 1992",
+        "Deponujacy": "PBJM",
         "Gatunek": "acidoterrestris",
+        "Genbank": "OQ318516",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "613",
-        "Rodzaj": "Alicyclobacilus"
+        "Kraj": "PL",
+        "Medium1": "BAT agar",
+        "Oznakowanie": "TO-169/06",
+        "Rodzaj": "Alicyclobacilus",
+        "Temperatura": "45",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "zagęszczony sok jabłkowy (Agra Hortino)"
       },
       {
-        "Gatunek": "megaterium/coagulans",
+        "AutorNazwy": "Gupta et al. 2020",
+        "Deponujacy": "nieznany",
+        "Gatunek": "megaterium",
+        "Genbank": "ON778608",
         "Grupa": "Bakterie",
+        "GrupaPatogenna": "1",
         "KKP": "641",
-        "Rodzaj": "Bacillus"
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Medium3": "TSA",
+        "Rodzaj": "Priestia",
+        "Temperatura": "30",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Meyen ex E.C. Hansen",
@@ -1467,16 +1678,31 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
+        "Deponujacy": "Instituto Zimotecnico",
         "Gatunek": "pombe",
         "Grupa": "Drożdże",
+        "GrupaPatogenna": "1",
         "KKP": "664",
-        "Rodzaj": "Schizosaccharomyces"
+        "Kraj": "BR",
+        "Medium1": "SA",
+        "Oznakowanie": "I-Sch.o./1",
+        "Rodzaj": "Schizosaccharomyces",
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
+        "Deponujacy": "Michał Wójcicki",
         "Gatunek": "marcescens",
+        "Genbank": "OP935745",
         "Grupa": "Bakterie",
         "KKP": "671",
-        "Rodzaj": "Serratia"
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Oznakowanie": "SZP 37",
+        "Rodzaj": "Serratia",
+        "Temperatura": "37",
+        "WymaganiaAtmosferyczne": "tlenowe",
+        "ZrodloIzolacji": "szpinak niemyty"
       },
       {
         "AutorNazwy": "Beijerinck 1898",
@@ -1484,6 +1710,8 @@
         "Grupa": "Bakterie",
         "GrupaPatogenna": "1",
         "KKP": "674",
+        "Medium1": "AO",
+        "Medium2": "PCA",
         "Oznakowanie": "O4",
         "Publikacje": "https://www.mdpi.com/2304-8158/12/21/3975",
         "Rodzaj": "Acetobacter",
@@ -1493,6 +1721,7 @@
       },
       {
         "AutorNazwy": "Fresenius",
+        "Deponujacy": "nieznany",
         "Gatunek": "fumgatus",
         "Genbank": "MN056069",
         "Grupa": "Bakterie",
@@ -1500,6 +1729,8 @@
         "KKP": "683",
         "Kraj": "PL",
         "Medium1": "SA",
+        "Medium2": "MEA",
+        "Medium3": "PDA",
         "Rodzaj": "Aspergillus",
         "Temperatura": "25",
         "Wlasciwosci_i_zastosowanie": "produkcja środków grzybobójczych",
@@ -1547,6 +1778,8 @@
         "GrupaPatogenna": "2",
         "KKP": "712",
         "Medium1": "SA",
+        "Medium2": "MEA",
+        "Medium3": "PDA",
         "Rodzaj": "Aspergillus",
         "Temperatura": "25",
         "Wlasciwosci_i_zastosowanie": "produkcja glukoamylazy",
@@ -1558,28 +1791,27 @@
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "724",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Aspergillus",
         "Temperatura": "28",
         "Wlasciwosci_i_zastosowanie": "produkcja ochrotoksyn",
         "ZrodloIzolacji": "nieznane"
       },
       {
+        "Deponujacy": "IPF Kraków",
         "Gatunek": "sp.",
         "Grupa": "Pleśnie",
-        "KKP": "725",
-        "Rodzaj": "Aspergillus"
-      },
-      {
-        "AutorNazwy": "Speare",
-        "Gatunek": "parasiticus",
-        "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
-        "KKP": "731",
-        "Kraj": "BR",
-        "Oznakowanie": "IZ/104/ATCC 1018",
+        "KKP": "725",
+        "Kraj": "NL",
+        "Medium1": "PDA",
+        "Oznakowanie": "II-A.or./5",
         "Rodzaj": "Aspergillus",
         "Temperatura": "28",
-        "Wlasciwosci_i_zastosowanie": "produkcja enzymów proteolitycznych, aktywność proteolityczną preparatu na otrębach ok.. 17 j./1 g sm oznaczano metodą Popowej"
+        "Wlasciwosci_i_zastosowanie": "production of amylolytic enzymes",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Link",
@@ -1604,6 +1836,9 @@
         "GrupaPatogenna": "1",
         "KKP": "743",
         "Kraj": "PL",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Chaetomium",
         "Temperatura": "25",
         "ZrodloIzolacji": "dokumenty archiwalne"
@@ -1616,9 +1851,13 @@
         "GrupaPatogenna": "1",
         "KKP": "745",
         "Kraj": "PT",
+        "Medium1": "PDA",
+        "Medium2": "MEA",
+        "Medium3": "SA",
         "Oznakowanie": "II-Ch.g./1",
         "Rodzaj": "Chaetomium",
-        "Temperatura": "25"
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Wehmer",
@@ -1626,8 +1865,12 @@
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "751",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Aspergillus",
-        "Temperatura": "25"
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "P. Karst.",
@@ -1663,8 +1906,12 @@
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "2",
         "KKP": "758",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Paecilomyces",
-        "Temperatura": "25"
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Schltdl",
@@ -1672,8 +1919,12 @@
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "2",
         "KKP": "760",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Fusarium",
-        "Temperatura": "25"
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Schltdl",
@@ -1681,8 +1932,12 @@
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "2",
         "KKP": "761",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Fusarium",
-        "Temperatura": "25"
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Schltdl",
@@ -1700,42 +1955,62 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
+        "Deponujacy": "nieznany",
         "Gatunek": "viridis/verrucaria",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "765",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Albifimbria",
-        "Temperatura": "25"
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Tode",
+        "Deponujacy": "nieznany",
         "Gatunek": "rioridum",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "767",
         "Kraj": "PL",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Oznakowanie": "Myr.ror./2",
         "Rodzaj": "Myrothecium",
         "Synonimy": "Myrothecium advena",
-        "Temperatura": "28"
+        "Temperatura": "28",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Shear &amp; B.O. Dodge",
-        "Gatunek": "crossa",
+        "Deponujacy": "nieznany",
+        "Gatunek": "crassa",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "768",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Neurospora",
-        "Temperatura": "28"
+        "Temperatura": "28",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Lund, F.; Frisvad, J.C.",
+        "Deponujacy": "nieznany",
         "Gatunek": "freii",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "772",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Penicillium",
-        "Temperatura": "25"
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "Deponujacy": "nieznany",
@@ -1753,14 +2028,19 @@
       },
       {
         "AutorNazwy": "C.R. Benj.",
+        "Deponujacy": "nieznany",
         "Gatunek": "sp",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "775",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Oznakowanie": "II-P.p./3",
         "Rodzaj": "Talaromyces",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "Produkcja antybiotyku"
+        "Wlasciwosci_i_zastosowanie": "Produkcja antybiotyku",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Bainier",
@@ -1780,12 +2060,17 @@
       },
       {
         "AutorNazwy": "Thom &amp; Church",
+        "Deponujacy": "nieznany",
         "Gatunek": "ruber",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "781",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Aspergillus",
-        "Temperatura": "25"
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "P. Karst.",
@@ -1804,11 +2089,15 @@
       },
       {
         "AutorNazwy": "Thom",
+        "Deponujacy": "nieznany",
         "Gatunek": "chrysogenum",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "785",
         "Kraj": "PL",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Penicillium",
         "Temperatura": "25",
         "Wlasciwosci_i_zastosowanie": "Produkcja gliotoksyny",
@@ -1816,77 +2105,112 @@
       },
       {
         "AutorNazwy": "Bidr. K�nn. Finl. Nat. Folk 51: 363. (1892)",
+        "Deponujacy": "nieznany",
         "Gatunek": "atroviride",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "786",
         "Kraj": "PT",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Trichoderma",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "Produkcja gliotoksyny"
+        "Wlasciwosci_i_zastosowanie": "Produkcja gliotoksyny",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Christiaan Hendrik Persoon",
+        "Deponujacy": "nieznany",
         "Gatunek": "sp.",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "788",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Trichoderma",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych"
+        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Christiaan Hendrik Persoon",
+        "Deponujacy": "nieznany",
         "Gatunek": "sp.",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "789",
+        "Medium1": "PDA",
+        "Medium2": "MEA",
+        "Medium3": "SA",
         "Rodzaj": "Trichoderma",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych"
+        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Christiaan Hendrik Persoon",
+        "Deponujacy": "nieznany",
         "Gatunek": "reesei",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "790",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Trichoderma",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych"
+        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Christiaan Hendrik Persoon",
+        "Deponujacy": "nieznany",
         "Gatunek": "citrinoviride",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "793",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Trichoderma",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych"
+        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Simmons, 1977",
+        "Deponujacy": "nieznany",
         "Gatunek": "reesei",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "794",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Trichoderma",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych"
+        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych",
+        "ZrodloIzolacji": "nieznany"
       },
       {
         "AutorNazwy": "Simmons, 1977",
+        "Deponujacy": "nieznany",
         "Gatunek": "reesei",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "795",
         "Kraj": "US",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Oznakowanie": "NRRL 3652",
         "Publikacje": "10.1007/s12649-015-9347-6",
         "Rodzaj": "Trichoderma",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "produkcja enzymów celulolitycznych"
+        "Wlasciwosci_i_zastosowanie": "produkcja enzymów celulolitycznych",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Simmons, 1977",
@@ -1895,6 +2219,9 @@
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "796",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Oznakowanie": "NRRL 3653",
         "Rodzaj": "Trichoderma",
         "Temperatura": "28",
@@ -1903,25 +2230,35 @@
       },
       {
         "AutorNazwy": "(Pers.) Link (1809)",
+        "Deponujacy": "nieznany",
         "Gatunek": "roseum",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "798",
         "Kraj": "PL",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Trichothecium",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych"
+        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "(Pers.) Link",
+        "Deponujacy": "nieznany",
         "Gatunek": "roseum",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "799",
         "Kraj": "PL",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Trichothecium",
         "Temperatura": "25",
-        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych"
+        "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Christiaan Hendrik Persoon",
@@ -1938,24 +2275,6 @@
         "Temperatura": "25",
         "Wlasciwosci_i_zastosowanie": "Produkcja enzymów celulolitycznych",
         "ZrodloIzolacji": "nieznane"
-      },
-      {
-        "Gatunek": "equi",
-        "Grupa": "Bakterie",
-        "KKP": "816",
-        "Rodzaj": "Rodococcus"
-      },
-      {
-        "Gatunek": "aureus",
-        "Grupa": "Bakterie",
-        "KKP": "817",
-        "Rodzaj": "Staphylococcus"
-      },
-      {
-        "Gatunek": "coli",
-        "Grupa": "Bakterie",
-        "KKP": "819",
-        "Rodzaj": "Escherichia"
       },
       {
         "Gatunek": "graminerum",
@@ -1977,12 +2296,17 @@
       },
       {
         "AutorNazwy": "van Beyma",
+        "Deponujacy": "nieznany",
         "Gatunek": "sclerotiorum",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "933",
+        "Medium1": "MEA",
+        "Medium2": "PDA",
+        "Medium3": "SA",
         "Rodzaj": "Penicillium",
-        "Temperatura": "25"
+        "Temperatura": "25",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "Gatunek": "enterica",
@@ -2005,36 +2329,33 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
+        "AutorNazwy": "(Orla-Jensen 1919) Zheng et al. 2020",
+        "Deponujacy": "nieznany",
         "Gatunek": "plantarum",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "1",
         "KKP": "968",
+        "Medium1": "MRS",
         "Oznakowanie": "JCM 8347",
         "Rodzaj": "Lactiplantibacillus",
         "Temperatura": "30",
         "Wlasciwosci_i_zastosowanie": "produkcja kwasu mlekowego",
-        "WymaganiaAtmosferyczne": "fakultatywnie beztlenowe"
+        "WymaganiaAtmosferyczne": "fakultatywnie beztlenowe",
+        "ZrodloIzolacji": "nieznane"
       },
       {
-        "AutorNazwy": "Bergey et al. 1923",
+        "AutorNazwy": "(Orla-Jensen 1919) Zheng et al. 2020",
+        "Deponujacy": "nieznany",
         "Gatunek": "plantarum",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "1",
         "KKP": "969",
+        "Medium1": "MRS",
         "Oznakowanie": "JCM 8348",
         "Rodzaj": "Lactiplantibacillus",
         "Temperatura": "30",
-        "Wlasciwosci_i_zastosowanie": "produkcja kwasu mlekowego"
-      },
-      {
-        "AutorNazwy": "Nakamura 1981",
-        "Gatunek": "amylovorus",
-        "Grupa": "Bakterie",
-        "GrupaPatogenna": "1",
-        "KKP": "970",
-        "Oznakowanie": "JCM 10628",
-        "Rodzaj": "Lactobacillus",
-        "Temperatura": "30"
+        "Wlasciwosci_i_zastosowanie": "produkcja kwasu mlekowego",
+        "ZrodloIzolacji": "nieznane"
       },
       {
         "AutorNazwy": "Abe S. i wsp. (1967)",
@@ -2058,6 +2379,7 @@
         "Grupa": "Bakterie",
         "GrupaPatogenna": "2",
         "KKP": "980",
+        "Medium1": "Columbia Blood Medium/Campylobacter Agar (Karmali)",
         "Oznakowanie": "Camp. (4)",
         "Rodzaj": "Campylobacter",
         "Temperatura": "37",
@@ -2141,22 +2463,30 @@
         "Grupa": "Bakterie",
         "GrupaPatogenna": "2",
         "KKP": "995",
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Medium3": "TSA",
         "Rodzaj": "Staphylococcus",
         "Temperatura": "37",
         "WymaganiaAtmosferyczne": "tlenowe",
         "ZrodloIzolacji": "gleba"
       },
       {
+        "AutorNazwy": "Le Minor &amp; Popoff 1987",
         "Deponujacy": "nieznany",
         "Gatunek": "enterica",
         "Genbank": "MW046052",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "2",
         "KKP": "997",
+        "Medium1": "AO",
+        "Medium2": "PCA",
+        "Medium3": "TSA",
         "Oznakowanie": "Salmonella Virchow",
         "Rodzaj": "Salmonella",
         "Temperatura": "37",
         "Wlasciwosci_i_zastosowanie": "szczep szorstki Salmonella",
+        "WymaganiaAtmosferyczne": "tlenowe",
         "ZrodloIzolacji": "nieznane"
       },
       {
