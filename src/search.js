@@ -224,6 +224,9 @@ function openModal(strain) {
 	  <li class="modal-info-item">Rok izolacji: ${
       strain.RokIzolacji || "brak danych"
     }</li>
+    <li class="modal-info-item">Źródło izolacji: ${
+      strain.ZrodloIzolacjiNaWWW || strain.ZrodloIzolacji || "brak danych"
+    }</li>
 	  <li class="modal-info-item">Kraj pochodzenia: ${
       strain.Kraj || "brak danych"
     }<li class="modal-info-item">
@@ -239,7 +242,7 @@ function openModal(strain) {
         .filter((medium) => medium) // Filtruje wartości, eliminuje undefined
         .map((medium) =>
           medium
-            ? `<a class="modal-link" href="/KKP-MicroStrainSearch/docs/medium/${medium}.pdf" target="_blank">${medium}</a>`
+            ? `<a class="modal-link" href="/docs/medium/${medium}.pdf" target="_blank">${medium}</a>`
             : ""
         )
         .join(", ") || "brak danych"

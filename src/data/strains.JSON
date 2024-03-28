@@ -99,6 +99,7 @@
         "Kraj": "PL",
         "Medium1": "SA",
         "Oznakowanie": "I-C.t./1",
+        "OznakowanieNaWWW": "yeast milk",
         "Rodzaj": "Candida",
         "Temperatura": "25",
         "Wlasciwosci_i_zastosowanie": "produkcja drożdzy na wywarze melasowym",
@@ -138,9 +139,10 @@
         "ZrodloIzolacjiNaWWW": "Yeast milk"
       },
       {
+        "AutorNazwy": "Henneberg",
         "DataPobraniaProbki": "1957.01.01",
         "Deponujacy": "IPF-ZTD",
-        "Gatunek": "utilis (Henneberg)",
+        "Gatunek": "utilis",
         "Genbank": "MK934491",
         "Grupa": "Drożdże",
         "GrupaPatogenna": "1",
@@ -155,9 +157,10 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
+        "AutorNazwy": "Henneberg",
         "DataPobraniaProbki": "1963.01.01",
         "Deponujacy": "IHAR",
-        "Gatunek": "utilis (Henneberg)",
+        "Gatunek": "utilis",
         "Grupa": "Drożdże",
         "GrupaPatogenna": "1",
         "KKP": "340",
@@ -171,9 +174,10 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
+        "AutorNazwy": "Henneberg",
         "DataPobraniaProbki": "1963.01.01",
         "Deponujacy": "ICBZ (GSRR- ZSRR)",
-        "Gatunek": "tropicalis (Henneberg)",
+        "Gatunek": "tropicalis",
         "Grupa": "Drożdże",
         "GrupaPatogenna": "1",
         "KKP": "341",
@@ -203,7 +207,7 @@
       {
         "AutorNazwy": "(Sartory, R. Sartory, Weill &amp; J. Meyer) Minter (T)",
         "Deponujacy": "VSCHT MV",
-        "Gatunek": "Candida utilis(Henneberg)",
+        "Gatunek": "utilis",
         "Genbank": "MK371810",
         "Grupa": "Drożdże",
         "GrupaPatogenna": "2",
@@ -218,9 +222,10 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
+        "AutorNazwy": "Henneberg",
         "DataPobraniaProbki": "1964.12.01",
         "Deponujacy": "VULK",
-        "Gatunek": "utilis (Henneberg)",
+        "Gatunek": "utilis",
         "Grupa": "Drożdże",
         "GrupaPatogenna": "1",
         "KKP": "344",
@@ -252,7 +257,7 @@
       {
         "AutorNazwy": "Bizio 1823",
         "DataPobraniaProbki": "2018.01.01",
-        "Deponujacy": "ZM/IBPRS-PIB/Wójcici",
+        "Deponujacy": "IBPRS/ZM/Michał Wójcicki",
         "Gatunek": "marcescens",
         "Genbank": "OP935680",
         "Grupa": "Bakterie",
@@ -264,9 +269,9 @@
         "Oznakowanie": "MSB 12",
         "Rodzaj": "Serratia",
         "Temperatura": "37",
+        "UkrycDeponujacego": "1",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "miks sałat z burakiem",
-        "UkrycDeponujacego": "1"
+        "ZrodloIzolacji": "Miks sałat z burakiem"
       },
       {
         "AutorNazwy": "Frankland and Frankland 1887",
@@ -394,7 +399,7 @@
       {
         "AutorNazwy": "Wisotzkey et al. 1992",
         "DataPobraniaProbki": "2011.01.01",
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "acidoterrestris",
         "Genbank": "OQ285871",
         "Grupa": "Bakterie",
@@ -405,8 +410,9 @@
         "Oznakowanie": "TO-241/2",
         "Rodzaj": "Alicyclobacilus",
         "Temperatura": "42",
+        "UkrycDeponujacego": "1",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "zagęszczony sok wiśniowy"
+        "ZrodloIzolacji": "Zagęszczony sok wiśniowy"
       },
       {
         "AutorNazwy": "(Orla-Jensen 1919)",
@@ -425,7 +431,7 @@
       },
       {
         "AutorNazwy": "Wisotzkey et al. 1992",
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "acidoterrestris",
         "Genbank": "OQ284561",
         "Grupa": "Bakterie",
@@ -436,8 +442,9 @@
         "Oznakowanie": "TO-224/1/05",
         "Rodzaj": "Alicyclobacilus",
         "Temperatura": "45",
+        "UkrycDeponujacego": "1",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "zagęszczony sok jabłkowy"
+        "ZrodloIzolacji": "Zagęszczony sok jabłkowy"
       },
       {
         "AutorNazwy": "Wisotzkey et al. 1992",
@@ -1271,8 +1278,8 @@
       },
       {
         "AutorNazwy": "Zheng et al. 2020",
-        "Deponujacy": "PBJM/IBPRS",
-        "Gatunek": "nagelii�",
+        "Deponujacy": "IBPRS/ZM",
+        "Gatunek": "nagelii",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "1",
         "KKP": "563",
@@ -1280,10 +1287,13 @@
         "Medium1": "OSA",
         "Medium2": "MRS",
         "Oznakowanie": "PBJM 757/22 (TM-384), PBM/149/20",
+        "OznakowanieNaWWW": "757/22",
         "Rodzaj": "Liquorilactobacillus",
         "Temperatura": "30",
+        "UkrycDeponujacego": "1",
         "WymaganiaAtmosferyczne": "mikroaerofilne",
-        "ZrodloIzolacji": "napój Oshee"
+        "ZrodloIzolacji": "napój Oshee",
+        "ZrodloIzolacjiNaWWW": "Napój izotoniczny"
       },
       {
         "AutorNazwy": "Wisotzkey et al. 1992",
@@ -4146,7 +4156,7 @@
       {
         "AutorNazwy": "Yamada et al. 2000",
         "DataPobraniaProbki": "2019.08.01",
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "bogorensis",
         "Genbank": "OP649587",
         "Grupa": "Bakterie",
@@ -4156,16 +4166,18 @@
         "Medium1": "Asaia GYP medium",
         "Medium2": "OSA",
         "Oznakowanie": "PBJM 617/19 typ 1 (TM-206)",
-        "OznakowanieNaWWW": " ",
+        "OznakowanieNaWWW": "617/19  typ 1",
         "Rodzaj": "Asaia",
         "Temperatura": "30",
+        "UkrycDeponujacego": "1",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": " woda / water nr  próbki w PBJM  617/19, TM-206"
+        "ZrodloIzolacji": "BEWA woda / water nr  próbki w PBJM  617/19, TM-206",
+        "ZrodloIzolacjiNaWWW": "Woda"
       },
       {
         "AutorNazwy": "Malimas et al. 2008",
         "DataPobraniaProbki": "2019.01.01",
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "lannensis",
         "Genbank": "OP649588",
         "Grupa": "Bakterie",
@@ -4175,10 +4187,13 @@
         "Medium1": "OSA",
         "Medium2": "Asaia GYP medium",
         "Oznakowanie": "PBJM 617/19 typ 2 (TM-206)",
+        "OznakowanieNaWWW": "617/19 typ 2",
         "Rodzaj": "Asaia",
         "Temperatura": "30",
+        "UkrycDeponujacego": "1",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": " woda / water nr próbki w PBJM 617/19, TM-206"
+        "ZrodloIzolacji": "BEWA woda / water nr próbki w PBJM 617/19, TM-206",
+        "ZrodloIzolacjiNaWWW": "Woda"
       },
       {
         "DataPobraniaProbki": "2018.01.01",
@@ -4257,7 +4272,7 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
-        "Gatunek": "Salmonella enterica subsp.",
+        "Gatunek": "enterica subsp. enterica",
         "Genbank": "MW033548",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "2",
@@ -4505,7 +4520,7 @@
       {
         "AutorNazwy": "de Bary",
         "DataPobraniaProbki": "2020.01.01",
-        "Deponujacy": "002D",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "pullulans",
         "Genbank": "MZ478078",
         "Grupa": "Pleśnie",
@@ -4517,12 +4532,14 @@
         "Oznakowanie": "479/20 typ 3",
         "Rodzaj": "Aureobasidium",
         "Temperatura": "25-28",
-        "ZrodloIzolacji": "Próbka 5 - kolonie na podłożu Malt Extract Agar z  sp.zoo"
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "Próbka 5 - kolonie na podłożu Malt Extract Agar z BEWA sp.zoo",
+        "ZrodloIzolacjiNaWWW": "Nieznane"
       },
       {
         "AutorNazwy": "Pers.: Fr. (anamorph)",
         "DataPobraniaProbki": "2020.01.01",
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "cinerea",
         "Genbank": "OK617302",
         "Grupa": "Pleśnie",
@@ -4535,7 +4552,9 @@
         "Rodzaj": "Botritis",
         "Synonimy": "Sclerotium Durum; Botrytis fuc",
         "Temperatura": "28",
-        "ZrodloIzolacji": "Próbka 5 - kolonie na podłożu Malt Extract Agar z  sp.zoo"
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "Próbka 5 - kolonie na podłożu Malt Extract Agar z BEWA sp.zoo",
+        "ZrodloIzolacjiNaWWW": "Nieznane"
       },
       {
         "AutorNazwy": "Bernatd Fisher",
@@ -4714,7 +4733,7 @@
         "ZrodloIzolacji": "kał"
       },
       {
-        "Deponujacy": "PBJM/ZM/IBPRS",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "sp",
         "Genbank": "OP715877",
         "Grupa": "Bakterie",
@@ -4724,9 +4743,11 @@
         "Oznakowanie": "PBJM 858/20 (TM-459)",
         "Rodzaj": "Gluconobacter",
         "Temperatura": "28",
+        "UkrycDeponujacego": "1",
         "Wlasciwosci_i_zastosowanie": "potencjalnie psujący soki, napoje alkoholowe",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "sok jabłkowy NFC, firma "
+        "ZrodloIzolacji": "sok jabłkowy NFC, firma Bewa",
+        "ZrodloIzolacjiNaWWW": "sok jabłkowy NFC"
       },
       {
         "Gatunek": "lipolytica",
@@ -4798,10 +4819,13 @@
         "KKP": "3487",
         "Kraj": "PL",
         "Oznakowanie": "PBJM/179/21 kremowa (TM-62)",
+        "OznakowanieNaWWW": "179/21",
         "Rodzaj": "Aureobasidium",
         "Synonimy": "Aureobasidium oleae; Candida m",
         "Temperatura": "25",
-        "ZrodloIzolacji": "kolonie na podłożu Orange Serum Agar z firmy "
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "kolonie na podłożu Orange Serum Agar z firmy Bewa",
+        "ZrodloIzolacjiNaWWW": "Nieznane"
       },
       {
         "Gatunek": "lactis",
@@ -5197,16 +5221,19 @@
       },
       {
         "DataPobraniaProbki": "2021.01.01",
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "sp.",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "1",
         "KKP": "3780",
         "Kraj": "PL",
         "Oznakowanie": "PBM/196/2021",
+        "OznakowanieNaWWW": "196/21",
         "Rodzaj": "Pseudomonas",
         "Temperatura": "30",
-        "ZrodloIzolacji": "Z płytki firmy po posiewie zfermentowanego soku jabłkowego"
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "Z płytki firmy Bewa po posiewie zfermentowanego soku jabłkowego",
+        "ZrodloIzolacjiNaWWW": "Sok jabłkowy"
       },
       {
         "Gatunek": "subtilis",
@@ -5233,7 +5260,7 @@
         "Rodzaj": "Latilactobacillus"
       },
       {
-        "Deponujacy": "ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "sp",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "2",
@@ -5242,7 +5269,9 @@
         "Oznakowanie": "PBM/205/2021",
         "Rodzaj": "Pseudomonas",
         "Temperatura": "37",
-        "ZrodloIzolacji": "Z płytki firmy  po posiewie zfermentowanego soku jabłkowego"
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "Z płytki firmy Bewa po posiewie zfermentowanego soku jabłkowego",
+        "ZrodloIzolacjiNaWWW": "sok jabłkowy"
       },
       {
         "Gatunek": "fcilis",
@@ -5369,10 +5398,13 @@
         "KKP": "3835",
         "Kraj": "PL",
         "Oznakowanie": "PBJM/93/2022 (TM-46); PBM/020/20",
+        "OznakowanieNaWWW": "93/22",
         "Rodzaj": "Gluconobacter",
         "Temperatura": "30",
+        "UkrycDeponujacego": "1",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "nieznane (Płytka z podłożem OSA - )"
+        "ZrodloIzolacji": "nieznane (Płytka z podłożem OSA - Bewa)",
+        "ZrodloIzolacjiNaWWW": "Nieznane"
       },
       {
         "Gatunek": "sp",
@@ -6241,53 +6273,69 @@
       },
       {
         "AutorNazwy": "(J�rgensen) F.C. Harrison",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "mucilaginosa",
         "Grupa": "Drożdże",
         "GrupaPatogenna": "1",
         "KKP": "3957",
         "Kraj": "PL",
-        "Oznakowanie": "koncentrat",
+        "Medium1": "SA",
         "Rodzaj": "Rhodotorula",
         "Temperatura": "25-30",
-        "ZrodloIzolacji": "Koncentrat pomidorowy"
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "Koncentrat pomidorowy",
+        "ZrodloIzolacjiNaWWW": "Koncentrat pomidorowy"
       },
       {
         "DataPobraniaProbki": "2023.01.01",
-        "Deponujacy": "PBJM/ZM/IBPRS",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "sp",
         "Grupa": "Pleśnie",
+        "GrupaPatogenna": "2",
         "KKP": "3958",
         "Kraj": "PL",
+        "Medium1": "TSA",
         "Oznakowanie": "PBJM 194/23 (TM-90); PBM/043/202",
+        "OznakowanieNaWWW": "194/23",
         "Rodzaj": "Petriella",
         "Temperatura": "28",
-        "ZrodloIzolacji": "nieznane (hodowla na płytce, firma )"
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "nieznane (hodowla na płytce, firma Refresco)",
+        "ZrodloIzolacjiNaWWW": "Nieznane"
       },
       {
         "DataPobraniaProbki": "2023.01.01",
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "sp",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "3959",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "PBJM 198/23 typ 2 (TM-90);  PBM/",
+        "OznakowanieNaWWW": "198/23 typ 2",
         "Rodzaj": "Trichoderma",
         "Temperatura": "25",
-        "ZrodloIzolacji": "nieznane (hodowla na płytce, firma )"
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "Nieznane (hodowla na płytce, firma Refresco)",
+        "ZrodloIzolacjiNaWWW": "Nieznane"
       },
       {
         "DataPobraniaProbki": "2023.01.01",
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "sp",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "2",
         "KKP": "3960",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "PBJM 195/23 (TM-90); PBM/044/202",
+        "OznakowanieNaWWW": "195/23",
         "Rodzaj": "Aspergillus",
         "Temperatura": "25",
-        "ZrodloIzolacji": "napój jabłkowy  ()"
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "Napój jabłkowy  (Refresco)",
+        "ZrodloIzolacjiNaWWW": "Napój jabłkowy"
       },
       {
         "Deponujacy": "DSM",
@@ -6433,29 +6481,37 @@
         "ZrodloIzolacji": "napój Oschee"
       },
       {
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "flavus",
         "Grupa": "Pleśnie",
-        "GrupaPatogenna": "1",
+        "GrupaPatogenna": "2",
         "KKP": "3974",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "PBJM 514/23 typ 3 (TM-169); PBM",
+        "OznakowanieNaWWW": "514/23 typ 3",
         "Rodzaj": "Aspergillus",
         "Synonimy": "Aspergillus effusus, Petromyce",
         "Temperatura": "20",
-        "ZrodloIzolacji": "napój "
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "napój Refresco",
+        "ZrodloIzolacjiNaWWW": "Napój owocowy"
       },
       {
         "Deponujacy": "PBJM/ZM/IBPRS-PIB",
         "Gatunek": "sojae",
         "Grupa": "Drożdże",
-        "GrupaPatogenna": "1",
+        "GrupaPatogenna": "2",
         "KKP": "3975",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "PBJM 514/23 typ 2 (TM-169); PBM",
+        "OznakowanieNaWWW": "514/23 typ 2",
         "Rodzaj": "Candida",
         "Temperatura": "25",
-        "ZrodloIzolacji": "napój "
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "napój Refresco",
+        "ZrodloIzolacjiNaWWW": "Napój owocowy"
       },
       {
         "Deponujacy": "PBJM/ZM/IBPRS-PIB",
@@ -6472,28 +6528,36 @@
         "ZrodloIzolacji": "nieznane"
       },
       {
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "sp",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "2",
         "KKP": "3977",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "PBJM 674/23 (TM-222); PBM/081/20",
         "Rodzaj": "Didymella",
         "Temperatura": "28",
+        "UkrycDeponujacego": "1",
         "Wlasciwosci_i_zastosowanie": "potencjalny patogen roślin",
-        "ZrodloIzolacji": "napój niegazowany o smaku czerwonych winogron i dragonfruit ()"
+        "ZrodloIzolacji": "napój niegazowany o smaku czerwonych winogron i dragonfruit (Refresco)",
+        "ZrodloIzolacjiNaWWW": "Napój owocowy"
       },
       {
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "sp",
         "Grupa": "Pleśnie",
+        "GrupaPatogenna": "1",
         "KKP": "3978",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "PBJM 675/23 (TM-223 ); PBM/082/2",
+        "OznakowanieNaWWW": "675/23",
         "Rodzaj": "Chaetomium",
         "Temperatura": "28",
-        "ZrodloIzolacji": "napój izotoniczny niegazowany ()"
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "napój izotoniczny niegazowany (Refresco)",
+        "ZrodloIzolacjiNaWWW": "Napój izotoniczny"
       },
       {
         "AutorNazwy": "Lister",
@@ -7235,39 +7299,45 @@
         "ZrodloIzolacji": "Vaccinium sp., (owoc)"
       },
       {
-        "AutorNazwy": "Schleifer�et al.�1986",
+        "AutorNazwy": "Schleifer et al. 1986",
         "DataPobraniaProbki": "2023.09.10",
-        "Deponujacy": "GM/IBPRS",
+        "Deponujacy": "IBPRS/GM",
         "Gatunek": "lactis",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "1",
         "KKP": "4037",
         "Kraj": "PL",
+        "Medium1": "MRS",
         "Oznakowanie": "17",
         "Rodzaj": "Lactococcus",
         "Temperatura": "30",
+        "UkrycDeponujacego": "1",
         "Wlasciwosci_i_zastosowanie": "Fermentuje laktozę, 4% NaCl hamuje wzrost",
         "WymaganiaAtmosferyczne": "fakultatywnie beztlenowy (MRS), war. tlenowe (M17)",
-        "ZrodloIzolacji": "mleko fermentowane z mleka surowego, krowiego"
+        "ZrodloIzolacji": "mleko fermentowane z mleka surowego, krowiego",
+        "ZrodloIzolacjiNaWWW": "Mleko fermentowane z mleka krowiego"
       },
       {
-        "AutorNazwy": "Schleifer�et al.�1986",
+        "AutorNazwy": "Schleifer et al. 1986",
         "DataPobraniaProbki": "2023.09.10",
-        "Deponujacy": "GM/IBPRS",
+        "Deponujacy": "IBPRS/GM",
         "Gatunek": "lactis",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "1",
         "KKP": "4038",
         "Kraj": "PL",
+        "Medium1": "MRS",
         "Oznakowanie": "12",
         "Rodzaj": "Lactococcus",
         "Temperatura": "30",
+        "UkrycDeponujacego": "1",
         "Wlasciwosci_i_zastosowanie": "fermentuje laktozę, 4% NaCl opóżnia jego wzrost&lt; 11 h inkubacji",
         "WymaganiaAtmosferyczne": "fakultatywnie beztlenowy (MRS), tlenowy (M17)",
-        "ZrodloIzolacji": "mleko fermentowane z mleka krowiego, surowego"
+        "ZrodloIzolacji": "mleko fermentowane z mleka krowiego, surowego",
+        "ZrodloIzolacjiNaWWW": "Fermentowane mleko krowie"
       },
       {
-        "AutorNazwy": "Schleifer�et al.�1986",
+        "AutorNazwy": "Schleifer et al. 1986",
         "DataPobraniaProbki": "2023.09.10",
         "Deponujacy": "GM/IBPRS",
         "Gatunek": "lactis",
@@ -7283,7 +7353,7 @@
         "ZrodloIzolacji": "mleko fermentowane z mleka krowiego, surowego"
       },
       {
-        "AutorNazwy": "Schleifer�et al.�1986",
+        "AutorNazwy": "Schleifer et al. 1986",
         "DataPobraniaProbki": "2023.09.10",
         "Deponujacy": "GM/IBPRS",
         "Gatunek": "lactis",
@@ -7313,17 +7383,20 @@
         "Rodzaj": "Candida"
       },
       {
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "marcescens",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "1",
         "KKP": "4044",
         "Kraj": "PL",
+        "Medium1": "TSA",
         "Oznakowanie": "PBM 145/23",
         "Rodzaj": "Serratia",
         "Temperatura": "30",
+        "UkrycDeponujacego": "1",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "wsad waniliowy (Zott)"
+        "ZrodloIzolacji": "wsad waniliowy (Zott)",
+        "ZrodloIzolacjiNaWWW": "Wsad waniliowy"
       },
       {
         "Deponujacy": "PBJM/ZM/IBPRS-PIB",
@@ -7391,17 +7464,21 @@
         "ZrodloIzolacji": "Petryfilm AQUA z posiewem wody lodowej z firmy Piątnica"
       },
       {
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "sp.",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "1",
         "KKP": "4055",
         "Kraj": "PL",
+        "Medium1": "TSA",
         "Oznakowanie": "PBJM 1237/23 typ1; PBM 138/23, T",
+        "OznakowanieNaWWW": "1237/23 typ1",
         "Rodzaj": "Curtobacterium",
         "Temperatura": "30",
+        "UkrycDeponujacego": "1",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "nieznane (płytka z hodowlą z firmy Refresco)"
+        "ZrodloIzolacji": "nieznane (płytka z hodowlą z firmy Refresco)",
+        "ZrodloIzolacjiNaWWW": "Nieznane"
       },
       {
         "DataPobraniaProbki": "2023.10.11",
@@ -7482,17 +7559,20 @@
       {
         "AutorNazwy": "(Lister 1873) Schleifer et al. 1986",
         "DataPobraniaProbki": "2023.10.11",
-        "Deponujacy": "GM/IBPRS",
+        "Deponujacy": "0030",
         "Gatunek": "lactis",
         "Grupa": "Bakterie",
         "GrupaPatogenna": "1",
         "KKP": "4061",
         "Kraj": "PL",
-        "Oznakowanie": "F45�",
+        "Medium1": "MRS",
+        "Oznakowanie": "F45",
         "Rodzaj": "Lactococcus",
         "Temperatura": "45",
+        "UkrycDeponujacego": "1",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "mleko krowie, surowe, fermentowane spontanicznie"
+        "ZrodloIzolacji": "mleko krowie, surowe, fermentowane spontanicznie",
+        "ZrodloIzolacjiNaWWW": "Mleko krowie"
       },
       {
         "Deponujacy": "PBJM/ZM/IBPRS-PIB",
@@ -7991,6 +8071,7 @@
         "Medium1": "MRS",
         "Rodzaj": "Levilactobacillus",
         "Temperatura": "30",
+        "UkrycDeponujacego": "1",
         "WymaganiaAtmosferyczne": "tlenowe",
         "ZrodloIzolacji": "barszcz naturalnie fermentowany"
       }

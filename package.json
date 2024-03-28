@@ -1,22 +1,22 @@
 {
-	"name": "kkp-microstrainsearch",
-	"version": "1.0.0",
-	"description": "",
-	"homepage": "https://adrianwojtczak.github.io/KKP-MicroStrainSearch/",
-	"scripts": {
-		"start": "parcel src/*.html",
-		"build": "parcel build src/*.html --public-url /KKP-MicroStrainSearch/"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/adrianwojtczak/KKP-MicroStrainSearch.git"
-	},
-	"keywords": [],
-	"author": "Adrian Wojtczak",
-	"license": "ISC",
-	"devDependencies": {
-		"parcel": "^2.9.3",
-		"parcel-reporter-clean-dist": "^1.0.4"
-	},
-	"browserslist": "> 0.5%, last 2 versions, not dead"
+  "name": "kkp-microstrainsearch",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://adrianwojtczak.github.io/KKP-MicroStrainSearch/",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianwojtczak/KKP-MicroStrainSearch.git"
+  },
+  "keywords": [],
+  "author": "Adrian Wojtczak",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "parcel-reporter-clean-dist": "^1.0.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
