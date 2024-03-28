@@ -265,7 +265,8 @@
         "Rodzaj": "Serratia",
         "Temperatura": "37",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "miks sałat z burakiem"
+        "ZrodloIzolacji": "miks sałat z burakiem",
+        "UkrycDeponujacego": "1"
       },
       {
         "AutorNazwy": "Frankland and Frankland 1887",
@@ -4155,10 +4156,11 @@
         "Medium1": "Asaia GYP medium",
         "Medium2": "OSA",
         "Oznakowanie": "PBJM 617/19 typ 1 (TM-206)",
+        "OznakowanieNaWWW": " ",
         "Rodzaj": "Asaia",
         "Temperatura": "30",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "BEWA woda / water nr  próbki w PBJM  617/19, TM-206"
+        "ZrodloIzolacji": " woda / water nr  próbki w PBJM  617/19, TM-206"
       },
       {
         "AutorNazwy": "Malimas et al. 2008",
@@ -4176,7 +4178,7 @@
         "Rodzaj": "Asaia",
         "Temperatura": "30",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "BEWA woda / water nr próbki w PBJM 617/19, TM-206"
+        "ZrodloIzolacji": " woda / water nr próbki w PBJM 617/19, TM-206"
       },
       {
         "DataPobraniaProbki": "2018.01.01",
@@ -4515,7 +4517,7 @@
         "Oznakowanie": "479/20 typ 3",
         "Rodzaj": "Aureobasidium",
         "Temperatura": "25-28",
-        "ZrodloIzolacji": "Próbka 5 - kolonie na podłożu Malt Extract Agar z BEWA sp.zoo"
+        "ZrodloIzolacji": "Próbka 5 - kolonie na podłożu Malt Extract Agar z  sp.zoo"
       },
       {
         "AutorNazwy": "Pers.: Fr. (anamorph)",
@@ -4533,7 +4535,7 @@
         "Rodzaj": "Botritis",
         "Synonimy": "Sclerotium Durum; Botrytis fuc",
         "Temperatura": "28",
-        "ZrodloIzolacji": "Próbka 5 - kolonie na podłożu Malt Extract Agar z BEWA sp.zoo"
+        "ZrodloIzolacji": "Próbka 5 - kolonie na podłożu Malt Extract Agar z  sp.zoo"
       },
       {
         "AutorNazwy": "Bernatd Fisher",
@@ -4724,7 +4726,7 @@
         "Temperatura": "28",
         "Wlasciwosci_i_zastosowanie": "potencjalnie psujący soki, napoje alkoholowe",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "sok jabłkowy NFC, firma Bewa"
+        "ZrodloIzolacji": "sok jabłkowy NFC, firma "
       },
       {
         "Gatunek": "lipolytica",
@@ -4799,7 +4801,7 @@
         "Rodzaj": "Aureobasidium",
         "Synonimy": "Aureobasidium oleae; Candida m",
         "Temperatura": "25",
-        "ZrodloIzolacji": "kolonie na podłożu Orange Serum Agar z firmy Bewa"
+        "ZrodloIzolacji": "kolonie na podłożu Orange Serum Agar z firmy "
       },
       {
         "Gatunek": "lactis",
@@ -5204,7 +5206,7 @@
         "Oznakowanie": "PBM/196/2021",
         "Rodzaj": "Pseudomonas",
         "Temperatura": "30",
-        "ZrodloIzolacji": "Z płytki firmy Bewa po posiewie zfermentowanego soku jabłkowego"
+        "ZrodloIzolacji": "Z płytki firmy po posiewie zfermentowanego soku jabłkowego"
       },
       {
         "Gatunek": "subtilis",
@@ -5240,7 +5242,7 @@
         "Oznakowanie": "PBM/205/2021",
         "Rodzaj": "Pseudomonas",
         "Temperatura": "37",
-        "ZrodloIzolacji": "Z płytki firmy Bewa po posiewie zfermentowanego soku jabłkowego"
+        "ZrodloIzolacji": "Z płytki firmy  po posiewie zfermentowanego soku jabłkowego"
       },
       {
         "Gatunek": "fcilis",
@@ -5370,7 +5372,7 @@
         "Rodzaj": "Gluconobacter",
         "Temperatura": "30",
         "WymaganiaAtmosferyczne": "tlenowe",
-        "ZrodloIzolacji": "nieznane (Płytka z podłożem OSA - Bewa)"
+        "ZrodloIzolacji": "nieznane (Płytka z podłożem OSA - )"
       },
       {
         "Gatunek": "sp",
@@ -6259,7 +6261,7 @@
         "Oznakowanie": "PBJM 194/23 (TM-90); PBM/043/202",
         "Rodzaj": "Petriella",
         "Temperatura": "28",
-        "ZrodloIzolacji": "nieznane (hodowla na płytce, firma Refresco)"
+        "ZrodloIzolacji": "nieznane (hodowla na płytce, firma )"
       },
       {
         "DataPobraniaProbki": "2023.01.01",
@@ -6272,7 +6274,7 @@
         "Oznakowanie": "PBJM 198/23 typ 2 (TM-90);  PBM/",
         "Rodzaj": "Trichoderma",
         "Temperatura": "25",
-        "ZrodloIzolacji": "nieznane (hodowla na płytce, firma Refresco)"
+        "ZrodloIzolacji": "nieznane (hodowla na płytce, firma )"
       },
       {
         "DataPobraniaProbki": "2023.01.01",
@@ -6285,7 +6287,7 @@
         "Oznakowanie": "PBJM 195/23 (TM-90); PBM/044/202",
         "Rodzaj": "Aspergillus",
         "Temperatura": "25",
-        "ZrodloIzolacji": "napój jabłkowy  (Refresco)"
+        "ZrodloIzolacji": "napój jabłkowy  ()"
       },
       {
         "Deponujacy": "DSM",
@@ -6441,7 +6443,7 @@
         "Rodzaj": "Aspergillus",
         "Synonimy": "Aspergillus effusus, Petromyce",
         "Temperatura": "20",
-        "ZrodloIzolacji": "napój Refresco"
+        "ZrodloIzolacji": "napój "
       },
       {
         "Deponujacy": "PBJM/ZM/IBPRS-PIB",
@@ -6453,7 +6455,7 @@
         "Oznakowanie": "PBJM 514/23 typ 2 (TM-169); PBM",
         "Rodzaj": "Candida",
         "Temperatura": "25",
-        "ZrodloIzolacji": "napój Refresco"
+        "ZrodloIzolacji": "napój "
       },
       {
         "Deponujacy": "PBJM/ZM/IBPRS-PIB",
@@ -6480,7 +6482,7 @@
         "Rodzaj": "Didymella",
         "Temperatura": "28",
         "Wlasciwosci_i_zastosowanie": "potencjalny patogen roślin",
-        "ZrodloIzolacji": "napój niegazowany o smaku czerwonych winogron i dragonfruit (Refresco)"
+        "ZrodloIzolacji": "napój niegazowany o smaku czerwonych winogron i dragonfruit ()"
       },
       {
         "Deponujacy": "PBJM/ZM/IBPRS-PIB",
@@ -6491,7 +6493,7 @@
         "Oznakowanie": "PBJM 675/23 (TM-223 ); PBM/082/2",
         "Rodzaj": "Chaetomium",
         "Temperatura": "28",
-        "ZrodloIzolacji": "napój izotoniczny niegazowany (Refresco)"
+        "ZrodloIzolacji": "napój izotoniczny niegazowany ()"
       },
       {
         "AutorNazwy": "Lister",
