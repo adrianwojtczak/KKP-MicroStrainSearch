@@ -13,13 +13,11 @@
 }
 
 .main-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.main-image img {
   max-width: 450px;
-  display: block;
+}
+
+.main-image img {
+  max-width: 100%;
 }
 
 .main-text {
@@ -45,7 +43,7 @@
     flex-direction: row;
   }
 
-  .easter-wrapper {
+  .main-image {
     width: calc(50% - 10px);
   }
 
@@ -59,16 +57,4 @@
   .main-content {
     min-height: 68vh;
   }
-}
-
-.easter-text {
-  text-align: center;
-  margin: 20px auto;
-  font-size: 24px;
-  max-width: 450px;
-}
-
-.easter-text__main {
-  font-size: 30px;
-  font-weight: bold;
 }

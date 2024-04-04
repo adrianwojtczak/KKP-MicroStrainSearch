@@ -1,313 +1,406 @@
 <!DOCTYPE html>
 <html lang="pl">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>KKP Kolekcja szczepów drobnoustrojów Przemysłowych</title>
-		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KKP Kolekcja szczepów drobnoustrojów Przemysłowych</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-		<!-- Content Security Policy (CSP) -->
-		<meta
-			http-equiv="Content-Security-Policy"
-			content="
-        default-src 'self' https://fonts.gstatic.com https://google-analytics.com;
-        script-src 'self' https://www.googletagmanager.com;
+    <!-- Content Security Policy (CSP) -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
         style-src 'self' https://fonts.googleapis.com;
         img-src 'self';
-		connect-src 'self' https://google-analytics.com https://*.google-analytics.com;
-    "
-		/>
+		    connect-src 'self' https://google-analytics.com https://*.google-analytics.com;
+      "
+    />
 
-		<!-- Google tag (gtag.js) START -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-LQ3NGGN8FT"></script>
-		<script src="./gtag.js"></script>
-		<!-- Google tag (gtag.js) END -->
+    <!-- Google tag (gtag.js) START -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-LQ3NGGN8FT"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-		<link rel="stylesheet" href="styles.css" />
-		<link rel="stylesheet" href="contact.css" />
-	</head>
-	<body>
-		<header class="header">
-			<div class="logo">
-				<a href="index.html">
-					<img src="images/logo.png" alt="Logo" />
-				</a>
-			</div>
-			<div class="navigation-wrapper">
-				<nav class="navigation">
-					<ul>
-						<li><a href="index.html">Strona główna</a></li>
-						<li><a href="search.html">Katalog</a></li>
-						<li><a href="about.html">O kolekcji</a></li>
-						<li><a href="services.html">Usługi</a></li>
-						<li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
-						<li><a href="contact.html">Kontakt</a></li>
-					</ul>
-				</nav>
-				<div class="contact-info">
-					<div class="page-header__contacts">
-						<a class="page-header__contacts-item" href="mailto:kkp@ibprs.pl">kkp@ibprs.pl</a>
-						<a class="page-header__contacts-item" href="tel:+48226063749"> +48 22 606 37 49 </a>
-					</div>
-				</div>
-			</div>
-			<div class="navmodal_navigation-wrapper">
-				<div class="navmodal_menu-toggle" id="mobile-menu">
-					<span class="navmodal_bar"></span>
-					<span class="navmodal_bar"></span>
-					<span class="navmodal_bar"></span>
-				</div>
-				<div class="navmodal" id="myModal">
-					<div class="navmodal-content">
-						<span class="navmodal_close" id="closeModal">&times;</span>
-						<nav class="navmodal_navigation">
-							<ul>
-								<li><a href="index.html">Strona główna</a></li>
-								<li><a href="search.html">Katalog</a></li>
-								<li><a href="about.html">O kolekcji</a></li>
-								<li><a href="services.html">Usługi</a></li>
-								<li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
-								<li><a href="contact.html">Kontakt</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</header>
+      gtag("config", "G-LQ3NGGN8FT");
+    </script>
+    <!-- Google tag (gtag.js) END -->
 
-		<main>
-			<div class="container">
-				<!-- Dr Justyna Nasiłowska -->
-				<section class="scientist-wrapper">
-					<div class="scientist">
-						<h2 class="name">dr inż. Justyna Nasiłowska</h2>
-						<p class="research-role">
-							(Kierownik Kolekcji Kultur Drobnoustrojów Przemysłowych - Centrum Zasobów
-							Mikrobiologicznych/asystent)
-						</p>
-						<p class="research-areas">
-							Obszary badawcze: mikrobiologia żywności, uszkodzenia subletalne drobnoustrojów,
-							nietermczne metody utrwalania żywności, biobankowanie
-						</p>
-						<p class="research-areas">
-							Zainteresowania: Stan fizjologiczny drobnoustrojów po procesach utrwalania żywności
-							metodami nietermicznymi. Systemy zapewnienia jakości wg PN EN ISO 17025, PN-EN ISO
-							20387
-						</p>
-						<div class="research-contact-info">
-							<p>
-								telefon kontaktowy:
-								<a href="tel:+48226063749">+48 22 606 37 49</a>
-							</p>
-							<p>
-								e-mail:
-								<a href="mailto:justyna.nasilowska@ibprs.pl">justyna.nasilowska@ibprs.pl</a>
-							</p>
-						</div>
-					</div>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Logo" />
+        </a>
+      </div>
+      <div class="navigation-wrapper">
+        <nav class="navigation">
+          <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="search.html">Katalog</a></li>
+            <li><a href="about.html">O kolekcji</a></li>
+            <li><a href="services.html">Usługi</a></li>
+            <li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </nav>
+        <div class="contact-info">
+          <div class="page-header__contacts">
+            <a class="page-header__contacts-item" href="mailto:kkp@ibprs.pl"
+              >kkp@ibprs.pl</a
+            >
+            <a class="page-header__contacts-item" href="tel:+48226063749">
+              +48 22 606 37 49
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="navmodal_navigation-wrapper">
+        <div class="navmodal_menu-toggle" id="mobile-menu">
+          <span class="navmodal_bar"></span>
+          <span class="navmodal_bar"></span>
+          <span class="navmodal_bar"></span>
+        </div>
+        <div class="navmodal" id="myModal">
+          <div class="navmodal-content">
+            <span class="navmodal_close" id="closeModal">&times;</span>
+            <nav class="navmodal_navigation">
+              <ul>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="search.html">Katalog</a></li>
+                <li><a href="about.html">O kolekcji</a></li>
+                <li><a href="services.html">Usługi</a></li>
+                <li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
 
-					<img src="./images/contacts/sp_jn.jpg" alt="Scientist Image" class="scientist-photo" />
-				</section>
+    <main>
+      <div class="container">
+        <!-- Dr Justyna Nasiłowska -->
+        <section class="scientist-wrapper">
+          <div class="scientist">
+            <h2 class="name">dr inż. Justyna Nasiłowska</h2>
+            <p class="research-role">
+              (Kierownik Kolekcji Kultur Drobnoustrojów Przemysłowych - Centrum
+              Zasobów Mikrobiologicznych/asystent)
+            </p>
+            <p class="research-areas">
+              Obszary badawcze: mikrobiologia żywności, uszkodzenia subletalne
+              drobnoustrojów, nietermczne metody utrwalania żywności,
+              biobankowanie
+            </p>
+            <p class="research-areas">
+              Zainteresowania: Stan fizjologiczny drobnoustrojów po procesach
+              utrwalania żywności metodami nietermicznymi. Systemy zapewnienia
+              jakości wg PN EN ISO 17025, PN-EN ISO 20387
+            </p>
+            <div class="research-contact-info">
+              <p>
+                telefon kontaktowy:
+                <a href="tel:+48226063749">+48 22 606 37 49</a>
+              </p>
+              <p>
+                e-mail:
+                <a href="mailto:justyna.nasilowska@ibprs.pl"
+                  >justyna.nasilowska@ibprs.pl</a
+                >
+              </p>
+            </div>
+          </div>
 
-				<!-- Dr Joanna Bucka-Kolendo -->
-				<section class="scientist-wrapper">
-					<div class="scientist">
-						<h2 class="name">dr inż. Joanna Bucka-Kolendo</h2>
-						<p class="research-role">(asystent)</p>
-						<p class="research-areas">
-							Obszary badawcze: biologia molekularna, mikrobiologia żywności, genetyka
-							mikroorganizmów, metagenomika, MALDI-TOF MS, WGS, NGS
-						</p>
-						<p class="research-areas">
-							Zainteresowania: Wpływ nietermicznych metod utrwalania żywności na zmiany zachodzące w
-							genomie i proteomie bakterii.
-						</p>
-						<div class="research-contact-info">
-							<p>
-								telefon kontaktowy:
-								<a href="tel:+48226063749">+48 22 606 37 49</a>
-							</p>
-							<p>
-								e-mail:
-								<a href="mailto:joanna.bucka@ibprs.pl">joanna.bucka@ibprs.pl</a>
-							</p>
-						</div>
-					</div>
+          <img
+            src="./images/contacts/sp_jn.jpg"
+            alt="Scientist Image"
+            class="scientist-photo"
+          />
+        </section>
 
-					<img src="./images/contacts/sp_abk.jpg" alt="Scientist Image" class="scientist-photo" />
-				</section>
+        <!-- Dr Joanna Bucka-Kolendo -->
+        <section class="scientist-wrapper">
+          <div class="scientist">
+            <h2 class="name">dr inż. Joanna Bucka-Kolendo</h2>
+            <p class="research-role">(asystent)</p>
+            <p class="research-areas">
+              Obszary badawcze: biologia molekularna, mikrobiologia żywności,
+              genetyka mikroorganizmów, metagenomika, MALDI-TOF MS, WGS, NGS
+            </p>
+            <p class="research-areas">
+              Zainteresowania: Wpływ nietermicznych metod utrwalania żywności na
+              zmiany zachodzące w genomie i proteomie bakterii.
+            </p>
+            <div class="research-contact-info">
+              <p>
+                telefon kontaktowy:
+                <a href="tel:+48226063749">+48 22 606 37 49</a>
+              </p>
+              <p>
+                e-mail:
+                <a href="mailto:joanna.bucka@ibprs.pl">joanna.bucka@ibprs.pl</a>
+              </p>
+            </div>
+          </div>
 
-				<!-- Mgr Anna Mikołajczuk-Szczyrba -->
-				<section class="scientist-wrapper">
-					<div class="scientist">
-						<h2 class="name">mgr Anna Mikołajczuk-Szczyrba</h2>
-						<p class="research-role">(st. specjalista badawczo-techniczny)</p>
-						<p class="research-areas">
-							Obszary badawcze: biologia molekularna, identyfikacja genetyczna mikroorganizmów,
-							bakterie probiotyczne.
-						</p>
-						<p class="research-areas">
-							Zainteresowania: Wykorzystanie fruktofilnych bakterii kwasu mlekowego w przemyśle
-							spożywczym
-						</p>
-						<div class="research-contact-info">
-							<p>
-								telefon kontaktowy:
-								<a href="tel:+48226063605">+48 22 606 36 05</a>
-							</p>
-							<p>
-								e-mail:
-								<a href="mailto:anna.mikolajczuk-szczyrba@ibprs.pl"
-									>anna.mikolajczuk-szczyrba@ibprs.pl</a
-								>
-							</p>
-						</div>
-					</div>
+          <img
+            src="./images/contacts/sp_abk.jpg"
+            alt="Scientist Image"
+            class="scientist-photo"
+          />
+        </section>
 
-					<img src="./images/contacts/sp_ams.jpg" alt="Scientist Image" class="scientist-photo" />
-				</section>
+        <!-- Mgr Anna Mikołajczuk-Szczyrba -->
+        <section class="scientist-wrapper">
+          <div class="scientist">
+            <h2 class="name">mgr Anna Mikołajczuk-Szczyrba</h2>
+            <p class="research-role">(st. specjalista badawczo-techniczny)</p>
+            <p class="research-areas">
+              Obszary badawcze: biologia molekularna, identyfikacja genetyczna
+              mikroorganizmów, bakterie probiotyczne.
+            </p>
+            <p class="research-areas">
+              Zainteresowania: Wykorzystanie fruktofilnych bakterii kwasu
+              mlekowego w przemyśle spożywczym
+            </p>
+            <div class="research-contact-info">
+              <p>
+                telefon kontaktowy:
+                <a href="tel:+48226063605">+48 22 606 36 05</a>
+              </p>
+              <p>
+                e-mail:
+                <a href="mailto:anna.mikolajczuk-szczyrba@ibprs.pl"
+                  >anna.mikolajczuk-szczyrba@ibprs.pl</a
+                >
+              </p>
+            </div>
+          </div>
 
-				<!-- Mgr Ewelina Jaroszewska -->
-				<section class="scientist-wrapper">
-					<div class="scientist">
-						<h2 class="name">mgr Ewelina Jaroszewska</h2>
-						<p class="research-role">(st. specjalista badawczo-techniczny)</p>
-						<p class="research-areas">
-							Obszary badawcze: mikrobiologia żywności, MALDI-TOF MS, biobankowanie
-						</p>
-						<p class="research-areas">
-							Zainteresowania: Systemy zapewnienia jakości wg PN EN ISO 17025, PN-EN ISO 20387
-						</p>
-						<div class="research-contact-info">
-							<p>
-								telefon kontaktowy:
-								<a href="tel:+48226063605">+48 22 606 36 05</a>
-							</p>
-							<p>
-								e-mail:
-								<a href="mailto:ewelina.jaroszewska@ibprs.pl">ewelina.jaroszewska@ibprs.pl</a>
-							</p>
-						</div>
-					</div>
+          <img
+            src="./images/contacts/sp_ams.jpg"
+            alt="Scientist Image"
+            class="scientist-photo"
+          />
+        </section>
 
-					<img src="./images/contacts/sp_ej.jpg" alt="Scientist Image" class="scientist-photo" />
-				</section>
+        <!-- Mgr Ewelina Jaroszewska -->
+        <section class="scientist-wrapper">
+          <div class="scientist">
+            <h2 class="name">mgr Ewelina Jaroszewska</h2>
+            <p class="research-role">(st. specjalista badawczo-techniczny)</p>
+            <p class="research-areas">
+              Obszary badawcze: mikrobiologia żywności, MALDI-TOF MS,
+              biobankowanie
+            </p>
+            <p class="research-areas">
+              Zainteresowania: Systemy zapewnienia jakości wg PN EN ISO 17025,
+              PN-EN ISO 20387
+            </p>
+            <div class="research-contact-info">
+              <p>
+                telefon kontaktowy:
+                <a href="tel:+48226063605">+48 22 606 36 05</a>
+              </p>
+              <p>
+                e-mail:
+                <a href="mailto:ewelina.jaroszewska@ibprs.pl"
+                  >ewelina.jaroszewska@ibprs.pl</a
+                >
+              </p>
+            </div>
+          </div>
 
-				<!-- Mgr inż. Agnieszka Zapaśnik -->
-				<section class="scientist-wrapper">
-					<div class="scientist">
-						<h2 class="name">mgr inż. Agnieszka Zapaśnik</h2>
-						<p class="research-role">
-							(specjalista badawczo-techniczny/ doktorantka w AgroBioTech PhD)
-						</p>
-						<p class="research-areas">
-							Obszary badawcze: mikrobiologia, mykologia, analiza chemiczna żywności, MALDI-TOF MS
-						</p>
-						<p class="research-areas">
-							Zainteresowania: Wykorzystanie bakterii fermentacji mlekowej do konserwacji żywności.
-							Neutralizacja mykotoksyn w żywności. Analiza żywności pod kątem zanieczyszczenia
-							mikrobiologicznego oraz chemicznego.
-						</p>
-						<div class="research-contact-info">
-							<p>
-								telefon kontaktowy:
-								<a href="tel:+48226063605">+48 22 606 36 05</a>
-							</p>
-							<p>
-								e-mail:
-								<a href="mailto:agnieszka.zapasnik@ibprs.pl">agnieszka.zapasnik@ibprs.pl</a>
-							</p>
-						</div>
-					</div>
+          <img
+            src="./images/contacts/sp_ej.jpg"
+            alt="Scientist Image"
+            class="scientist-photo"
+          />
+        </section>
 
-					<img src="./images/contacts/sp_az.jpg" alt="Scientist Image" class="scientist-photo" />
-				</section>
+        <!-- Mgr inż. Agnieszka Zapaśnik -->
+        <section class="scientist-wrapper">
+          <div class="scientist">
+            <h2 class="name">mgr inż. Agnieszka Zapaśnik</h2>
+            <p class="research-role">
+              (specjalista badawczo-techniczny/ doktorantka w AgroBioTech PhD)
+            </p>
+            <p class="research-areas">
+              Obszary badawcze: mikrobiologia, mykologia, analiza chemiczna
+              żywności, MALDI-TOF MS
+            </p>
+            <p class="research-areas">
+              Zainteresowania: Wykorzystanie bakterii fermentacji mlekowej do
+              konserwacji żywności. Neutralizacja mykotoksyn w żywności. Analiza
+              żywności pod kątem zanieczyszczenia mikrobiologicznego oraz
+              chemicznego.
+            </p>
+            <div class="research-contact-info">
+              <p>
+                telefon kontaktowy:
+                <a href="tel:+48226063605">+48 22 606 36 05</a>
+              </p>
+              <p>
+                e-mail:
+                <a href="mailto:agnieszka.zapasnik@ibprs.pl"
+                  >agnieszka.zapasnik@ibprs.pl</a
+                >
+              </p>
+            </div>
+          </div>
 
-				<!-- Mgr inż. Dziyana Shymialevich -->
-				<section class="scientist-wrapper">
-					<div class="scientist">
-						<h2 class="name">mgr inż. Dziyana Shymialevich</h2>
-						<p class="research-role">
-							(specjalista badawczo-techniczny/doktorantka w AgroBioTech PhD)
-						</p>
-						<p class="research-areas">
-							Obszary badawcze: mikrobiologia żywności, biologia molekularna, MALDI-TOF MS
-						</p>
-						<p class="research-areas">
-							Zainteresowania: Badania dotyczące wykorzystania bakteriofagów w przemyśle spożywczym.
-						</p>
-						<div class="research-contact-info">
-							<p>
-								telefon kontaktowy:
-								<a href="tel:+48226063605">+48 22 606 36 05</a>
-							</p>
-							<p>
-								e-mail:
-								<a href="mailto:diana.szymielewicz@ibprs.pl">diana.szymielewicz@ibprs.pl</a>
-							</p>
-						</div>
-					</div>
+          <img
+            src="./images/contacts/sp_az.jpg"
+            alt="Scientist Image"
+            class="scientist-photo"
+          />
+        </section>
 
-					<img src="./images/contacts/sp_ds.jpg" alt="Scientist Image" class="scientist-photo" />
-				</section>
+        <!-- Mgr inż. Dziyana Shymialevich -->
+        <section class="scientist-wrapper">
+          <div class="scientist">
+            <h2 class="name">mgr inż. Dziyana Shymialevich</h2>
+            <p class="research-role">
+              (specjalista badawczo-techniczny/doktorantka w AgroBioTech PhD)
+            </p>
+            <p class="research-areas">
+              Obszary badawcze: mikrobiologia żywności, biologia molekularna,
+              MALDI-TOF MS
+            </p>
+            <p class="research-areas">
+              Zainteresowania: Badania dotyczące wykorzystania bakteriofagów w
+              przemyśle spożywczym.
+            </p>
+            <div class="research-contact-info">
+              <p>
+                telefon kontaktowy:
+                <a href="tel:+48226063605">+48 22 606 36 05</a>
+              </p>
+              <p>
+                e-mail:
+                <a href="mailto:diana.szymielewicz@ibprs.pl"
+                  >diana.szymielewicz@ibprs.pl</a
+                >
+              </p>
+            </div>
+          </div>
 
-				<!-- Hanna Cieślak -->
-				<section class="scientist-wrapper">
-					<div class="scientist">
-						<h2 class="name">Hanna Cieślak</h2>
-						<p class="research-role">(mikrobiolog)</p>
-						<p class="research-areas">
-							Zainteresowania: mikrobiologia żywności, zastosowanie szlachetnych drożdży winiarskich
-							i miodowych do domowej produkcji
-						</p>
-						<div class="research-contact-info">
-							<p>
-								telefon kontaktowy:
-								<a href="tel:+48226063680">+48 22 606 36 80</a>
-							</p>
-							<p>
-								e-mail:
-								<a href="mailto:hanna.cieslak@ibprs.pl">hanna.cieslak@ibprs.pl</a>
-							</p>
-						</div>
-					</div>
+          <img
+            src="./images/contacts/sp_ds.jpg"
+            alt="Scientist Image"
+            class="scientist-photo"
+          />
+        </section>
 
-					<img src="./images/contacts/sp_hc.jpg" alt="Scientist Image" class="scientist-photo" />
-				</section>
+        <!-- Hanna Cieślak -->
+        <section class="scientist-wrapper">
+          <div class="scientist">
+            <h2 class="name">Hanna Cieślak</h2>
+            <p class="research-role">(mikrobiolog)</p>
+            <p class="research-areas">
+              Zainteresowania: mikrobiologia żywności, zastosowanie szlachetnych
+              drożdży winiarskich i miodowych do domowej produkcji
+            </p>
+            <div class="research-contact-info">
+              <p>
+                telefon kontaktowy:
+                <a href="tel:+48226063680">+48 22 606 36 80</a>
+              </p>
+              <p>
+                e-mail:
+                <a href="mailto:hanna.cieslak@ibprs.pl"
+                  >hanna.cieslak@ibprs.pl</a
+                >
+              </p>
+            </div>
+          </div>
 
-				<!-- Mgr inż. Adrian Wojtczak -->
-				<section class="scientist-wrapper">
-					<div class="scientist">
-						<h2 class="name">mgr inż. Adrian Wojtczak</h2>
-						<p class="research-role">(specjalista badawczo-techniczny/software developer)</p>
-						<p class="research-areas">
-							Obszary badawcze: Mikrobiologia przemysłowa, bakterie probiotyczne, modelowanie
-							procesów biologicznych
-						</p>
-						<p class="research-areas">Zainteresowania: Data Science, Uczenie maszynowe</p>
-						<div class="research-contact-info">
-							<p>
-								telefon kontaktowy:
-								<a href="tel:+48226063605">+48 22 606 36 05</a>
-							</p>
-							<p>
-								e-mail:
-								<a href="mailto:adrian.wojtczak@ibprs.pl">adrian.wojtczak@ibprs.pl</a>
-							</p>
-						</div>
-					</div>
+          <img
+            src="./images/contacts/sp_hc.jpg"
+            alt="Scientist Image"
+            class="scientist-photo"
+          />
+        </section>
 
-					<img src="./images/contacts/sp_aw.jpg" alt="Scientist Image" class="scientist-photo" />
-				</section>
-			</div>
-		</main>
+        <!-- Mgr inż. Adrian Wojtczak -->
+        <section class="scientist-wrapper">
+          <div class="scientist">
+            <h2 class="name">mgr inż. Adrian Wojtczak</h2>
+            <p class="research-role">
+              (specjalista badawczo-techniczny/software developer)
+            </p>
+            <p class="research-areas">
+              Obszary badawcze: Mikrobiologia przemysłowa, bakterie
+              probiotyczne, modelowanie procesów biologicznych
+            </p>
+            <p class="research-areas">
+              Zainteresowania: Data Science, Uczenie maszynowe
+            </p>
+            <div class="research-contact-info">
+              <p>
+                telefon kontaktowy:
+                <a href="tel:+48226063605">+48 22 606 36 05</a>
+              </p>
+              <p>
+                e-mail:
+                <a href="mailto:adrian.wojtczak@ibprs.pl"
+                  >adrian.wojtczak@ibprs.pl</a
+                >
+              </p>
+            </div>
+          </div>
 
-		<footer class="footer">
-			<a href="https://www.ibprs.pl/" target="_blank">
-				<img src="images/ibprs_logo.png" alt="IBPRS Logo" />
-			</a>
-		</footer>
-		<script type="module" src="mobile-menu.js"></script>
-	</body>
+          <img
+            src="./images/contacts/sp_aw.jpg"
+            alt="Scientist Image"
+            class="scientist-photo"
+          />
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <a href="https://www.ibprs.pl/" target="_blank">
+        <img src="images/ibprs_logo.png" alt="IBPRS Logo" />
+      </a>
+
+      <div class="cookies">
+        <div class="cookies__info-wrapper">
+          <p class="cookies__info">
+            Witaj na naszej stronie! Chcieliśmy Cię poinformować, że korzystamy
+            z plików cookie, aby ulepszyć Twoje doświadczenie podczas
+            przeglądania. Klikając "Akceptuj" lub po prostu przeglądając naszą
+            stronę, udzielasz nam zielonego światła do korzystania z tych
+            uroczych ciasteczek.
+            <span class="cookies__info--extra">
+              Pomagają nam zapewnić Ci spersonalizowaną i płynną podróż przez
+              nasze cyfrowe królestwo. Więc złap wirtualne ciasteczko, usiądź
+              wygodnie i ciesz się czasem tutaj!
+            </span>
+            <span
+              >Aby dowiedzieć się więcej przeczytaj naszą
+              <a href="privacy-policy.html" target="_blank"
+                >Politykę prywatności</a
+              ></span
+            >
+          </p>
+          <button class="cookies__btn" id="accept-cookies">Akceptuj</button>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="mobile-menu.js"></script>
+    <script type="module" src="cookies.js"></script>
+  </body>
 </html>

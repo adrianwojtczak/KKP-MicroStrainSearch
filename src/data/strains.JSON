@@ -7202,17 +7202,20 @@
       },
       {
         "DataPobraniaProbki": "2023.09.25",
-        "Deponujacy": "PBJM/IBPRS",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "stolonifer",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "4030",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "PBJM 1094 typ1 (TM-399); PBM 114",
         "Rodzaj": "Rhizopus",
         "Temperatura": "25",
+        "UkrycDeponujacego": "1",
         "WymaganiaAtmosferyczne": "warunki tlenowe",
-        "ZrodloIzolacji": "napój Oshee (próbka z bombażem)"
+        "ZrodloIzolacji": "Napój Oshee (próbka z bombażem)",
+        "ZrodloIzolacjiNaWWW": "Napój izotoniczny"
       },
       {
         "Deponujacy": "PBJM/IBPRS",
@@ -7286,15 +7289,17 @@
       },
       {
         "AutorNazwy": "Varga, Kocsube et al.",
-        "Deponujacy": "PBJM/IBPRS",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "brasiliensis",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "2",
         "KKP": "4036",
         "Kraj": "US",
+        "Medium1": "SA",
         "Oznakowanie": "ATCC 16404, WDCM 00053, DSM 1387",
         "Rodzaj": "Aspergillus",
         "Temperatura": "30",
+        "UkrycDeponujacego": "1",
         "Wlasciwosci_i_zastosowanie": "kontrola jakości pożywek mikrobiologicznych",
         "ZrodloIzolacji": "Vaccinium sp., (owoc)"
       },
@@ -7412,42 +7417,51 @@
       },
       {
         "AutorNazwy": "(Thom) Luangsa-ard, Hou- braken, Hywel-Jones &amp; Samson, 2011",
-        "Deponujacy": "PBJM/ZM/IBPRS",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "lilacinum",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "2",
         "KKP": "4051",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "676/23 typ 1 (TM-224); PBM/086/2",
+        "OznakowanieNaWWW": "676/23 typ 1",
         "Rodzaj": "Purpureocillium",
         "Synonimy": "Penicillium lilacinum",
         "Temperatura": "25",
+        "UkrycDeponujacego": "1",
         "ZrodloIzolacji": "nieznane"
       },
       {
         "DataPobraniaProbki": "2023.07.05",
-        "Deponujacy": "PBJM/ZM/IBPRS",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "sp.",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "2",
         "KKP": "4052",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "PBJM 880/23 (TM-321); PBM/099/20",
+        "OznakowanieNaWWW": "PBJM 880/23",
         "Rodzaj": "Fusarium",
         "Temperatura": "25",
-        "ZrodloIzolacji": "sok owocowy &quot;Owocuś&quot; firma Hermes"
+        "UkrycDeponujacego": "1",
+        "ZrodloIzolacji": "sok owocowy &quot;Owocuś&quot; firma Hermes",
+        "ZrodloIzolacjiNaWWW": "Sok owocowy"
       },
       {
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "pruinosa",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "1",
         "KKP": "4053",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "PBJM 136/23 (TM-63); PBM/028/202",
         "Rodzaj": "Cytospora",
         "Temperatura": "25",
-        "ZrodloIzolacji": "sok jabłkowy Wosana"
+        "ZrodloIzolacji": "sok jabłkowy Wosana",
+        "ZrodloIzolacjiNaWWW": "Sok jabłkowy"
       },
       {
         "AutorNazwy": "Migula 1894",
@@ -7575,15 +7589,18 @@
         "ZrodloIzolacjiNaWWW": "Mleko krowie"
       },
       {
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "turcosus",
         "Grupa": "Pleśnie",
         "GrupaPatogenna": "2",
         "KKP": "4062",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "PBJM1445/23 typ 1(TM-543);PBM166",
+        "OznakowanieNaWWW": "1445/23 typ 1",
         "Rodzaj": "Aspergillus",
         "Temperatura": "25",
+        "UkrycDeponujacego": "1",
         "ZrodloIzolacji": "woda butelkowana"
       },
       {
@@ -7638,6 +7655,7 @@
         "GrupaPatogenna": "1",
         "KKP": "4068",
         "Kraj": "PL",
+        "Medium1": "PDA",
         "Oznakowanie": "PBJM 1298/23 typ 1 (TM-491);PBM/",
         "Rodzaj": "Aspergillus",
         "Temperatura": "25",
@@ -7645,15 +7663,17 @@
       },
       {
         "AutorNazwy": "Madden, Stchigel, Guarro, Sutton &amp; Starks (2012)",
-        "Deponujacy": "PBJM/ZM/IBPRS-PIB",
+        "Deponujacy": "IBPRS/ZM/PBJM",
         "Gatunek": "nidicola",
         "Grupa": "Pleśnie",
         "KKP": "4069",
         "Kraj": "PL",
+        "Medium1": "SA",
         "Oznakowanie": "PBJM1556/23(TM-615);PBM/178/2023",
         "Publikacje": "https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijs.0.033050-0",
         "Rodzaj": "Mucor",
         "Temperatura": "25",
+        "UkrycDeponujacego": "1",
         "ZrodloIzolacji": "nieznane (żywność)"
       },
       {
@@ -7997,11 +8017,14 @@
         "ZrodloIzolacji": "gnojówka bytlęca"
       },
       {
-        "Deponujacy": "Olga Świder,Zakład Bezpieczeń",
+        "Deponujacy": "IBPRS/ZA/Olga Świder",
         "Gatunek": "oligosperma",
         "Grupa": "Pleśnie",
         "KKP": "4090",
+        "Medium1": "SA",
         "Rodzaj": "Exophiala",
+        "Temperatura": "25",
+        "UkrycDeponujacego": "1",
         "ZrodloIzolacji": "glifosat"
       },
       {
@@ -8015,6 +8038,7 @@
         "Oznakowanie": "PBJM 95/24 (TM-52);PBM 012",
         "Rodzaj": "Mucor",
         "Temperatura": "25",
+        "UkrycDeponujacego": "1",
         "ZrodloIzolacji": "środowisko produkcji"
       },
       {

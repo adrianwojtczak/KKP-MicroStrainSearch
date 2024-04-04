@@ -21,12 +21,10 @@
     <meta
       http-equiv="Content-Security-Policy"
       content="
-		default-src 'self' https://fonts.gstatic.com https://google-analytics.com;
-        script-src 'self' https://www.googletagmanager.com;
         style-src 'self' https://fonts.googleapis.com;
         img-src 'self';
-		connect-src 'self' https://google-analytics.com https://*.google-analytics.com;
-    "
+		    connect-src 'self' https://google-analytics.com https://*.google-analytics.com;
+      "
     />
 
     <!-- Google tag (gtag.js) START -->
@@ -34,7 +32,15 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-LQ3NGGN8FT"
     ></script>
-    <script src="./gtag.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-LQ3NGGN8FT");
+    </script>
     <!-- Google tag (gtag.js) END -->
 
     <link rel="stylesheet" href="styles.css" />
@@ -95,16 +101,8 @@
 
     <main class="hero-bg">
       <div class="container main-content">
-        <div class="easter-wrapper">
-          <p class="easter-text easter-text__main">
-            Wesołych Świąt Wielkanocnych
-          </p>
-          <div class="main-image">
-            <img src="./images/hero_easter.png" alt="Obrazek" />
-          </div>
-          <p class="easter-text">
-            życzą pracownicy Kolekcji Kultur Drobnoustrojów Przemysłowych
-          </p>
+        <div class="main-image">
+          <img src="./images/hero.png" alt="Obrazek" />
         </div>
         <div class="main-text">
           <h1>
@@ -127,7 +125,32 @@
       <a href="https://www.ibprs.pl/" target="_blank">
         <img src="images/ibprs_logo.png" alt="IBPRS Logo" />
       </a>
+
+      <div class="cookies">
+        <div class="cookies__info-wrapper">
+          <p class="cookies__info">
+            Witaj na naszej stronie! Chcieliśmy Cię poinformować, że korzystamy
+            z plików cookie, aby ulepszyć Twoje doświadczenie podczas
+            przeglądania. Klikając "Akceptuj" lub po prostu przeglądając naszą
+            stronę, udzielasz nam zielonego światła do korzystania z tych
+            uroczych ciasteczek.
+            <span class="cookies__info--extra">
+              Pomagają nam zapewnić Ci spersonalizowaną i płynną podróż przez
+              nasze cyfrowe królestwo. Więc złap wirtualne ciasteczko, usiądź
+              wygodnie i ciesz się czasem tutaj!
+            </span>
+            <span
+              >Aby dowiedzieć się więcej przeczytaj naszą
+              <a href="privacy-policy.html" target="_blank"
+                >Politykę prywatności</a
+              ></span
+            >
+          </p>
+          <button class="cookies__btn" id="accept-cookies">Akceptuj</button>
+        </div>
+      </div>
     </footer>
     <script type="module" src="mobile-menu.js"></script>
+    <script type="module" src="cookies.js"></script>
   </body>
 </html>
