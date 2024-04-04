@@ -1,0 +1,3 @@
+!function(){let e=document.querySelector(".cookies"),t=document.querySelector("#accept-cookies");!function(e){let t=document.cookie.split(";");for(let o=0;o<t.length;o++){let c=t[o].trim();if(c.startsWith(e+"="))return c.substring(e.length+1)}return null}("cookiesAccepted")&&setTimeout(()=>{e.style.display="block"},1e3),t.addEventListener("click",function(){e.style.display="none",function(e,t,o){let c=new Date;c.setTime(c.getTime()+31536e6),document.cookie=`${e}=${t};expires=${c.toUTCString()};path=/`}("cookiesAccepted","true",0)})}();//# sourceMappingURL=about.15657aef.js.map
+
+//# sourceMappingURL=about.15657aef.js.map
