@@ -35,7 +35,7 @@
         "Deponujacy": "nieznany",
         "Gatunek": "niger",
         "Grupa": "Pleśnie",
-        "GrupaPatogenna": "1",
+        "GrupaPatogenna": "2",
         "KKP": "44",
         "Kraj": "PL",
         "Medium1": "PDA",
@@ -49,7 +49,7 @@
         "Deponujacy": "nieznany",
         "Gatunek": "niger",
         "Grupa": "Pleśnie",
-        "GrupaPatogenna": "1",
+        "GrupaPatogenna": "2",
         "KKP": "45",
         "Medium1": "PDA",
         "Oznakowanie": "II-A.n./33/20",
@@ -63,7 +63,7 @@
         "Deponujacy": "nieznany",
         "Gatunek": "niger",
         "Grupa": "Pleśnie",
-        "GrupaPatogenna": "1",
+        "GrupaPatogenna": "2",
         "KKP": "46",
         "Medium1": "PDA",
         "Medium2": "MEA",
@@ -366,12 +366,6 @@
         "Wlasciwosci_i_zastosowanie": "szczep proteolityczny, silnie upłynnia żelatynę,",
         "WymaganiaAtmosferyczne": "tlenowe",
         "ZrodloIzolacji": "koncentrat pomidorowy"
-      },
-      {
-        "Gatunek": "cereus",
-        "Grupa": "Bakterie",
-        "KKP": "362",
-        "Rodzaj": "Bacillus"
       },
       {
         "DataPobraniaProbki": "1964.01.01",
