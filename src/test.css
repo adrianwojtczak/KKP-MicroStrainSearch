@@ -1,0 +1,38 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#search-input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#search-button {
+  padding: 10px 20px;
+}
+
+#result-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#result-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.download-link {
+  display: block;
+  margin: 10px 0;
+  color: blue;
+  text-decoration: underline;
+}
+
+.download-message {
+  color: green;
+  margin-top: 10px;
+}
