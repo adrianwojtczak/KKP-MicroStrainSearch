@@ -2,7 +2,7 @@
   "name": "kkp-microstrainsearch",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://adrianwojtczak.github.io/KKP-MicroStrainSearch/",
+  "homepage": "https://kkp.ibprs.pl/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html"
