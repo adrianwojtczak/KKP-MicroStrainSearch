@@ -161,3 +161,19 @@ h1 {
   right: 10px;
   bottom: -10px;
 }
+
+.pn27-nav {
+  font-size: 1.2em; /* Increase font size */
+  color: #007bff; /* Change the text color to blue */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 20px; /* Add padding */
+  border: 2px solid #007bff; /* Add a blue border */
+  border-radius: 5px; /* Add rounded corners */
+  background-color: #f8f9fa; /* Light grey background */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
+.pn27-nav:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: #ffffff; /* White text on hover */
+}

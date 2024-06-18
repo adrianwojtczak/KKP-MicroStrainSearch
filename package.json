@@ -18,5 +18,8 @@
     "parcel": "^2.9.3",
     "parcel-reporter-clean-dist": "^1.0.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "swiper": "^11.1.4"
+  }
 }

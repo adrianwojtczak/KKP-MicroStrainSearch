@@ -1,0 +1,101 @@
+@import "swiper.css";
+@import "pagination.css";
+@import "navigation.css";
+
+/* Add styles for the swiper */
+.swiper {
+  width: 100%;
+  max-width: 900px;
+  height: 500px; /* Set a fixed height for the swiper container */
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensures images are scaled to fit within the slide */
+}
+
+.swiper-pagination {
+  max-width: 100px;
+  border: solid;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: larger;
+}
+
+/* Reszta */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+main {
+  padding: 20px;
+}
+
+.container {
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Added rounded corners */
+  max-width: 1200px; /* Center and constrain width */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px; /* Added space below the heading */
+}
+
+.content {
+  margin-top: 20px;
+  color: #555; /* Softer text color */
+  font-size: 1.1em; /* Slightly larger font size */
+}
+
+.highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px; /* Indentation for list */
+}
+
+ul li {
+  margin-bottom: 10px; /* Space between list items */
+  line-height: 1.4; /* Improved line height */
+}
+
+p {
+  margin-bottom: 20px; /* Space between paragraphs */
+}
+
+a.highlight {
+  text-decoration: none;
+  border-bottom: 2px solid #007bff; /* Underline effect */
+  transition: color 0.3s, border-bottom-color 0.3s; /* Smooth transition */
+}
+
+a.highlight:hover {
+  color: #0056b3; /* Darker blue on hover */
+  border-bottom-color: #0056b3; /* Darker underline on hover */
+}
