@@ -49,7 +49,7 @@ main {
 }
 
 .container {
-  margin: auto;
+  margin: 10px auto;
   overflow: hidden;
   padding: 20px;
   background: #fff;
@@ -98,4 +98,46 @@ a.highlight {
 a.highlight:hover {
   color: #0056b3; /* Darker blue on hover */
   border-bottom-color: #0056b3; /* Darker underline on hover */
+}
+
+.team-link {
+  color: #007bff; /* Kolor linku */
+  text-decoration: none; /* Bez podkreślenia */
+  font-weight: bold; /* Pogrubienie */
+}
+
+.team-link:hover {
+  color: #0056b3; /* Zmiana koloru przy najechaniu */
+}
+
+.pn27-nav {
+  display: inline-block;
+  font-size: 1em;
+  text-decoration: none;
+  color: #007bff;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pn27-nav:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pn27-intro {
+  text-align: center;
+  font-size: 1.2em;
+  color: #333;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Styl dla opisów linków */
+.pn27-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
