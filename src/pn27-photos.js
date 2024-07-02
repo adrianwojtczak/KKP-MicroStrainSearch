@@ -1,7 +1,7 @@
 import data from "./data/pn27.json";
 
-document.getElementById("search-button").addEventListener("click", function () {
-  const input = document.getElementById("search-input").value;
+function performSearch() {
+  const input = document.getElementById("search-input").value.toLowerCase();
   const result = data.find((item) => item.code === input);
 
   const resultContainer = document.getElementById("result-container");
@@ -30,4 +30,16 @@ document.getElementById("search-button").addEventListener("click", function () {
   } else {
     resultContainer.textContent = "Nie znaleziono wyniku.";
   }
-});
+}
+
+document
+  .getElementById("search-button")
+  .addEventListener("click", performSearch);
+
+document
+  .getElementById("search-input")
+  .addEventListener("keypress", function (e) {
+    if (e.key === "Enter") {
+      performSearch();
+    }
+  });
