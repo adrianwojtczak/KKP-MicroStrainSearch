@@ -1,5 +1,6 @@
 .hero-bg {
-  background: linear-gradient(to right, #fff, #007bff);
+  /* background: linear-gradient(to right, #fff, #007bff); */
+  background: linear-gradient(to right, #2d2d2d, #111111); /* Halloween */
 }
 
 .main-content {
@@ -32,10 +33,12 @@
 .main-text h1 {
   font-size: 30px;
   margin-bottom: 20px;
+  color: #ff7518; /* Halloween pumpkin orange */
 }
 
 .main-text p {
   font-size: 18px;
+  color: #f5f5f5; /* Halloween */
 }
 
 @media screen and (min-width: 768px) {
