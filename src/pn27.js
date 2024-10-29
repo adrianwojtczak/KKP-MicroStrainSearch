@@ -1,5 +1,5 @@
 // Data docelowa
-const eventDate = new Date("2024-05-23T14:30:59").getTime();
+const eventDate = new Date("2024-07-01T12:00:00").getTime();
 
 // Aktualizacja licznika co sekundę
 const countdownInterval = setInterval(function () {
