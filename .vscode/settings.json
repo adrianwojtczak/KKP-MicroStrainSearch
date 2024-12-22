@@ -1,4 +1,15 @@
 {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+	"prettier.printWidth": 100,
+	"editor.formatOnSave": true,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"editor.tabSize": 2,
+	"prettier.arrowParens": "avoid",
+	"prettier.proseWrap": "always",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.stickyScroll.enabled": false,
+	"git.openRepositoryInParentFolders": "never",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	}
 }
