@@ -34,6 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
 		const light = document.createElement('div');
 		light.className = 'christmas-light';
 		light.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+
+		// Losowe opóźnienie animacji
+		const delay = Math.random() * 2; // od 0 do 2 sekund
+		light.style.animationDelay = `${delay}s`;
 		return light;
 	}
 
