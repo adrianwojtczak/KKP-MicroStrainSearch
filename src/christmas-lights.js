@@ -1,3 +1,11 @@
+function hasVerticalScrollbar() {
+	return document.documentElement.scrollHeight > document.documentElement.clientHeight;
+}
+
+function getScrollbarWidth() {
+	return window.innerWidth - document.documentElement.clientWidth;
+}
+
 function checkCollision(newPosition, existingLights, minDistance = 40) {
 	for (const light of existingLights) {
 		const rect = light.getBoundingClientRect();
@@ -46,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 					y = 0;
 					break;
 				case 1: // Right
-					x = viewportWidth - 20; // Adjust for light width
+					x = viewportWidth - 20 - (hasVerticalScrollbar() ? getScrollbarWidth() : 0); // Adjust for scrollbar if present
 					y = Math.random() * viewportHeight;
 					break;
 				case 2: // Bottom
