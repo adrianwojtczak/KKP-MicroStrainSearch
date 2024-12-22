@@ -1,5 +1,6 @@
 .hero-bg {
-	background: linear-gradient(to right, #fff, #007bff);
+	/* background: linear-gradient(to right, #fff, #007bff); */
+	background: linear-gradient(to right, #ffefef, #d4f1d4);
 }
 
 .main-content {
@@ -22,11 +23,13 @@
 
 .main-text {
 	flex: 1;
-	color: #333;
+	/* color: #333; */
+	color: #d63333; /* Świąteczna czerwień */
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	animation: fadeIn 2s ease-in-out;
 }
 
 .main-text h1 {
@@ -36,6 +39,18 @@
 
 .main-text p {
 	font-size: 18px;
+	color: #155724; /* Zielony tekst */
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 @media screen and (min-width: 768px) {
