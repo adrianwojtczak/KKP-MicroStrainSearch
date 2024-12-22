@@ -1,375 +1,343 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KKP Kolekcja Szczepów Drobnoustrojów Przemysłowych</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <meta name="robots" content="index, follow" />
-    <meta
-      name="description"
-      content="KKP Kolekcja Szczepów Drobnoustrojów Przemysłowych - Wiodąca wyszukiwarka szczepów online. Odkryj różnorodność mikroorganizmów o najwyższej jakości, spełniających surowe standardy przemysłowe. Nasza kolekcja to niezrównane źródło innowacyjnych rozwiązań biotechnologicznych."
-    />
-    <meta
-      name="keywords"
-      content="KKP, Kolekcja, Szczepy, Drobnoustroje, Przemysł, Wyszukiwarka, Katalog, Online, Mikroorganizmy, Biotechnologia, Genetyka, Technologia Przemysłowa"
-    />
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>KKP Kolekcja Szczepów Drobnoustrojów Przemysłowych</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<meta name="robots" content="index, follow" />
+		<meta
+			name="description"
+			content="KKP Kolekcja Szczepów Drobnoustrojów Przemysłowych - Wiodąca wyszukiwarka szczepów online. Odkryj różnorodność mikroorganizmów o najwyższej jakości, spełniających surowe standardy przemysłowe. Nasza kolekcja to niezrównane źródło innowacyjnych rozwiązań biotechnologicznych."
+		/>
+		<meta
+			name="keywords"
+			content="KKP, Kolekcja, Szczepy, Drobnoustroje, Przemysł, Wyszukiwarka, Katalog, Online, Mikroorganizmy, Biotechnologia, Genetyka, Technologia Przemysłowa"
+		/>
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="
         style-src 'self' https://fonts.googleapis.com;
         img-src 'self';
         connect-src 'self' https://google-analytics.com https://*.google-analytics.com;
       "
-    />
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-LQ3NGGN8FT"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-LQ3NGGN8FT");
-    </script>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="news.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="logo">
-        <a href="index.html">
-          <img src="images/logo.png" alt="Logo" />
-        </a>
-      </div>
-      <div class="navigation-wrapper">
-        <nav class="navigation">
-          <ul>
-            <li><a href="index.html">Strona główna</a></li>
-            <li><a href="search.html">Katalog</a></li>
-            <li><a href="about.html">O kolekcji</a></li>
-            <li><a href="services.html">Usługi</a></li>
-            <li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
-            <li><a href="pn27.html">Piknik naukowy</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
-          </ul>
-        </nav>
-        <div class="contact-info">
-          <div class="page-header__contacts">
-            <a class="page-header__contacts-item" href="mailto:kkp@ibprs.pl"
-              >kkp@ibprs.pl</a
-            >
-            <a class="page-header__contacts-item" href="tel:+48226063749"
-              >+48 22 606 37 49</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="navmodal_navigation-wrapper">
-        <div class="navmodal_menu-toggle" id="mobile-menu">
-          <span class="navmodal_bar"></span>
-          <span class="navmodal_bar"></span>
-          <span class="navmodal_bar"></span>
-        </div>
-        <div class="navmodal" id="myModal">
-          <div class="navmodal-content">
-            <span class="navmodal_close" id="closeModal">&times;</span>
-            <nav class="navmodal_navigation">
-              <ul>
-                <li><a href="index.html">Strona główna</a></li>
-                <li><a href="search.html">Katalog</a></li>
-                <li><a href="about.html">O kolekcji</a></li>
-                <li><a href="services.html">Usługi</a></li>
-                <li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
-                <li><a href="pn27.html">Piknik naukowy</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
+		/>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-LQ3NGGN8FT"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'G-LQ3NGGN8FT');
+		</script>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="news.css" />
+		<link rel="stylesheet" href="christmas-lights.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logo.png" alt="Logo" />
+				</a>
+			</div>
+			<div class="navigation-wrapper">
+				<nav class="navigation">
+					<ul>
+						<li><a href="index.html">Strona główna</a></li>
+						<li><a href="search.html">Katalog</a></li>
+						<li><a href="about.html">O kolekcji</a></li>
+						<li><a href="services.html">Usługi</a></li>
+						<li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
+						<li><a href="pn27.html">Piknik naukowy</a></li>
+						<li><a href="contact.html">Kontakt</a></li>
+					</ul>
+				</nav>
+				<div class="contact-info">
+					<div class="page-header__contacts">
+						<a class="page-header__contacts-item" href="mailto:kkp@ibprs.pl">kkp@ibprs.pl</a>
+						<a class="page-header__contacts-item" href="tel:+48226063749">+48 22 606 37 49</a>
+					</div>
+				</div>
+			</div>
+			<div class="navmodal_navigation-wrapper">
+				<div class="navmodal_menu-toggle" id="mobile-menu">
+					<span class="navmodal_bar"></span>
+					<span class="navmodal_bar"></span>
+					<span class="navmodal_bar"></span>
+				</div>
+				<div class="navmodal" id="myModal">
+					<div class="navmodal-content">
+						<span class="navmodal_close" id="closeModal">&times;</span>
+						<nav class="navmodal_navigation">
+							<ul>
+								<li><a href="index.html">Strona główna</a></li>
+								<li><a href="search.html">Katalog</a></li>
+								<li><a href="about.html">O kolekcji</a></li>
+								<li><a href="services.html">Usługi</a></li>
+								<li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
+								<li><a href="pn27.html">Piknik naukowy</a></li>
+								<li><a href="contact.html">Kontakt</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
 
-    <main>
-      <div class="container">
-        <h1>Odkryj Niewidoczny Świat - Co Wyrosło na Szalkach?</h1>
-        <div class="content">
-          <p>
-            Podczas
-            <span class="highlight"
-              >27. Pikniku Naukowego Polskiego Radia i Centrum Nauki
-              Kopernik</span
-            >, nasze stoisko oferowało unikalną możliwość zanurzenia się w
-            niewidzialny świat mikroorganizmów. Goście mogli odcisnąć swoje
-            dłonie na szalkach pokrytych pożywką agarową do hodowli
-            mikroorganizmów.
-          </p>
-          <p>
-            Rezultaty tego doświadczenia są fascynujące, ukazując różnorodność
-            mikroorganizmów, które nas otaczają na co dzień. Oto kilka
-            najczęściej identyfikowanych drobnoustrojów:
-          </p>
+		<main>
+			<div id="christmas-lights-container"></div>
+			<div class="container">
+				<h1>Odkryj Niewidoczny Świat - Co Wyrosło na Szalkach?</h1>
+				<div class="content">
+					<p>
+						Podczas
+						<span class="highlight"
+							>27. Pikniku Naukowego Polskiego Radia i Centrum Nauki Kopernik</span
+						>, nasze stoisko oferowało unikalną możliwość zanurzenia się w niewidzialny świat
+						mikroorganizmów. Goście mogli odcisnąć swoje dłonie na szalkach pokrytych pożywką
+						agarową do hodowli mikroorganizmów.
+					</p>
+					<p>
+						Rezultaty tego doświadczenia są fascynujące, ukazując różnorodność mikroorganizmów,
+						które nas otaczają na co dzień. Oto kilka najczęściej identyfikowanych drobnoustrojów:
+					</p>
 
-          <h2><i>Staphylococcus epidermidis</i></h2>
-          <p>
-            Najczęściej izolowany gatunek bakterii z powierzchni ciała
-            człowieka, kolonizuje skórę w okolicy pach, skórę głowy oraz
-            przedsionek nosa. Ten wszechobecny mieszkaniec ludzkiej skóry jest
-            zazwyczaj nieszkodliwy u osób z prawidłowo działającym układem
-            odpornościowym, a nawet pożyteczny, tworząc barierę ochronną przed
-            bardziej złośliwymi mikroorganizmami.
-          </p>
-          <p>
-            Jednak u osób z zaburzeniami funkcjonowania układu odpornościowego,
-            bakterie te mogą stać się istotnym zagrożeniem dla ich zdrowia.
-            <i>S. epidermidis</i> to trzeci co do częstości izolowania czynnik
-            etiologiczny zakażeń szpitalnych, wynikających z coraz
-            powszechniejszego stosowania w lecznictwie różnego sprzętu
-            medycznego, który może stanowić wektor przenoszenia tego
-            mikroorganizmu.
-          </p>
+					<h2><i>Staphylococcus epidermidis</i></h2>
+					<p>
+						Najczęściej izolowany gatunek bakterii z powierzchni ciała człowieka, kolonizuje skórę w
+						okolicy pach, skórę głowy oraz przedsionek nosa. Ten wszechobecny mieszkaniec ludzkiej
+						skóry jest zazwyczaj nieszkodliwy u osób z prawidłowo działającym układem
+						odpornościowym, a nawet pożyteczny, tworząc barierę ochronną przed bardziej złośliwymi
+						mikroorganizmami.
+					</p>
+					<p>
+						Jednak u osób z zaburzeniami funkcjonowania układu odpornościowego, bakterie te mogą
+						stać się istotnym zagrożeniem dla ich zdrowia.
+						<i>S. epidermidis</i> to trzeci co do częstości izolowania czynnik etiologiczny zakażeń
+						szpitalnych, wynikających z coraz powszechniejszego stosowania w lecznictwie różnego
+						sprzętu medycznego, który może stanowić wektor przenoszenia tego mikroorganizmu.
+					</p>
 
-          <h2><i>Staphylococcus warneri</i></h2>
-          <p>
-            Choć mniej znany niż <i>S. epidermidis</i>,
-            <i>Staphylococcus warneri</i> często występuje na ludzkiej skórze.
-            Potrafi przetrwać w różnych środowiskach oraz wytwarzać biofilm, co
-            czyni go skutecznym patogenem szpitalnym. Biofilmy
-            <i>S. warneri</i> zwiększają jego oporność na antybiotyki i
-            mechanizmy obronne organizmu, utrudniając leczenie infekcji.
-          </p>
+					<h2><i>Staphylococcus warneri</i></h2>
+					<p>
+						Choć mniej znany niż <i>S. epidermidis</i>, <i>Staphylococcus warneri</i> często
+						występuje na ludzkiej skórze. Potrafi przetrwać w różnych środowiskach oraz wytwarzać
+						biofilm, co czyni go skutecznym patogenem szpitalnym. Biofilmy
+						<i>S. warneri</i> zwiększają jego oporność na antybiotyki i mechanizmy obronne
+						organizmu, utrudniając leczenie infekcji.
+					</p>
 
-          <h2><i>Staphylococcus saprophyticus</i></h2>
-          <p>
-            <i>S. saprophyticus</i> stanowi florę fizjologiczną dróg
-            moczowo-płciowych. Co ciekawe, stwierdzono również, że
-            <i>S. saprophyticus</i> jest powszechną florą przewodu pokarmowego u
-            świń i krów, a zatem może być przenoszony na ludzi poprzez
-            spożywanie tych pokarmów. Jest drugim najczęstszym czynnikiem
-            powodującym pozaszpitalne zakażenia dróg moczowych, zwłaszcza u
-            młodych kobiet.
-          </p>
+					<h2><i>Staphylococcus saprophyticus</i></h2>
+					<p>
+						<i>S. saprophyticus</i> stanowi florę fizjologiczną dróg moczowo-płciowych. Co ciekawe,
+						stwierdzono również, że <i>S. saprophyticus</i> jest powszechną florą przewodu
+						pokarmowego u świń i krów, a zatem może być przenoszony na ludzi poprzez spożywanie tych
+						pokarmów. Jest drugim najczęstszym czynnikiem powodującym pozaszpitalne zakażenia dróg
+						moczowych, zwłaszcza u młodych kobiet.
+					</p>
 
-          <h2><i>Micrococcus luteus</i></h2>
-          <p>
-            <i>Micrococcus luteus</i> to barwny przedstawiciel ludzkiej
-            mikroflory. Jego charakterystyczny żółty pigment czyni go łatwo
-            rozpoznawalnym wśród innych mikroorganizmów. <i>M. luteus</i> jest
-            często spotykany w powietrzu, wodzie i na skórze, gdzie pełni rolę
-            niegroźnego saprofita, żywiąc się martwą materią organiczną.
-          </p>
-          <p>
-            Ten mikroorganizm, choć zazwyczaj nieszkodliwy, może w rzadkich
-            przypadkach stać się oportunistycznym patogenem, szczególnie u osób
-            z osłabionym układem odpornościowym. Jego obecność w różnych
-            środowiskach świadczy o jego dużej adaptacyjności i zdolności
-            przetrwania w niesprzyjających warunkach.
-          </p>
+					<h2><i>Micrococcus luteus</i></h2>
+					<p>
+						<i>Micrococcus luteus</i> to barwny przedstawiciel ludzkiej mikroflory. Jego
+						charakterystyczny żółty pigment czyni go łatwo rozpoznawalnym wśród innych
+						mikroorganizmów. <i>M. luteus</i> jest często spotykany w powietrzu, wodzie i na skórze,
+						gdzie pełni rolę niegroźnego saprofita, żywiąc się martwą materią organiczną.
+					</p>
+					<p>
+						Ten mikroorganizm, choć zazwyczaj nieszkodliwy, może w rzadkich przypadkach stać się
+						oportunistycznym patogenem, szczególnie u osób z osłabionym układem odpornościowym. Jego
+						obecność w różnych środowiskach świadczy o jego dużej adaptacyjności i zdolności
+						przetrwania w niesprzyjających warunkach.
+					</p>
 
-          <h2><i>Kocuria sp.</i></h2>
-          <p>
-            <i>Kocuria sp.</i> jest mniej znanym, lecz niezwykle interesującym
-            przedstawicielem bakterii. Często spotykany w glebie, wodzie oraz na
-            ludzkiej skórze, <i>Kocuria sp.</i> wyróżnia się swoimi zdolnościami
-            adaptacyjnymi i różnorodnością metaboliczną.
-          </p>
-          <p>
-            Dzięki swojej wszechstronności metabolicznej,
-            <i>Kocuria sp.</i> może przetrwać w różnych warunkach
-            środowiskowych, co czyni je cennym narzędziem w procesach
-            oczyszczania środowiska z różnych substancji toksycznych. W
-            biotechnologii wykorzystuje się je do biodegradacji i bioremediacji,
-            co pomaga w redukcji zanieczyszczeń i ochronie środowiska
-            naturalnego.
-          </p>
+					<h2><i>Kocuria sp.</i></h2>
+					<p>
+						<i>Kocuria sp.</i> jest mniej znanym, lecz niezwykle interesującym przedstawicielem
+						bakterii. Często spotykany w glebie, wodzie oraz na ludzkiej skórze,
+						<i>Kocuria sp.</i> wyróżnia się swoimi zdolnościami adaptacyjnymi i różnorodnością
+						metaboliczną.
+					</p>
+					<p>
+						Dzięki swojej wszechstronności metabolicznej,
+						<i>Kocuria sp.</i> może przetrwać w różnych warunkach środowiskowych, co czyni je cennym
+						narzędziem w procesach oczyszczania środowiska z różnych substancji toksycznych. W
+						biotechnologii wykorzystuje się je do biodegradacji i bioremediacji, co pomaga w
+						redukcji zanieczyszczeń i ochronie środowiska naturalnego.
+					</p>
 
-          <h2><i>Bacillus sp.</i></h2>
-          <p>
-            <i>Bacillus sp.</i> to prawdziwy gigant w świecie mikroorganizmów.
-            Znane ze swoich zdolności do tworzenia przetrwalników,
-            <i>Bacillus sp.</i> są niezwykle odporne na ekstremalne warunki
-            środowiskowe. Te bakterie są nie tylko powszechne w glebie i wodzie,
-            ale także odgrywają kluczową rolę w przemysłowych procesach
-            biotechnologicznych, takich jak produkcja enzymów.
-          </p>
+					<h2><i>Bacillus sp.</i></h2>
+					<p>
+						<i>Bacillus sp.</i> to prawdziwy gigant w świecie mikroorganizmów. Znane ze swoich
+						zdolności do tworzenia przetrwalników, <i>Bacillus sp.</i> są niezwykle odporne na
+						ekstremalne warunki środowiskowe. Te bakterie są nie tylko powszechne w glebie i wodzie,
+						ale także odgrywają kluczową rolę w przemysłowych procesach biotechnologicznych, takich
+						jak produkcja enzymów.
+					</p>
 
-          <div class="pn27-links">
-            <a class="pn27-nav" href="./pn27-photos.html"
-              >Zdjęcia odcisków dłoni</a
-            >
-          </div>
+					<div class="pn27-links">
+						<a class="pn27-nav" href="./pn27-photos.html">Zdjęcia odcisków dłoni</a>
+					</div>
 
-          <p>
-            Każdy z tych mikroorganizmów opowiada swoją własną, fascynującą
-            historię o przetrwaniu i prosperowaniu w mikroświecie. Dzięki
-            naszemu stoisku na 27. Pikniku Naukowym, uczestnicy mieli unikalną
-            szansę przyjrzenia się bliżej tym niezwykłym mikroskopijnym
-            organizmom.
-          </p>
+					<p>
+						Każdy z tych mikroorganizmów opowiada swoją własną, fascynującą historię o przetrwaniu i
+						prosperowaniu w mikroświecie. Dzięki naszemu stoisku na 27. Pikniku Naukowym, uczestnicy
+						mieli unikalną szansę przyjrzenia się bliżej tym niezwykłym mikroskopijnym organizmom.
+					</p>
 
-          <p>
-            <b>
-              Nie do wiary, że z pozoru czysta dłoń może być nośnikiem tak
-              różnych bakterii, niekiedy groźnych i chorobotwórczych. Drogi
-              Uczestniku 27. Pikniku Naukowego, mamy nadzieję, że nasz
-              eksperyment przyczynił się do zwiększenia Twojej świadomości na
-              temat mikroorganizmów i potrzeby dbania o higienę rąk. Zachęcamy
-              do dalszego zgłębiania tajemnic mikrobiologii i już teraz
-              zapraszamy na kolejną edycję Pikniku!
-            </b>
-          </p>
+					<p>
+						<b>
+							Nie do wiary, że z pozoru czysta dłoń może być nośnikiem tak różnych bakterii,
+							niekiedy groźnych i chorobotwórczych. Drogi Uczestniku 27. Pikniku Naukowego, mamy
+							nadzieję, że nasz eksperyment przyczynił się do zwiększenia Twojej świadomości na
+							temat mikroorganizmów i potrzeby dbania o higienę rąk. Zachęcamy do dalszego
+							zgłębiania tajemnic mikrobiologii i już teraz zapraszamy na kolejną edycję Pikniku!
+						</b>
+					</p>
 
-          <p>
-            Z poważaniem,<br />
-            <a class="team-link" href="./contact.html"
-              >Zespół Kolekcji Kultur Drobnoustrojów Przemysłowych<br />
-              IBPRS</a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="container">
-        <h1>27. Piknik Naukowy Polskiego Radia i Centrum Nauki Kopernik</h1>
-        <div class="content">
-          <p>
-            15 czerwca 2024 roku mieliśmy przyjemność uczestniczyć w
-            <span class="highlight"
-              >27. Pikniku Naukowym Polskiego Radia i Centrum Nauki
-              Kopernik</span
-            >. Nasze stoisko, zorganizowane przez Kolekcję Kultur Drobnoustrojów
-            Przemysłowych Zakładu Mikrobiologii we współpracy z Zakładem
-            Przetworów Owocowych i Warzywnych IBPRS, odwiedziło ponad 400 gości!
-          </p>
-          <p>W ramach wydarzenia zaprezentowaliśmy:</p>
-          <ul>
-            <li>Naukę przez zabawę</li>
-            <li>Obserwację świata mikroorganizmów w żywności</li>
-            <li>Wykonywanie odcisków dłoni</li>
-            <li>Magię barw</li>
-            <li>Sprawdzanie zmysłu węchu</li>
-            <li>I wiele innych atrakcji!</li>
-          </ul>
-          <p>
-            Dziękujemy wszystkim za ogromne zainteresowanie i już teraz
-            zapraszamy na kolejną edycję w przyszłym roku!
-          </p>
-        </div>
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_1.jpeg" alt="Zdjęcie 1" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_2.jpeg" alt="Zdjęcie 2" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_3.jpeg" alt="Zdjęcie 3" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_4.jpeg" alt="Zdjęcie 4" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_5.jpeg" alt="Zdjęcie 5" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_6.jpeg" alt="Zdjęcie 6" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_7.jpeg" alt="Zdjęcie 7" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_8.jpg" alt="Zdjęcie 8" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_9.jpeg" alt="Zdjęcie 9" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_10.jpeg" alt="Zdjęcie 10" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_11.jpeg" alt="Zdjęcie 11" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_12.jpeg" alt="Zdjęcie 12" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_13.jpeg" alt="Zdjęcie 13" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_14.jpeg" alt="Zdjęcie 14" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_15.jpg" alt="Zdjęcie 15" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_16.jpg" alt="Zdjęcie 16" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_17.jpg" alt="Zdjęcie 17" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/pn27/27 piknik_18.jpg" alt="Zdjęcie 18" />
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-      </div>
-    </main>
+					<p>
+						Z poważaniem,<br />
+						<a class="team-link" href="./contact.html"
+							>Zespół Kolekcji Kultur Drobnoustrojów Przemysłowych<br />
+							IBPRS</a
+						>
+					</p>
+				</div>
+			</div>
+			<div class="container">
+				<h1>27. Piknik Naukowy Polskiego Radia i Centrum Nauki Kopernik</h1>
+				<div class="content">
+					<p>
+						15 czerwca 2024 roku mieliśmy przyjemność uczestniczyć w
+						<span class="highlight"
+							>27. Pikniku Naukowym Polskiego Radia i Centrum Nauki Kopernik</span
+						>. Nasze stoisko, zorganizowane przez Kolekcję Kultur Drobnoustrojów Przemysłowych
+						Zakładu Mikrobiologii we współpracy z Zakładem Przetworów Owocowych i Warzywnych IBPRS,
+						odwiedziło ponad 400 gości!
+					</p>
+					<p>W ramach wydarzenia zaprezentowaliśmy:</p>
+					<ul>
+						<li>Naukę przez zabawę</li>
+						<li>Obserwację świata mikroorganizmów w żywności</li>
+						<li>Wykonywanie odcisków dłoni</li>
+						<li>Magię barw</li>
+						<li>Sprawdzanie zmysłu węchu</li>
+						<li>I wiele innych atrakcji!</li>
+					</ul>
+					<p>
+						Dziękujemy wszystkim za ogromne zainteresowanie i już teraz zapraszamy na kolejną edycję
+						w przyszłym roku!
+					</p>
+				</div>
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_1.jpeg" alt="Zdjęcie 1" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_2.jpeg" alt="Zdjęcie 2" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_3.jpeg" alt="Zdjęcie 3" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_4.jpeg" alt="Zdjęcie 4" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_5.jpeg" alt="Zdjęcie 5" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_6.jpeg" alt="Zdjęcie 6" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_7.jpeg" alt="Zdjęcie 7" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_8.jpg" alt="Zdjęcie 8" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_9.jpeg" alt="Zdjęcie 9" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_10.jpeg" alt="Zdjęcie 10" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_11.jpeg" alt="Zdjęcie 11" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_12.jpeg" alt="Zdjęcie 12" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_13.jpeg" alt="Zdjęcie 13" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_14.jpeg" alt="Zdjęcie 14" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_15.jpg" alt="Zdjęcie 15" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_16.jpg" alt="Zdjęcie 16" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_17.jpg" alt="Zdjęcie 17" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/pn27/27 piknik_18.jpg" alt="Zdjęcie 18" />
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+		</main>
 
-    <footer class="footer">
-      <a href="https://www.ibprs.pl/" target="_blank">
-        <img src="images/ibprs_logo.png" alt="IBPRS Logo" />
-      </a>
+		<footer class="footer">
+			<a href="https://www.ibprs.pl/" target="_blank">
+				<img src="images/ibprs_logo.png" alt="IBPRS Logo" />
+			</a>
 
-      <div class="cookies">
-        <div class="cookies__info-wrapper">
-          <p class="cookies__info">
-            Witaj na naszej stronie! Chcieliśmy Cię poinformować, że korzystamy
-            z plików cookie, aby ulepszyć Twoje doświadczenie podczas
-            przeglądania. Klikając "Akceptuj" lub po prostu przeglądając naszą
-            stronę, udzielasz nam zielonego światła do korzystania z tych
-            uroczych ciasteczek.
-            <span class="cookies__info--extra">
-              Pomagają nam zapewnić Ci spersonalizowaną i płynną podróż przez
-              nasze cyfrowe królestwo. Więc złap wirtualne ciasteczko, usiądź
-              wygodnie i ciesz się czasem tutaj!
-            </span>
-            <span
-              >Aby dowiedzieć się więcej przeczytaj naszą
-              <a href="privacy-policy.html" target="_blank"
-                >Politykę prywatności</a
-              >
-            </span>
-          </p>
-          <button class="cookies__btn" id="accept-cookies">Akceptuj</button>
-        </div>
-      </div>
-    </footer>
-    <script type="module" src="news.js"></script>
-    <script type="module" src="mobile-menu.js"></script>
-    <script type="module" src="cookies.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper(".swiper", {
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
-  </body>
+			<div class="cookies">
+				<div class="cookies__info-wrapper">
+					<p class="cookies__info">
+						Witaj na naszej stronie! Chcieliśmy Cię poinformować, że korzystamy z plików cookie, aby
+						ulepszyć Twoje doświadczenie podczas przeglądania. Klikając "Akceptuj" lub po prostu
+						przeglądając naszą stronę, udzielasz nam zielonego światła do korzystania z tych
+						uroczych ciasteczek.
+						<span class="cookies__info--extra">
+							Pomagają nam zapewnić Ci spersonalizowaną i płynną podróż przez nasze cyfrowe
+							królestwo. Więc złap wirtualne ciasteczko, usiądź wygodnie i ciesz się czasem tutaj!
+						</span>
+						<span
+							>Aby dowiedzieć się więcej przeczytaj naszą
+							<a href="privacy-policy.html" target="_blank">Politykę prywatności</a>
+						</span>
+					</p>
+					<button class="cookies__btn" id="accept-cookies">Akceptuj</button>
+				</div>
+			</div>
+		</footer>
+		<script type="module" src="news.js"></script>
+		<script type="module" src="mobile-menu.js"></script>
+		<script type="module" src="christmas-lights.js"></script>
+		<script type="module" src="cookies.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script>
+			const swiper = new Swiper('.swiper', {
+				loop: true,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+		</script>
+	</body>
 </html>

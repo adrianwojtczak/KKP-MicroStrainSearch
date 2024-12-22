@@ -1,179 +1,144 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KKP Kolekcja szczepów drobnoustrojów Przemysłowych</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>KKP Kolekcja szczepów drobnoustrojów Przemysłowych</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-    <!-- Content Security Policy (CSP) -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="
+		<!-- Content Security Policy (CSP) -->
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="
         style-src 'self' https://fonts.googleapis.com;
         img-src 'self';
 		    connect-src 'self' https://google-analytics.com https://*.google-analytics.com;
       "
-    />
+		/>
 
-    <!-- Google tag (gtag.js) START -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-LQ3NGGN8FT"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+		<!-- Google tag (gtag.js) START -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-LQ3NGGN8FT"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
 
-      gtag("config", "G-LQ3NGGN8FT");
-    </script>
-    <!-- Google tag (gtag.js) END -->
+			gtag('config', 'G-LQ3NGGN8FT');
+		</script>
+		<!-- Google tag (gtag.js) END -->
 
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="search.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="logo">
-        <a href="index.html">
-          <img src="images/logo.png" alt="Logo" />
-        </a>
-      </div>
-      <div class="navigation-wrapper">
-        <nav class="navigation">
-          <ul>
-            <li><a href="index.html">Strona główna</a></li>
-            <li><a href="search.html">Katalog</a></li>
-            <li><a href="about.html">O kolekcji</a></li>
-            <li><a href="services.html">Usługi</a></li>
-            <li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
-            <li><a href="pn27.html">Piknik naukowy</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
-          </ul>
-        </nav>
-        <div class="contact-info">
-          <div class="page-header__contacts">
-            <a class="page-header__contacts-item" href="mailto:kkp@ibprs.pl"
-              >kkp@ibprs.pl</a
-            >
-            <a class="page-header__contacts-item" href="tel:+48226063749">
-              +48 22 606 37 49
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="navmodal_navigation-wrapper">
-        <div class="navmodal_menu-toggle" id="mobile-menu">
-          <span class="navmodal_bar"></span>
-          <span class="navmodal_bar"></span>
-          <span class="navmodal_bar"></span>
-        </div>
-        <div class="navmodal" id="myModal">
-          <div class="navmodal-content">
-            <span class="navmodal_close" id="closeModal">&times;</span>
-            <nav class="navmodal_navigation">
-              <ul>
-                <li><a href="index.html">Strona główna</a></li>
-                <li><a href="search.html">Katalog</a></li>
-                <li><a href="about.html">O kolekcji</a></li>
-                <li><a href="services.html">Usługi</a></li>
-                <li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
-                <li><a href="pn27.html">Piknik naukowy</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="search.css" />
+		<link rel="stylesheet" href="christmas-lights.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logo.png" alt="Logo" />
+				</a>
+			</div>
+			<div class="navigation-wrapper">
+				<nav class="navigation">
+					<ul>
+						<li><a href="index.html">Strona główna</a></li>
+						<li><a href="search.html">Katalog</a></li>
+						<li><a href="about.html">O kolekcji</a></li>
+						<li><a href="services.html">Usługi</a></li>
+						<li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
+						<li><a href="pn27.html">Piknik naukowy</a></li>
+						<li><a href="contact.html">Kontakt</a></li>
+					</ul>
+				</nav>
+				<div class="contact-info">
+					<div class="page-header__contacts">
+						<a class="page-header__contacts-item" href="mailto:kkp@ibprs.pl">kkp@ibprs.pl</a>
+						<a class="page-header__contacts-item" href="tel:+48226063749"> +48 22 606 37 49 </a>
+					</div>
+				</div>
+			</div>
+			<div class="navmodal_navigation-wrapper">
+				<div class="navmodal_menu-toggle" id="mobile-menu">
+					<span class="navmodal_bar"></span>
+					<span class="navmodal_bar"></span>
+					<span class="navmodal_bar"></span>
+				</div>
+				<div class="navmodal" id="myModal">
+					<div class="navmodal-content">
+						<span class="navmodal_close" id="closeModal">&times;</span>
+						<nav class="navmodal_navigation">
+							<ul>
+								<li><a href="index.html">Strona główna</a></li>
+								<li><a href="search.html">Katalog</a></li>
+								<li><a href="about.html">O kolekcji</a></li>
+								<li><a href="services.html">Usługi</a></li>
+								<li><a href="retail-sales.html">Sprzedaż drożdzy</a></li>
+								<li><a href="pn27.html">Piknik naukowy</a></li>
+								<li><a href="contact.html">Kontakt</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
 
-    <main>
-      <div class="searchbar">
-        <form class="searchForm" id="searchForm">
-          <input
-            class="searchInput"
-            id="searchInput"
-            placeholder="Wyszukaj drobnoustrój"
-          />
+		<main>
+			<div id="christmas-lights-container"></div>
+			<div class="searchbar">
+				<form class="searchForm" id="searchForm">
+					<input class="searchInput" id="searchInput" placeholder="Wyszukaj drobnoustrój" />
 
-          <button class="searchBtn" type="button" id="searchBtn">
-            <span class="searchBtn-label"></span>
-          </button>
-        </form>
+					<button class="searchBtn" type="button" id="searchBtn">
+						<span class="searchBtn-label"></span>
+					</button>
+				</form>
 
-        <div class="icons">
-          <input
-            type="checkbox"
-            id="bacteriaCheckbox"
-            class="hidden-checkbox"
-            checked
-          />
-          <label for="bacteriaCheckbox">
-            <img
-              src="images/search/bacteria-active.png"
-              alt="Bacteria Icon"
-              class="icon"
-              id="bacteriaIcon"
-            />
-            <span>Bakterie</span>
-          </label>
+				<div class="icons">
+					<input type="checkbox" id="bacteriaCheckbox" class="hidden-checkbox" checked />
+					<label for="bacteriaCheckbox">
+						<img
+							src="images/search/bacteria-active.png"
+							alt="Bacteria Icon"
+							class="icon"
+							id="bacteriaIcon"
+						/>
+						<span>Bakterie</span>
+					</label>
 
-          <input
-            type="checkbox"
-            id="moldCheckbox"
-            class="hidden-checkbox"
-            checked
-          />
-          <label for="moldCheckbox">
-            <img
-              src="images/search/mold-active.png"
-              alt="Mold Icon"
-              class="icon"
-              id="moldIcon"
-            />
-            <span>Pleśnie</span>
-          </label>
+					<input type="checkbox" id="moldCheckbox" class="hidden-checkbox" checked />
+					<label for="moldCheckbox">
+						<img src="images/search/mold-active.png" alt="Mold Icon" class="icon" id="moldIcon" />
+						<span>Pleśnie</span>
+					</label>
 
-          <input
-            type="checkbox"
-            id="yeastCheckbox"
-            class="hidden-checkbox"
-            checked
-          />
-          <label for="yeastCheckbox">
-            <img
-              src="images/search/yeast-active.png"
-              alt="Yeast Icon"
-              class="icon"
-              id="yeastIcon"
-            />
-            <span>Drożdże</span>
-          </label>
+					<input type="checkbox" id="yeastCheckbox" class="hidden-checkbox" checked />
+					<label for="yeastCheckbox">
+						<img
+							src="images/search/yeast-active.png"
+							alt="Yeast Icon"
+							class="icon"
+							id="yeastIcon"
+						/>
+						<span>Drożdże</span>
+					</label>
 
-          <input
-            type="checkbox"
-            id="virusCheckbox"
-            class="hidden-checkbox"
-            checked
-            disabled
-          />
-          <label for="virusCheckbox">
-            <img
-              src="images/search/virus-active.png"
-              alt="Virus Icon"
-              class="icon hidden"
-              id="virusIcon"
-            />
-          </label>
-        </div>
-      </div>
-      <div class="container">
-        <section class="search">
-          <!-- <div class="searchbar">
+					<input type="checkbox" id="virusCheckbox" class="hidden-checkbox" checked disabled />
+					<label for="virusCheckbox">
+						<img
+							src="images/search/virus-active.png"
+							alt="Virus Icon"
+							class="icon hidden"
+							id="virusIcon"
+						/>
+					</label>
+				</div>
+			</div>
+			<div class="container">
+				<section class="search">
+					<!-- <div class="searchbar">
 						<form class="searchForm" id="searchForm">
 							<input class="searchInput" id="searchInput" placeholder="Wyszukaj drobnoustrój" />
 							<button class="searchBtn" type="button" id="searchBtn">
@@ -181,70 +146,62 @@
 							</button>
 						</form>
 					</div> -->
-          <div id="strainsContainer"></div>
-          <div id="modal" class="modal">
-            <div class="modal-content" id="modalContent">
-              <span class="close">&times;</span>
-              <div id="modalStrainInfo"></div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <nav class="pagination-container">
-        <button
-          class="pagination-button"
-          id="prev-button"
-          aria-label="Previous page"
-          title="Previous page"
-        >
-          &lt;
-        </button>
+					<div id="strainsContainer"></div>
+					<div id="modal" class="modal">
+						<div class="modal-content" id="modalContent">
+							<span class="close">&times;</span>
+							<div id="modalStrainInfo"></div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<nav class="pagination-container">
+				<button
+					class="pagination-button"
+					id="prev-button"
+					aria-label="Previous page"
+					title="Previous page"
+				>
+					&lt;
+				</button>
 
-        <div id="pagination-numbers"></div>
+				<div id="pagination-numbers"></div>
 
-        <button
-          class="pagination-button"
-          id="next-button"
-          aria-label="Next page"
-          title="Next page"
-        >
-          &gt;
-        </button>
-      </nav>
-    </main>
+				<button class="pagination-button" id="next-button" aria-label="Next page" title="Next page">
+					&gt;
+				</button>
+			</nav>
+		</main>
 
-    <footer class="footer">
-      <a href="https://www.ibprs.pl/" target="_blank">
-        <img src="images/ibprs_logo.png" alt="IBPRS Logo" />
-      </a>
+		<footer class="footer">
+			<a href="https://www.ibprs.pl/" target="_blank">
+				<img src="images/ibprs_logo.png" alt="IBPRS Logo" />
+			</a>
 
-      <div class="cookies">
-        <div class="cookies__info-wrapper">
-          <p class="cookies__info">
-            Witaj na naszej stronie! Chcieliśmy Cię poinformować, że korzystamy
-            z plików cookie, aby ulepszyć Twoje doświadczenie podczas
-            przeglądania. Klikając "Akceptuj" lub po prostu przeglądając naszą
-            stronę, udzielasz nam zielonego światła do korzystania z tych
-            uroczych ciasteczek.
-            <span class="cookies__info--extra">
-              Pomagają nam zapewnić Ci spersonalizowaną i płynną podróż przez
-              nasze cyfrowe królestwo. Więc złap wirtualne ciasteczko, usiądź
-              wygodnie i ciesz się czasem tutaj!
-            </span>
-            <span
-              >Aby dowiedzieć się więcej przeczytaj naszą
-              <a href="privacy-policy.html" target="_blank"
-                >Politykę prywatności</a
-              ></span
-            >
-          </p>
-          <button class="cookies__btn" id="accept-cookies">Akceptuj</button>
-        </div>
-      </div>
-    </footer>
+			<div class="cookies">
+				<div class="cookies__info-wrapper">
+					<p class="cookies__info">
+						Witaj na naszej stronie! Chcieliśmy Cię poinformować, że korzystamy z plików cookie, aby
+						ulepszyć Twoje doświadczenie podczas przeglądania. Klikając "Akceptuj" lub po prostu
+						przeglądając naszą stronę, udzielasz nam zielonego światła do korzystania z tych
+						uroczych ciasteczek.
+						<span class="cookies__info--extra">
+							Pomagają nam zapewnić Ci spersonalizowaną i płynną podróż przez nasze cyfrowe
+							królestwo. Więc złap wirtualne ciasteczko, usiądź wygodnie i ciesz się czasem tutaj!
+						</span>
+						<span
+							>Aby dowiedzieć się więcej przeczytaj naszą
+							<a href="privacy-policy.html" target="_blank">Politykę prywatności</a></span
+						>
+					</p>
+					<button class="cookies__btn" id="accept-cookies">Akceptuj</button>
+				</div>
+			</div>
+		</footer>
 
-    <script type="module" src="search.js"></script>
-    <script type="module" src="mobile-menu.js"></script>
-    <script type="module" src="cookies.js"></script>
-  </body>
+		<script type="module" src="search.js"></script>
+		<script type="module" src="christmas-lights.js"></script>
+		<script type="module" src="mobile-menu.js"></script>
+		<script type="module" src="cookies.js"></script>
+	</body>
 </html>
